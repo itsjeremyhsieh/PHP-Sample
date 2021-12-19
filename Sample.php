@@ -17,13 +17,17 @@
         <form actime="Sample.php" method="post">
           
            <p>請輸入五科級分:
-            國文<input type="text" name="Chinese" value="">  
-            英文<input type="text" name="English" value="">  
+            國文 <input type="text" name="Chinese" value="">  
+            英文 <input type="text" name="English" value="">  
             數學 <input type="text" name="Math" value="">  
             社會 <input type="text" name="Social" value="">  
             自然 <input type="text" name="Science" value="">
             <input type="submit" name="submit" value="提交">
-            
+        </form>
+        <hr>
+        <h2>相關連結</h2>
+        <a href='https://www.ceec.edu.tw/'>大考中心首頁</a>
+
     </body>
 </html>
 
