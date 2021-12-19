@@ -27,7 +27,6 @@
             <input type="submit" name="submit" value="提交">
             </p>
         </form>
-
         <form actime="Sample.php" method="post">
             <p>請勾選您的興趣量表結果:
             <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
@@ -38,6 +37,16 @@
             <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
             </p>
         </form>
+
+        <form actime="Sample.php" method="post">
+            <p>請勾選學群:
+            <input type="checkbox" name="interest[]" value=""><label>資訊學群</label>
+            <input type="checkbox" name="interest[]" value=""><label>工程學群</label>
+            <input type="checkbox" name="interest[]" value=""><label>數理化學群</label>
+            <input type="checkbox" name="interest[]" value=""><label>生物資源學群</label>
+            <input type="checkbox" name="interest[]" value=""><label>生命科學學群</label>
+            <input type="checkbox" name="interest[]" value=""><label>醫藥衛生學群</label>
+            </p>
         <hr>
         <h2>相關連結</h2>
         <a href='https://www.ceec.edu.tw/'>大考中心首頁</a>
