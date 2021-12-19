@@ -1,5 +1,5 @@
 # PHP-Sample
-<<<<<<< HEAD
+
 
 =======
 ## About The Project
@@ -12,5 +12,5 @@ Below is a list of techniques used in this sample.
 * checkbox
 * 下拉式清單
 * 超連結
->>>>>>> a64862f9ce0140edf7ac86396b6dbdcfd15abe42
-
+<hr>
+This is a test #1.
