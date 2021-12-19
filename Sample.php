@@ -7,7 +7,7 @@
     </head>
     <body>
        
-        <center><h1>110年大學交叉查榜</h1></center>
+       <h1>110年大學交叉查榜</h1></center>
         <p>請輸入您的個人資料</p>
         <form action="Sample.php" method="post">
             成績查詢方式:
