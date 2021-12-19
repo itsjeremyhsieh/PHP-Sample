@@ -6,42 +6,21 @@
 
     </head>
     <body>
-        <h1>110¦~¤j¾Ç¥æ¤e¬dº]</h1>
-        <p>½Ğ¿é¤J±zªº­Ó¤H¸ê®Æ</p>
+        <h1>110å¹´å¤§å­¸äº¤å‰æŸ¥æ¦œ</h1>
+        <p>è«‹è¼¸å…¥æ‚¨çš„å€‹äººè³‡æ–™</p>
         <form action="Sample.php" method="post">
-            ¦¨ÁZ¬d¸ß¤è¦¡:
-            <input type="submit" name="¾Ç´ú" value="¾Ç´ú">
-            <input type="submit" name="«ü¦Ò" value="«ü¦Ò">
+            æˆç¸¾æŸ¥è©¢æ–¹å¼:
+            <input type="submit" name="å­¸æ¸¬" value="å­¸æ¸¬">
+            <input type="submit" name="æŒ‡è€ƒ" value="æŒ‡è€ƒ">
         </form>
         <form actime="Sample.php" method="post">
-            ½Ğ¿é¤J¤­¬ì¯Å¤À:
-            <input type="text" name="Chinese" value="°ê¤å">
-            <input type="text" name="English" value="­^¤å">
-            <input type="text" name="Math" value="¼Æ¾Ç">
-            <input type="text" name="Social" value="ªÀ·|">
-            <input type="text" name="Science" value="¦ÛµM">
-            <input type="submit" name="submit" value="´£¥æ">
-        <?php
-         function fun1($a, $b){
-             if($a > $b)
-                 return $a * $b;
-             else
-                 return $a + $b;
-         }
- 
-         function fun2($a, $b){
-             if($b == 0)
-                 return -1;
-             else    
-                 return (float)($a / $b);
-         }
-        $a = 10;
-        $b = 5;
-        $c = fun1($a, $b);
-        echo "Function1 result = ". $c. "<br>";
-        $c = fun2($a, $b);
-        echo "Function2 result = ". $c;
-        ?>
+            è«‹è¼¸å…¥äº”ç§‘ç´šåˆ†:
+            <input type="text" name="Chinese" value="åœ‹æ–‡">
+            <input type="text" name="English" value="è‹±æ–‡">
+            <input type="text" name="Math" value="æ•¸å­¸">
+            <input type="text" name="Social" value="ç¤¾æœƒ">
+            <input type="text" name="Science" value="è‡ªç„¶">
+            <input type="submit" name="submit" value="æäº¤">
     </body>
 </html>
 
