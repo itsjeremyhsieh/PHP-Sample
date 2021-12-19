@@ -13,5 +13,5 @@ Below is a list of techniques used in this sample.
 * 下拉式清單
 * 超連結
 <hr>
-This is a test #1.
+
 
