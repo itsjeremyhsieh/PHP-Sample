@@ -14,4 +14,4 @@ Below is a list of techniques used in this sample.
 * 超連結
 <hr>
 This is a test #1.
-This is a test #2.
+
