@@ -10,7 +10,7 @@
         <h2>交叉查榜查詢</h2>
         <p>請輸入您的個人資料</p>
     
-        <div style="float: left"> 
+        <div style="float:left"> 
             以學測或指考搜尋？
         </div>
         <select>
@@ -30,7 +30,6 @@
             英文聽力(未報考者免填) <input type="text" name="Listening" value="">
             </p>
         </form>
-
         <form actime="Sample.php" method="post">
             <p>請勾選您的興趣量表結果:
             <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
