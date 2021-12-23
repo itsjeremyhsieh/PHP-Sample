@@ -44,9 +44,9 @@
             <input type="submit" name="submit" value="提交資料">
         </form>
         <hr>
-        <h2>搜尋結果</h2>
+        <h2>分析結果</h2>
         <p>
-        您的交叉查榜搜尋結果如下表所示：
+        您的落點分析結果如下表所示：
         <table  wide=”200” height=”800” border =”3”>
         <tr><td align="center"><b>順位</b></td>
             <td align="center"><b>校系名稱</b></td>   
