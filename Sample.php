@@ -27,7 +27,8 @@
             數學 <input type="text" name="Math" value="">  
             社會 <input type="text" name="Social" value="">  
             自然 <input type="text" name="Science" value="">
-            英文聽力(未報考者免填) <input type="text" name="Listening" value="">
+            </p>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; &ensp; 英文聽力(未報考者免填) <input type="text" name="Listening" value="">
             </p>
         </form>
         <form actime="Sample.php" method="post">
