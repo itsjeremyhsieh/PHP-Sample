@@ -50,9 +50,10 @@
         <table  wide=”200” height=”800” border =”3”>
         <tr><td align="center"><b>順位</b></td>
             <td align="center"><b>校系名稱</b></td>   
-            <td align="center"><b>通過機率</b></td></tr>
-        <tr><td> 1 </td><td> 國立彰化師範大學資訊工程學系</td><td>☆☆☆☆☆</td></tr> 
-        <tr><td> 2 </td><td> 國立台灣大學電機工程學系</td><td>☆</td></tr> 
+            <td align="center"><b>通過機率</b></td>
+            <td align="center"><b>面試日期</b></td></tr>
+        <tr><td> 1 </td><td> 國立彰化師範大學資訊工程學系</td><td>☆☆☆☆☆</td><td>無</td></tr> 
+        <tr><td> 2 </td><td> 國立台灣大學電機工程學系</td><td>☆</td><td>3/10</td></tr> 
         </p>
         </table>
         <hr>
