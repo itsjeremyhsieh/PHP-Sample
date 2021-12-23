@@ -22,13 +22,12 @@
         <form actime="Sample.php" method="post">
           
             <p>請輸入五科級分:
-            國文 <input type="text" name="Chinese" value="">  
-            英文 <input type="text" name="English" value="">  
-            數學 <input type="text" name="Math" value="">  
-            社會 <input type="text" name="Social" value="">  
-            自然 <input type="text" name="Science" value="">
-            </p>
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; &ensp; 英文聽力(未報考者免填) <input type="text" name="Listening" value="">
+            國文 <input type="text" size="5" name="Chinese" value="">  
+            英文 <input type="text" size="5"name="English" value="">  
+            數學 <input type="text" size="5"name="Math" value="">  
+            社會 <input type="text" size="5"name="Social" value="">  
+            自然 <input type="text" size="5"name="Science" value="">
+            英文聽力(未報考者免填) <input type="text"size="5" name="Listening" value="">
             </p>
         </form>
         <form actime="Sample.php" method="post">
