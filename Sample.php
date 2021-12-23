@@ -6,8 +6,8 @@
     </head>
     <body>
        
-    <center><h1>110年大學交叉查榜</h1></center>
-        <h2>交叉查榜查詢</h2>
+    <center><h1>110年大學落點分析</h1></center>
+        <h2>落點分析查詢</h2>
         <p>請輸入您的個人資料</p>
     
         <div style="float:left"> 
@@ -50,9 +50,10 @@
         您的交叉查榜搜尋結果如下表所示：
         <table  wide=”200” height=”800” border =”3”>
         <tr><td align="center"><b>順位</b></td>
-            <td align="center"><b>校系名稱</b></td></tr>    
-        <tr><td> 1 </td><td> 國立彰化師範大學資訊工程學系</td></tr> 
-        <tr><td> 2 </td><td> 國立台灣大學電機工程學系</td></tr> 
+            <td align="center"><b>校系名稱</b></td>   
+            <td align="center"><b>通過機率</b></td></tr>
+        <tr><td> 1 </td><td> 國立彰化師範大學資訊工程學系</td><td>☆☆☆☆☆</td></tr> 
+        <tr><td> 2 </td><td> 國立台灣大學電機工程學系</td><td>☆</td></tr> 
         </p>
         </table>
         <hr>
