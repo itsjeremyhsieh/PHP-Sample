@@ -26,12 +26,100 @@
         <form actime="Sample.php" method="post">
           
             <p>請輸入五科級分:
-            國文 <input type="text" size="5" name="Chinese" value="">  
-            英文 <input type="text" size="5"name="English" value="">  
-            數學 <input type="text" size="5"name="Math" value="">  
-            社會 <input type="text" size="5"name="Social" value="">  
-            自然 <input type="text" size="5"name="Science" value="">
-            英文聽力(未報考者免填) <input type="text"size="5" name="Listening" value="">
+            國文 <select>
+            <option>請選擇</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            </select>  
+            英文  <select>
+            <option>請選擇</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            </select>  
+            數學  <select>
+            <option>請選擇</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            </select>  
+            社會  <select>
+            <option>請選擇</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            </select>   
+            自然  <select>
+            <option>請選擇</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            </select>  
+            英文聽力(未報考者免填) <input type="radio" name="listening" value="A"> A
+                                  <input type="radio" name="listening" value="B"> B
+                                  <input type="radio" name="listening" value="C"> C
+                                  <input type="radio" name="listening" value="F"> F
             </p>
         </form>
         <form actime="Sample.php" method="post">
