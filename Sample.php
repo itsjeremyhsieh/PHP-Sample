@@ -144,12 +144,15 @@
         您的落點分析結果如下表所示：
         
         <table  wide=”200” height=”800” border =”3”>
-        <tr><td align="center"><b>順位</b></td>
+        
+        <tr>
+        <td align="center"><b>順位</b></td>
+        <td align="center"><b>校系代碼</b></td>
             <td align="center"><b>校系名稱</b></td>   
             <td align="center"><b>通過機率</b></td>
             <td align="center"><b>面試日期</b></td></tr>
-        <tr><td> 1 </td><td> 國立彰化師範大學資訊工程學系</td><td>☆☆☆☆☆</td><td>無</td></tr> 
-        <tr><td> 2 </td><td> 國立台灣大學電機工程學系</td><td>☆</td><td>3/10</td></tr> 
+        <tr><td> 1 </td><td>023152</td><td> 國立彰化師範大學資訊工程學系</td><td>☆☆☆☆☆</td><td>無</td></tr> 
+        <tr><td> 2 </td><td>001572</td><td> 國立台灣大學電機工程學系</td><td>☆</td><td>3/10</td></tr> 
         </p>
         </table>
         <div style="background-color:lightyellow;">
