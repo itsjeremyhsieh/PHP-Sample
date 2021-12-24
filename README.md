@@ -13,7 +13,7 @@ Below is a list of techniques used in this sample.
 * checkbox
 * 下拉式清單
 * 超連結
-## feature
+## Feature
 * 優勢科目組合
 * 篩選倍率
 * 學生最愛
