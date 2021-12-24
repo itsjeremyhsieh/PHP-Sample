@@ -6,8 +6,12 @@
     </head>
     <body>
        
-    <center><h1>110年大學落點分析</h1></center>
-        <h2>落點分析查詢</h2>
+        <div style="background-color: #FFC78E;">
+        <center><h1>110年大學落點分析</h1></center>
+        <div style="background-color: lightyellow;">
+
+        <h2 >落點分析查詢</h2>
+        <h4 style= "background:#FFC78E">
         <p>請輸入您的個人資料</p>
     
         <div style="float:left"> 
@@ -44,9 +48,13 @@
             <input type="submit" name="submit" value="提交資料">
         </form>
         <hr>
+        
         <h2>分析結果</h2>
+        
         <p>
+        <div style="background-color: #FFC78E;">
         您的落點分析結果如下表所示：
+        
         <table  wide=”200” height=”800” border =”3”>
         <tr><td align="center"><b>順位</b></td>
             <td align="center"><b>校系名稱</b></td>   
@@ -56,8 +64,9 @@
         <tr><td> 2 </td><td> 國立台灣大學電機工程學系</td><td>☆</td><td>3/10</td></tr> 
         </p>
         </table>
+        <div style="background-color:lightyellow;">
         <hr>
-
+      
         <h2>相關連結</h2>
         <a href='https://www.ceec.edu.tw/'>大考中心首頁</a>
 
