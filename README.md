@@ -13,5 +13,11 @@ Below is a list of techniques used in this sample.
 * checkbox
 * 下拉式清單
 * 超連結
+## feature
+* 優勢科目組合
+* 篩選倍率
+* 學生最愛
+* 各校系簡章連結
+* 三年錄取標準
 <hr>
 
