@@ -19,5 +19,9 @@ Below is a list of techniques used in this sample.
 * 學生最愛
 * 各校系簡章連結
 * 三年錄取標準
+* 預測錄取分數
+* 提供各科pr值
+* 換算成去年成績
+* 分數差距
 <hr>
 
