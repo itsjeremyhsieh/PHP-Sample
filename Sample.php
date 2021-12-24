@@ -116,10 +116,11 @@
             <option>14</option>
             <option>15</option>
             </select>  
-            英文聽力(未報考者免填) <input type="radio" name="listening" value="A"> A
-                                  <input type="radio" name="listening" value="B"> B
-                                  <input type="radio" name="listening" value="C"> C
-                                  <input type="radio" name="listening" value="F"> F
+            英文聽力        <input type="radio" name="listening" value="A"> A
+                            <input type="radio" name="listening" value="B"> B
+                            <input type="radio" name="listening" value="C"> C
+                            <input type="radio" name="listening" value="F"> F
+                            <input type="radio" name="listening" value="non"> 無
             </p>
         </form>
         <form actime="Sample.php" method="post">
