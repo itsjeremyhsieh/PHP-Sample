@@ -11,7 +11,7 @@
         <div style="background-color: lightyellow;">
 
         <h2 >落點分析查詢</h2>
-        <h4 style= "background:#FFC78E">
+       
         <p>請輸入您的個人資料</p>
     
         <div style="float:left"> 
@@ -135,13 +135,14 @@
         </form>
         <form actime="Sample.php" method="post">
             <input type="submit" name="submit" value="提交資料">
+            
         </form>
         <hr>
         
         <h2>分析結果</h2>
         
         <p>
-        <div style="background-color: #FFC78E;">
+        <div style="background-color: lightyellow;">
         您的落點分析結果如下表所示：
         
         <table  wide=”200” height=”800” border =”3”>
