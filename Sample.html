@@ -13,10 +13,6 @@
         <div style="background-color: #FFC78E;">
         <p>請輸入您的個人資料</p>
     
-        
-   
-
-        
         <form action="show.php" method="post">
         <div style="float:left"> 
             以學測或指考搜尋？
@@ -116,12 +112,14 @@
             <option>14</option>
             <option>15</option>
             </select>  
-            英文聽力        <input type="radio" name="listening" value="A"> A
+
+            英文聽力:       <input type="radio" name="listening" value="A"> A
                             <input type="radio" name="listening" value="B"> B
                             <input type="radio" name="listening" value="C"> C
                             <input type="radio" name="listening" value="F"> F
                             <input type="radio" name="listening" value="non"> 無
                             <br/>
+
             <br>請勾選您的興趣量表結果:
             <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
             <input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label>
@@ -130,25 +128,24 @@
             <input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label>
             <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
             <br/>
+
             <button type='submit'>送出</button>
             <div style="background-color: lightyellow;">
-
             <hr>
+
         <div style="background-color: lightyellow;">
         <h2>分析結果</h2>
-        
         <p>
         <div style="background-color: #FFC78E;">
+
         您的落點分析結果如下表所示：
-        
         <table  wide=”200” height=”800” border =”3”>
-        
         <tr>
         <td align="center"><b>順位</b></td>
         <td align="center"><b>校系代碼</b></td>
-            <td align="center"><b>校系名稱</b></td>   
-            <td align="center"><b>通過機率</b></td>
-            <td align="center"><b>甄試日期</b></td></tr>
+        <td align="center"><b>校系名稱</b></td>   
+        <td align="center"><b>通過機率</b></td>
+        <td align="center"><b>甄試日期</b></td></tr>
         <tr><td> 1 </td><td>023152</td><td> 國立彰化師範大學資訊工程學系</td><td>☆☆☆☆☆</td><td>無</td></tr> 
         <tr><td> 2 </td><td>001572</td><td> 國立台灣大學電機工程學系</td><td>☆</td><td>3/10</td></tr> 
         </p>
