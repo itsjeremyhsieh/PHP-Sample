@@ -5,15 +5,19 @@
        <title>HTML Website Sample</title>
     </head>
     <body>
-       
+
         <div style="background-color: #FFC78E;">
         <center><h1>110年大學落點分析</h1></center>
         <div style="background-color: lightyellow;">
-
         <h2 >落點分析查詢</h2>
         <div style="background-color: #FFC78E;">
         <p>請輸入您的個人資料</p>
     
+        
+   
+
+        
+        <form action="show.php" method="post">
         <div style="float:left"> 
             以學測或指考搜尋？
         </div>
@@ -21,11 +25,7 @@
             <option>學測</option>
             <option>指考</option>
         </select>
-
-
-        <form actime="Sample.php" method="post">
-          
-            <p>請輸入五科級分:
+        <p>請輸入五科級分:
             國文 <select>
             <option>請選擇</option>
             <option>1</option>
@@ -121,24 +121,19 @@
                             <input type="radio" name="listening" value="C"> C
                             <input type="radio" name="listening" value="F"> F
                             <input type="radio" name="listening" value="non"> 無
-            </p>
-        </form>
-        <form actime="Sample.php" method="post">
-            <p>請勾選您的興趣量表結果:
+                            <br/>
+            <br>請勾選您的興趣量表結果:
             <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
             <input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label>
             <input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label>
             <input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label>
             <input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label>
             <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
-            </p>
-        </form>
-        <form actime="Sample.php" method="post">
-            <input type="submit" name="submit" value="提交資料">
+            <br/>
+            <button type='submit'>送出</button>
             <div style="background-color: lightyellow;">
-            
-        </form>
-        <hr>
+
+            <hr>
         <div style="background-color: lightyellow;">
         <h2>分析結果</h2>
         
@@ -163,7 +158,8 @@
       
         <h2>相關連結</h2>
         <a href='https://www.ceec.edu.tw/'>大考中心首頁</a>
+            
+        </form>
 
     </body>
 </html>
-
