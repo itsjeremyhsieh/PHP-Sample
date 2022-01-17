@@ -26,7 +26,7 @@
             <option>指考</option>
         </select>
         <p>請輸入五科級分:
-            國文 <select>
+            國文<select name="chinese">
             <option>請選擇</option>
             <option>1</option>
             <option>2</option>
@@ -44,7 +44,7 @@
             <option>14</option>
             <option>15</option>
             </select>  
-            英文  <select>
+            英文 <select name="english">
             <option>請選擇</option>
             <option>1</option>
             <option>2</option>
@@ -62,7 +62,7 @@
             <option>14</option>
             <option>15</option>
             </select>  
-            數學  <select>
+            數學  <select name="math">
             <option>請選擇</option>
             <option>1</option>
             <option>2</option>
@@ -80,7 +80,7 @@
             <option>14</option>
             <option>15</option>
             </select>  
-            社會  <select>
+            社會  <select name="social">
             <option>請選擇</option>
             <option>1</option>
             <option>2</option>
@@ -98,7 +98,7 @@
             <option>14</option>
             <option>15</option>
             </select>   
-            自然  <select>
+            自然  <select name="science">
             <option>請選擇</option>
             <option>1</option>
             <option>2</option>
