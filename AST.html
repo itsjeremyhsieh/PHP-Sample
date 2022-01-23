@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset = "utf-8">
+       <title>HTML Website Sample</title>
+    </head>
+    <body>
+
+        <div style="background-color: #f5e2cf;">
+        <center><h1>110年大學落點分析</h1></center>
+        <div style="background-color: rgb(253, 253, 232)">
+        <h2 >落點分析查詢（分科測驗）</h2>
+        <div style="background-color: #f5e2cf;">
+        <p>請輸入您的成績</p>
+
+        <form action="showAST.php" method="post">
+            數甲 <input type="text" name="math" value="" /> 
+            歷史 <input type="text" name="history" value="" /> 
+            地理 <input type="text" name="geo" value="" /> 
+            公民 <input type="text" name="social" value="" /> 
+            物理 <input type="text" name="physics" value="" /> 
+            化學 <input type="text" name="chem" value="" /> 
+            生物 <input type="text" name="bio" value="" /> 
+        </p>
+        <br>請勾選您的興趣量表結果:
+        <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
+        <input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label>
+        <input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label>
+        <input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label>
+        <input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label>
+        <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
+        <br/>
+
+        <button type='submit'>送出</button>
+    </form>
