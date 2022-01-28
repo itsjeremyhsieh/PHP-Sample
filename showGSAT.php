@@ -34,11 +34,11 @@
         <div style="top:120px; position:absolute; border-width: 3px ; width: 220px; height: 30px ; padding: 5px; text-align: center; background-color: rgba(29, 122, 228, 0.9); border-radius: 10px 10px 0 0px;">
             <span style="color: rgb(255, 255, 255);">落點分析結果（學測）</span>
         </div>
-        <div style="top:160px; position:absolute;border-width: 100px ; width: 650px; height: 3px;padding: 5px; text-align: center; background-color: rgba(142, 179, 221, 0.9); border-radius: 0 10px 0px 0;">
+        <div style="top:160px; position:absolute;border-width: 100px ; width: 650px; height: 3px; padding: 5px; text-align: center; background-color: rgba(142, 179, 221, 0.9); border-radius: 0 10px 0px 0;">
         </div>
-        <div style="top:173px; position:absolute; border-width: 3px ; width: 650px; height: 1000px ;text-align: center; padding: 5px; background-color: rgba(222, 240, 173, 0.9); border-radius: 0px 0px 0 0px;">
+        <div style="top:173px; position:absolute; border-width: 3px ; width: 650px; height: 2000px; text-align: center; padding: 5px; background-color: rgba(222, 240, 173, 0.9); border-radius: 0px 0px 0 0px;">
         </div>
-        <div style="top:180px; position:absolute; border-width: 3px ; width: 600px; height: auto ;text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
+        <div style="top:180px; position:absolute; border-width: 3px ; width: 600px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
                 <?php 
                 $chi = $_POST['chinese']; 
                 if(strcmp($chi, "未報考") )
