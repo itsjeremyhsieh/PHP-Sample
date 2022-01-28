@@ -4,6 +4,7 @@
     <title>分析結果</title>
 </title>
 <body>
+  
     <p>
         <?php 
         echo "你以<b>學測</b>進行搜尋","<br>";
@@ -36,6 +37,16 @@
             $myallins = implode (", ", $ins);
             echo "你的興趣量表是 <b>$myallins</b>";
         }
+
+        ?>
+        <?php 
+            $link = @mysqli_connect('localhost', 'root', 'Jeremy20020107!', '110gsat');
+            if(!$link){
+                echo "MySQLw資料庫連線錯誤!";
+            }
+            else{
+                echo "MySQL資料庫連線成功!";
+            }
 
         ?>
         <div style="background-color: rgb(253, 253, 232);">
