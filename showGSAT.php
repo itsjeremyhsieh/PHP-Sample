@@ -40,41 +40,51 @@
         </div>
         <div style="top:180px; position:absolute; border-width: 3px ; width: 600px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
                 <?php 
+                echo "<div align='center'><table border = 1>";
+                echo "<tr><td align='center'>我的成績</td></tr>";
+                echo "<tr><td align='center'>國文</td><td align='center'>英文</td><td align='center'>數學A</td><td align='center'>數學B</td><td align='center'>社會</td><td align='center'>自然</td><td align='center'>聽力</td></tr>";
+                
                 $chi = $_POST['chinese']; 
                 if(strcmp($chi, "未報考") )
-                    echo "<div align='center'>你的國文成績是<b>$chi</b>級分","<br>";
+                    echo "<tr><td align='center'>$chi</td>";
                 else{
                     $chi = 0;
+                    echo "<td align='center'>未報考</td>";
                 }
                 $eng = $_POST['english']; 
                 if(strcmp($eng, "未報考") )
-                    echo "<div align='center'>你的英文成績是<b>$eng</b>級分","<br>";
+                    echo "<td align='center'>$eng</td>";
                 else{
                     $eng = 0;
+                    echo "<td align='center'>未報考</td>";
                 }
                 $matA= $_POST['mathA']; 
                 if(strcmp($matA, "未報考") )
-                    echo "<div align='center'>你的數學A成績是<b>$matA</b>級分","<br>";
+                    echo "<td align='center'>$matA</td>";
                 else{
                     $matA = 0;
+                    echo "<td align='center'>未報考</td>";
                 }
                 $matB= $_POST['mathB']; 
                 if(strcmp($matB, "未報考") )
-                    echo "<div align='center'>你的數學B成績是<b>$matB</b>級分","<br>";
+                    echo "<td align='center'>$matB</td>";
                 else{
                     $matB = 0;
+                    echo "<td align='center'>未報考</td>";
                 }
                 $soc = $_POST['social']; 
                 if(strcmp($soc, "未報考") )
-                    echo "<div align='center'>你的社會成績是<b>$soc</b>級分","<br>";
+                    echo "<td align='center'>$soc</td>";
                 else{
                     $soc = 0;
+                    echo "<td align='center'>未報考</td>";
                 }
                 $sci = $_POST['science']; 
                 if(strcmp($sci, "未報考") )
-                    echo "<div align='center'>你的自然成績是<b>$sci</b>級分","<br>";
+                    echo "<td align='center'>$sci</td>";
                 else{
                     $sci = 0;
+                    echo "<td align='center'>未報考</td>";
                 }
                 $listen = $_POST['listening'];
                 if(strcmp($listen, "non"))
@@ -87,11 +97,18 @@
                         $listennum = 1;
                     else if($listen == "F")
                         $listennum = 0;
-                echo "<div align='center'>你的聽力是<b>$listen</b>";
+                        echo "<td align='center'>$listen</td>";
                 }
                 else{
                     $listennum = 0;
+                    echo "<td align='center'>未報考</td>";
                 }
+                echo "</tr>";
+                echo "<tr><td align='center'>換算去年級分</td></tr>";
+
+
+
+                
                 //
                 if(isset( $_POST ["interest"]))
                 {
