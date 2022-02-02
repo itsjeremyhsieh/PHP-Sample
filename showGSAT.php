@@ -41,7 +41,7 @@
         <div style="top:180px; position:absolute; border-width: 3px ; width: 600px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
                 <?php 
                 echo "<div align='center'><table border = 1>";
-                echo "<tr><td align='center'>我的成績</td></tr>";
+                echo "<tr><td align='center'><b>我的成績</b></td></tr>";
                 echo "<tr><td align='center'>國文</td><td align='center'>英文</td><td align='center'>數學A</td><td align='center'>數學B</td><td align='center'>社會</td><td align='center'>自然</td><td align='center'>聽力</td></tr>";
                 
                 $chi = $_POST['chinese']; 
@@ -104,7 +104,7 @@
                     echo "<td align='center'>未報考</td>";
                 }
                 echo "</tr>";
-                echo "<tr><td align='center'>換算去年級分</td></tr>";
+                echo "<tr><td align='center'><b>換算去年級分</b></td></tr>";
 
 
 
