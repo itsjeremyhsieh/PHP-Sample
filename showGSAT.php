@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>
+<head>
     <meta charset = "utf-8">
     <title>分析結果</title>
 
@@ -24,7 +24,7 @@
         }
 
     </style>
-</title>
+</head>
 <body>
     <div class= "container">
         <div style="top:10px; position:absolute;border-width: 300px; width:300px; height:50px; text-align:center; line-height:50px; background-color: rgba(247, 231, 179, 0.9); border-radius: 20px 20px 20px 20px;">
