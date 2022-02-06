@@ -40,22 +40,21 @@
         </div>
         
         <div style="top:180px; position:absolute; border-width: 3px ; width: 600px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
-        
-        
-                    
-                <?php 
-                echo "<div align='center'><table border = 1>";
-                echo "<tr><td colspan=8 align=center bgcolor=#FFE1AB style=border:1px border-color:#0000FF border-style:solid;><b>我的成績</b></td></tr>";
+        <table style="border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
+        <tr>
+        <td colspan=8  bgcolor="#FFE1AB" style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border="1"><b>我的成績</b></td></tr>
     
-                echo "<tr>
-                <td align='center' bgcolor=#FFFFAB>國文</td>
-                <td align='center' bgcolor=#FFFFAB>英文</td>
-                <td align='center' bgcolor=#FFFFAB>數學A</td>
-                <td align='center' bgcolor=#FFFFAB>數學B</td>
-                <td align='center' bgcolor=#FFFFAB>社會</td>
-                <td align='center' bgcolor=#FFFFAB>自然</td>
-                <td align='center' bgcolor=#FFFFAB>聽力</td>
-                </tr>";
+                <tr>
+                <td bgcolor="#FFFFAB" style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border="1" >國文</td>
+                <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>英文</td>
+                <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>數學A</td>
+                <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>數學B</td>
+                <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>社會</td>
+                <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>自然</td>
+                <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>聽力</td>
+                </tr>
+                <?php 
+               
                 
                 
                 $chi = $_POST['chinese']; 
@@ -131,9 +130,9 @@
                     $myallins = implode (", ", $ins);
                     echo "<div align='center'>你的興趣量表是 <b>$myallins</b>";
                 }
-                echo "</table>";
+              
                 ?>
-                
+        </table>
                 <br><br>
             
                 <?php 
