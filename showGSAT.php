@@ -42,10 +42,11 @@
         <div style="top:180px; position:absolute; border-width: 3px ; width: 600px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
         <table style="border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
         <tr>
-        <td colspan=8  bgcolor="#FFE1AB" style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border="1"><b>我的成績</b></td></tr>
+        <td colspan=8  bgcolor="#FFE1AB" style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border="1"><b>我的成績</b></td>
+        </tr>
     
                 <tr>
-                <td bgcolor="#FFFFAB" style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border="1" >國文</td>
+                <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>國文</td>
                 <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>英文</td>
                 <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>數學A</td>
                 <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>數學B</td>
@@ -53,51 +54,52 @@
                 <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>自然</td>
                 <td  bgcolor=#FFFFAB style="border:1px #D4D4D4 solid;" align=center cellpadding="10" border=1>聽力</td>
                 </tr>
+               
                 <?php 
                
                 
                 
                 $chi = $_POST['chinese']; 
                 if(strcmp($chi, "未報考") )
-                    echo "<tr><td align='center'>$chi</td>";
+                    echo "<tr><td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$chi</td>";
                 else{
                     $chi = 0;
-                    echo "<td align='center'>未報考</td>";
+                    echo "<tr><td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $eng = $_POST['english']; 
                 if(strcmp($eng, "未報考") )
-                    echo "<td align='center'>$eng</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$eng</td>";
                 else{
                     $eng = 0;
-                    echo "<td align='center'>未報考</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $matA= $_POST['mathA']; 
                 if(strcmp($matA, "未報考") )
-                    echo "<td align='center'>$matA</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matA</td>";
                 else{
                     $matA = 0;
-                    echo "<td align='center'>未報考</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $matB= $_POST['mathB']; 
                 if(strcmp($matB, "未報考") )
-                    echo "<td align='center'>$matB</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matB</td>";
                 else{
                     $matB = 0;
-                    echo "<td align='center'>未報考</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $soc = $_POST['social']; 
                 if(strcmp($soc, "未報考") )
-                    echo "<td align='center'>$soc</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$soc</td>";
                 else{
                     $soc = 0;
-                    echo "<td align='center'>未報考</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $sci = $_POST['science']; 
                 if(strcmp($sci, "未報考") )
-                    echo "<td align='center'>$sci</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$sci</td>";
                 else{
                     $sci = 0;
-                    echo "<td align='center'>未報考</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $listen = $_POST['listening'];
                 if(strcmp($listen, "non"))
@@ -110,18 +112,15 @@
                         $listennum = 1;
                     else if($listen == "F")
                         $listennum = 0;
-                        echo "<td align='center'>$listen</td>";
+                        echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$listen</td>";
                 }
                 else{
                     $listennum = 0;
-                    echo "<td align='center'>未報考</td>";
+                    echo "<td align='center' bgcolor= #D6E5FA style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 echo "</tr>";
                 echo "<tr><td align='center'><b>換算去年級分</b></td></tr>";
 
-
-
-                
                 //
                 if(isset( $_POST ["interest"]))
                 {
