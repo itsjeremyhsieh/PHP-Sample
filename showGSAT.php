@@ -215,7 +215,7 @@
     <td bgcolor=#2e2e25 colspan="1"><font color="d4d4d9">英聽</td>
   </tr>
   <tr>
-  <td bgcolor=#d4d4d9 colspan="3">頂標</td>
+    <td bgcolor=#d4d4d9 colspan="3">頂標</td>
     <td bgcolor=#d4d4d9 colspan="3">頂標</td>
     <td bgcolor=#d4d4d9 colspan="3">頂標</td>
     <td bgcolor=#d4d4d9 colspan="3">頂標</td>
