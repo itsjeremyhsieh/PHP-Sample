@@ -190,11 +190,12 @@
 
 
 
+<br>
+<br>
 
+<!---按按鈕出現的畫面------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-<table style="text-align:center;font-size: 15px;width: 1100px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1 >
+<table style="text-align:center;font-size: 12px;width: 1100px;border:2px #D4D4D4 solid;" align=center cellpadding="8" border=1 >
 
 
 
@@ -205,13 +206,13 @@
 </thead>
 <tbody>
   <tr>
-    <td bgcolor=#d4d4d9 colspan="3" >國文</td>
-    <td bgcolor=#d4d4d9 colspan="3">英文</td>
-    <td bgcolor=#d4d4d9 colspan="3">數學A</td>
-    <td bgcolor=#d4d4d9 colspan="3">數學B</td>
-    <td bgcolor=#d4d4d9 colspan="3">自然</td>
-    <td bgcolor=#d4d4d9 colspan="3">社會</td>
-    <td bgcolor=#d4d4d9 colspan="1">英聽</td>
+    <td bgcolor=#2e2e25 colspan="3" ><font color="d4d4d9">國文</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">英文</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">數學A</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">數學B</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">自然</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">社會</td>
+    <td bgcolor=#2e2e25 colspan="1"><font color="d4d4d9">英聽</td>
   </tr>
   <tr>
   <td bgcolor=#d4d4d9 colspan="3">頂標</td>
