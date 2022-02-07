@@ -42,7 +42,7 @@
         <div style="top:180px; position:absolute; border-width: 3px ; width: 1150px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
         <table style="line-height:3px;border:2px #D4D4D4 solid;"  align=center cellpadding="10" border=1 >
         <tr>
-        <td  colspan=64  bgcolor="#A6C2CE" style="width: 50%; border:1px #D4D4D4 solid;" align=center cellpadding="8" border="1"><b>我的成績</b></td>
+        <td  colspan=64  bgcolor="#f6acd4" style="width: 50%; border:1px #D4D4D4 solid;" align=center cellpadding="8" border="1"><b>我的成績</b></td>
         </tr>
     
                 <tr>
