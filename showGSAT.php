@@ -42,65 +42,65 @@
         <div style="top:180px; position:absolute; border-width: 3px ; width: 1150px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
         <table style="line-height:3px;border:2px #D4D4D4 solid;"  align=center cellpadding="10" border=1 >
         <tr>
-        <td  colspan=64  bgcolor="#f6acd4" style="width: 50%; border:1px #D4D4D4 solid;" align=center cellpadding="8" border="1"><b>我的成績</b></td>
+        <td  colspan=64  bgcolor="#19CAAD" style="width: 50%; border:1px #D4D4D4 solid;" align=center cellpadding="8" border="1"><b>我的成績</b></td>
         </tr>
     
                 <tr>
-                <td   colspan=4   bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>科目</td>
-                <td   colspan=4 bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國文</td>
-                <td   colspan=4 bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>英文</td>
-                <td   colspan=4 bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>數學A</td>
-                <td   colspan=4 bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>數學B</td>
-                <td   colspan=4 bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>社會</td>
-                <td   colspan=4 bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>自然</td>
-                <td   colspan=4 bgcolor=#9C8F96 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>聽力</td>
+                <td   colspan=4   bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>科目</td>
+                <td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國文</td>
+                <td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>英文</td>
+                <td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>數學A</td>
+                <td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>數學B</td>
+                <td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>社會</td>
+                <td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>自然</td>
+                <td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>聽力</td>
                 </tr>
                 
                 <?php 
                
                 
-                echo  "<tr><td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>級分</td>";
+                echo  "<tr><td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>級分</td>";
                 $chi = $_POST['chinese']; 
                 if(strcmp($chi, "未報考") )
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$chi</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$chi</td>";
                 else{
                     $chi = 0;
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $eng = $_POST['english']; 
                 if(strcmp($eng, "未報考") )
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$eng</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$eng</td>";
                 else{
                     $eng = 0;
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $matA= $_POST['mathA']; 
                 if(strcmp($matA, "未報考") )
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matA</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matA</td>";
                 else{
                     $matA = 0;
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $matB= $_POST['mathB']; 
                 if(strcmp($matB, "未報考") )
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matB</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matB</td>";
                 else{
                     $matB = 0;
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $soc = $_POST['social']; 
                 if(strcmp($soc, "未報考") )
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$soc</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$soc</td>";
                 else{
                     $soc = 0;
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $sci = $_POST['science']; 
                 if(strcmp($sci, "未報考") )
-                    echo "<td colspan=4 align='center' bgcolor=#EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$sci</td>";
+                    echo "<td colspan=4 align='center' bgcolor=#A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$sci</td>";
                 else{
                     $sci = 0;
-                    echo "<td colspan=4 align='center' bgcolor=#EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+                    echo "<td colspan=4 align='center' bgcolor=#A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 $listen = $_POST['listening'];
                 if(strcmp($listen, "non"))
@@ -113,24 +113,24 @@
                         $listennum = 1;
                     else if($listen == "F")
                         $listennum = 0;
-                        echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$listen</td>";
+                        echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$listen</td>";
                 }
                 else{
                     $listennum = 0;
-                    echo "<td colspan=4 align='center' bgcolor= #EBC57C style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+                    echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
                 }
                 echo "</tr>";
-                echo "<tr><td  colspan=4 align='center' bgcolor=#9999CC style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>換算去年級分</td></tr>";
+                echo "<tr><td  colspan=4 align='center' bgcolor=#BEE7E9 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>換算去年級分</td></tr>";
 
 
                 //
-                echo "<td  colspan=4 align='center' bgcolor=#96CFD3 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>你的興趣量表</td>";
+                echo "<td  colspan=4 align='center' bgcolor=#BEEDC7 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>你的興趣量表</td>";
                 if(isset( $_POST ["interest"]))
                 {
                     $ins = $_POST ["interest"];
                     echo '<br>';  
                     $myallins = implode (", ", $ins);
-                    echo "<td colspan=28 align='center' bgcolor=#96CFD3	 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$myallins</td>";
+                    echo "<td colspan=28 align='center' bgcolor=#BEEDC7	 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$myallins</td>";
                     
                 }
               
@@ -163,19 +163,20 @@
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校名</td>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>系名</td>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
-
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>興趣量表</td>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>分析更多</td>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>通過率</td>
 </tr>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
 <tr>
 <td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
 <td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學</td>
 <td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>醫學系</td>
 <td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:(國)4<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
-
 <td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序一：國文(13)<br>
 順序二：國文+英文+數學A+自然(59)<br>
 順序三：英文+數學A+自然(45)</td>
