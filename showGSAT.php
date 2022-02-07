@@ -136,6 +136,7 @@
               
                 ?>
         </table>
+ <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>       
                 <br><br>
             
                 <?php 
@@ -156,6 +157,41 @@
                     }
                 ?>
 
+<table style="font-size: 15px;width:95%;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1 >
+<tr>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校名</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>系名</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
+
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>興趣量表</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>分析更多</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>通過率</td>
+</tr>
+<tr>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>醫學系</td>
+<td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:(國)4<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
+
+<td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序一：國文(13)<br>
+順序二：國文+英文+數學A+自然(59)<br>
+順序三：英文+數學A+自然(45)</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>I</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>按鈕</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>⭐⭐⭐⭐⭐</td>
+</tr>
+</table>
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
                 <h2>相關連結</h2>
                 <a href='https://www.ceec.edu.tw/'>大考中心首頁</a>
         </div>
