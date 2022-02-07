@@ -2,13 +2,13 @@
 <head>
     <meta charset = "utf-8">
     <title>分析結果</title>
-
+    
     <style>
     html {
             height: 100%;
         }
     body {
-            background-image: url(backgrounds/background_gsat.jpg);
+            background-color: rgba(230,230,250,1);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
@@ -40,7 +40,7 @@
         </div>
         
         <div style="top:180px; position:absolute; border-width: 3px ; width: 1150px; height: auto; text-align: top; padding: 5px; background-color: rgba(255, 255, 255, 0.4); border-radius: 0px 0px 0 0px;">
-        <table style="line-height:3px;border:2px #D4D4D4 solid;"  align=center cellpadding="10" border=1 >
+        <table style="width:1100px;line-height:3px;border:2px #D4D4D4 solid;"  align=center cellpadding="10" border=1 >
         <tr>
         <td  colspan=64  bgcolor="#19CAAD" style="width: 50%; border:1px #D4D4D4 solid;" align=center cellpadding="8" border="1"><b>我的成績</b></td>
         </tr>
@@ -157,7 +157,7 @@
                     }
                 ?>
 
-<table style="font-size: 15px;width:95%;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1 >
+<table style="font-size: 15px;width: 1100px;;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1 >
 <tr>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
 <td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校名</td>
