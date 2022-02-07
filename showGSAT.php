@@ -176,7 +176,7 @@
 <td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
 <td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學</td>
 <td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>醫學系</td>
-<td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:(國)4<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
+<td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:國(4)<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
 <td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序一：國文(13)<br>
 順序二：國文+英文+數學A+自然(59)<br>
 順序三：英文+數學A+自然(45)</td>
@@ -193,7 +193,159 @@
 
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-                <h2>相關連結</h2>
+
+<table style="text-align:center;font-size: 15px;width: 1100px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1 >
+
+
+
+
+  <tr>
+    <th colspan="19" bgcolor=#2e2e25 ><font color="d4d4d9">111第一次篩選</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td bgcolor=#d4d4d9 colspan="3" >國文</td>
+    <td bgcolor=#d4d4d9 colspan="3">英文</td>
+    <td bgcolor=#d4d4d9 colspan="3">數學A</td>
+    <td bgcolor=#d4d4d9 colspan="3">數學B</td>
+    <td bgcolor=#d4d4d9 colspan="3">自然</td>
+    <td bgcolor=#d4d4d9 colspan="3">社會</td>
+    <td bgcolor=#d4d4d9 colspan="1">英聽</td>
+  </tr>
+  <tr>
+  <td bgcolor=#d4d4d9 colspan="3">頂標</td>
+    <td bgcolor=#d4d4d9 colspan="3">頂標</td>
+    <td bgcolor=#d4d4d9 colspan="3">頂標</td>
+    <td bgcolor=#d4d4d9 colspan="3">頂標</td>
+    <td bgcolor=#d4d4d9 colspan="3">頂標</td>
+    <td bgcolor=#d4d4d9 colspan="3">頂標</td>
+    <td bgcolor=#d4d4d9 colspan="1"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" bgcolor=#2e2e25 colspan="2"><font color="d4d4d9">校<br>系<br>名<br>稱</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">校<br>系<br>代<br>碼</td>
+    <td bgcolor=#2e2e25 rowspan="4"><font color="d4d4d9">名<br>額</td>
+    <td bgcolor=#2e2e25 colspan="15"><font color="d4d4d9">倍率篩選</td>
+  </tr>
+  <tr>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">順序1</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">順序2</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">順序3</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">順序4</td>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">順序5</td>
+  </tr>
+  <tr>
+    <td bgcolor=#d4d4d9 rowspan="2" colspan="2">台灣大學<br>醫學系</td>
+    <td bgcolor=#d4d4d9 rowspan="2">160222</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">科目</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">倍率</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">通過級分</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">科目</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">倍率</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">通過級分</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">科目</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">倍率</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">通過級分</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">科目</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">倍率</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">通過級分</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">科目</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">倍率</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">通過級分</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">111學年度</td>
+    <td bgcolor=#d4d4d9>50</td>
+    <td bgcolor=#d4d4d9>國</td>
+    <td bgcolor=#d4d4d9>4</td>
+    <td bgcolor=#d4d4d9>13</td>
+    <td bgcolor=#d4d4d9>國+英+數+自</td>
+    <td bgcolor=#d4d4d9>3</td>
+    <td bgcolor=#d4d4d9>59</td>
+    <td bgcolor=#d4d4d9>英+數+自</td>
+    <td bgcolor=#d4d4d9>2</td>
+    <td bgcolor=#d4d4d9>45</td>
+    <td bgcolor=#d4d4d9></td>
+    <td bgcolor=#d4d4d9></td>
+    <td bgcolor=#d4d4d9></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">110學年度</td>
+    <td bgcolor=#d4d4d9>50</td>
+    <td bgcolor=#d4d4d9>國</td>
+    <td bgcolor=#d4d4d9>4</td>
+    <td bgcolor=#d4d4d9>13</td>
+    <td bgcolor=#d4d4d9>國+英+數+自</td>
+    <td bgcolor=#d4d4d9>3</td>
+    <td bgcolor=#d4d4d9>59</td>
+    <td bgcolor=#d4d4d9>英+數+自</td>
+    <td bgcolor=#d4d4d9>2</td>
+    <td bgcolor=#d4d4d9>45</td>
+    <td bgcolor=#d4d4d9></td>
+    <td bgcolor=#d4d4d9></td>
+    <td bgcolor=#d4d4d9></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">109學年度</td>
+    <td bgcolor=#d4d4d9>50</td>
+    <td bgcolor=#d4d4d9>國</td>
+    <td bgcolor=#d4d4d9>4</td>
+    <td bgcolor=#d4d4d9>13</td>
+    <td bgcolor=#d4d4d9>國+英+數+自</td>
+    <td bgcolor=#d4d4d9>3</td>
+    <td bgcolor=#d4d4d9>59</td>
+    <td bgcolor=#d4d4d9>英+數+自</td>
+    <td bgcolor=#d4d4d9>2</td>
+    <td bgcolor=#d4d4d9>45</td>
+    <td bgcolor=#d4d4d9></td>
+    <td bgcolor=#d4d4d9></td>
+    <td bgcolor=#d4d4d9></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">超額篩選</td>
+    <td bgcolor=#d4d4d9 colspan="4">國英數自</td>
+    <td bgcolor=#d4d4d9 colspan="3">數</td>
+    <td bgcolor=#d4d4d9 colspan="3">自</td>
+    <td colspan="3"></td>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">甄試日期</td>
+    <td colspan="3">111.5.21 111.5.27 111.5.28</td>
+    <td bgcolor=#2e2e25><font color="d4d4d9">繳交資料截止收件</td>
+    <td colspan="4">111.5.10</td>
+    <td colspan="8">簡章</td>
+  </tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>相關連結</h2>
                 <a href='https://www.ceec.edu.tw/'>大考中心首頁</a>
         </div>
         </div>
