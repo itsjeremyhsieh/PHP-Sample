@@ -223,8 +223,8 @@
     <td bgcolor=#d4d4d9 colspan="1"></td>
   </tr>
   <tr>
-    <td rowspan="2" bgcolor=#2e2e25 colspan="2"><font color="d4d4d9">校<br>系<br>名<br>稱</td>
-    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">校<br>系<br>代<br>碼</td>
+    <td rowspan="2" bgcolor=#2e2e25 colspan="2"><font color="d4d4d9">校<br>系<br>代<br>碼</td>
+    <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">校<br>系<br>名<br>稱
     <td bgcolor=#2e2e25 rowspan="4"><font color="d4d4d9">名<br>額</td>
     <td bgcolor=#2e2e25 colspan="15"><font color="d4d4d9">倍率篩選</td>
   </tr>
@@ -236,8 +236,8 @@
     <td bgcolor=#2e2e25 colspan="3"><font color="d4d4d9">順序5</td>
   </tr>
   <tr>
-    <td bgcolor=#d4d4d9 rowspan="2" colspan="2">台灣大學<br>醫學系</td>
-    <td bgcolor=#d4d4d9 rowspan="2">160222</td>
+    <td bgcolor=#d4d4d9 rowspan="2" colspan="2">160222</td>
+    <td bgcolor=#d4d4d9 rowspan="2">台灣大學<br>醫學系</td>
     <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">科目</td>
     <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">倍率</td>
     <td bgcolor=#2e2e25 rowspan="2"><font color="d4d4d9">通過級分</td>
