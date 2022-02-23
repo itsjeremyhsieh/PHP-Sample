@@ -24,5 +24,8 @@ Below is a list of techniques used in this sample.
 * 提供各科pr值
 * 換算成去年成績
 * 分數差距
+## picture origin
+* Pixabay
+* pngtree
 <hr>
 
