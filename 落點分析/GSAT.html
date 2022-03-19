@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset = "utf-8">
+       <title>落點分析查詢（學測）</title>
+       <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            background-image: url(backgrounds/background_gsat.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-blend-mode: multiply;
+        }
+        select{
+            border:1px solid #c9c9c9;
+            background-color:#fff;
+            color:#666;
+            height:30px;
+            line-height:25px;
+            padding:4px 6px;
+            font-size:15px;
+            border-radius:6px;
+            cursor:pointer;
+            outline:none;
+        }
+        .container{
+            display: flex;
+            /* 水平置中 */
+            justify-content: center;    
+            /* 垂直置中 */
+            align-items: center; 
+        }
+        </style>
+    </head>
+    <body>
+
+        <div class= "container">
+        <div style="top:10px; position:absolute;border-width: 300px ; width:300px;height:50px;text-align:center;line-height:50px;background-color: rgba(247, 231, 179, 0.9);border-radius: 20px 20px 20px 20px;">
+            <span style="color: rgb(133, 93, 7);font-size:30px"><font face=" sans-serif ">110年大學落點分析</font></span>  
+            </div>
+    
+    
+            <div style="top:120px; position:absolute; border-width: 3px ; width: 220px; height: 30px ; padding: 5px; text-align: center; background-color: rgba(29, 122, 228, 0.9);border-radius: 10px 10px 0 0px;">
+            <span style="color: rgb(255, 255, 255);">落點分析查詢（學測）</span>
+            </div>
+            <div style="top:160px; position:absolute;border-width: 100px ; width: 650px; height: 3px;padding: 5px; text-align: center; background-color: rgba(142, 179, 221, 0.9);border-radius: 0 10px 0px 0;">
+            </div>
+            <div style="top:173px; position:absolute;border-width: 3px ; width: 650px; height: 380px ;text-align: center; padding: 5px;  background-color: rgba(222, 240, 173, 0.9);border-radius: 0px 0px 0 0px;">
+                <span style="color: rgb(95, 86, 4);">
+                <font face="sans-serif" font size=3px >請輸入您的成績</font></span>
+            </div>
+
+            <div style="top:200px; position:absolute; border-width: 3px ; width: 600px; height: 80px ;text-align: top; padding: 5px;  background-color: rgba(255, 255, 255, 0.4);border-radius: 0px 0px 0 0px;">
+                <form action="showGSAT.php" method="post">
+                    <div style="left: 35px; position: absolute; top: 10px;">國文</div>
+                    <div style="left: 135px; position: absolute; top: 10px;">英文</div>
+                    <div style="left: 230px; position: absolute; top: 10px;">數學A</div>
+                    <div style="left: 330px; position: absolute; top: 10px;">數學B</div>
+                    <div style="left: 435px; position: absolute; top: 10px;">社會</div>
+                    <div style="left: 535px; position: absolute; top: 10px;">自然</div>
+                        <br/><br/>
+                    <div style="left: 20px; position: absolute; top: 50px;">
+                        <select name="chinese" >
+                            <option>未報考</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                        </select>  
+                    </div>
+                    <div style="left: 120px; position: absolute; top: 50px;">
+                        <select name="english">
+                            <option>未報考</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                        </select> 
+                    </div>
+                    <div style="left: 220px; position: absolute; top: 50px;">
+                        <select name="mathA">
+                            <option>未報考</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                        </select>  
+                    </div>
+                    <div style="left: 320px; position: absolute; top: 50px;">
+                        <select name="mathB">
+                            <option>未報考</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                        </select>  
+                    </div>
+                    <div style="left: 420px; position: absolute; top: 50px;">
+                        <select name="social">
+                            <option>未報考</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                        </select>   
+                    </div>
+                    <div style="left: 520px; position: absolute; top: 50px;">
+                        <select name="science">
+                            <option>未報考</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                        </select>  
+                    </div>
+                           
+            </div>
+
+            <div style="top:300px; position:absolute;border-width: 3px ; width: 600px; height: 80px ;text-align:center; padding: 5px;  background-color: rgba(255, 255, 255, 0.4);border-radius: 0px 0px 0 0px;">
+                英文聽力
+                <br>    
+                <div style="left: 80px; position: absolute; top: 50px;">
+                    <input type="radio" name="listening" value="A"> A</div>
+                    <div style="left: 190px; position: absolute; top: 50px;">
+                    <input type="radio" name="listening" value="B"> B</div>
+                    <div style="left: 290px; position: absolute; top: 50px;">
+                    <input type="radio" name="listening" value="C"> C</div>
+                    <div style="left: 390px; position: absolute; top: 50px;">
+                    <input type="radio" name="listening" value="F"> F</div>
+                    <div style="left: 490px; position: absolute; top: 50px;">
+                    <input type="radio" name="listening" value="non" checked> 無</div>
+                </div>
+
+                <div style="top:400px; position:absolute;border-width: 3px ; width: 600px; height: 80px ;text-align:center; padding: 5px;  background-color: rgba(255, 255, 255, 0.4);border-radius: 0px 0px 0 0px;">
+
+                    請勾選您的興趣量表結果
+                    <br/><br/>
+                    <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
+                    <input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label>
+                    <input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label>
+                    <input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label>
+                    <input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label>
+                    <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
+                    <br/>
+                </div>
+                <div style="position: absolute; top: 510px;">
+                    <button type='submit'>送出</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
