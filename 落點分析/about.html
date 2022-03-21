@@ -39,7 +39,7 @@
 		.col-xs-3-tag-title
 		{
 			top:50%; 
-			left:80%;
+			margin:0 auto;
 			position:relative; 
 			border-width: 3px ; 
 			width: 220px; 
@@ -48,6 +48,38 @@
 			text-align: center; 
 			background-color: rgba(188, 215, 245, 0.9);
 			border-radius: 10px 10px 0 0px;
+		}
+		.positiontext{
+			padding-left:50px;
+			position: relative; 
+			top: 0px;
+		}
+		.goleft
+		{
+			position: relative;
+			padding-left:55px;
+			
+			top:0px;
+		}
+		.positionselect{
+			position: relative; 
+			padding-left:35px;
+			
+			top: 0px;
+		}
+		.positionselect1{
+			position: relative; 
+			padding-left:20px;
+			
+			top: 0px;
+		}
+		.block{
+			margin:0 auto;
+			width:600px;
+			
+			border-style:solid;
+			border-color:#013e99;
+			height:auto;
 		}
 	</style>
 
@@ -112,17 +144,159 @@
 	<!-- end section -->
    
 	<!-- section -->
-    <div class="section margin-top_50">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 layout_padding_2">
-                    <div class="full">
+    
                         
-						<div class="row">
-							<div class="col-xs-3-tag-title">篩選條件</div>
-					
+						
+								<div class="col-xs-3-tag-title">篩選條件</div>
+								<form action="showGSAT.php" method="post">
+									<div class="block">
+									
+										<a class="goleft">國文</a>
+										<a class="goleft">英文</a>
+										<a class="goleft">數學A</a>
+										<a class="goleft">數學B</a>
+										<a class="goleft">社會</a>
+										<a class="goleft">自然</a>
+										<br>
+											<a class="positionselect">
+											<select name="chinese" >
+												<option>未報考</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+											</select> 
+										</a> 
+											
+										<a class="positionselect1">
+											<select name="english" >
+												<option>未報考</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+											</select> 
+										</a> 
+
+										<a class="positionselect1">
+											<select name="mathA" >
+												<option>未報考</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+											</select> 
+										</a> 
+
+										<a class="positionselect1">
+											<select name="mathB" >
+												<option>未報考</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+											</select> 
+										</a> 
 
 
+										<a class="positionselect1">
+											<select name="social" >
+												<option>未報考</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+											</select> 
+										</a> 
+
+
+										<a class="positionselect1">
+											<select name="science" >
+												<option>未報考</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+											</select> 
+										</a> 
+
+
+										
+										</div>
+
+								</form>
+								
+						
+							
+
+
+							
 
 
 
@@ -131,12 +305,7 @@
 
 
 						
-                    </div>
-                </div>
-				
-            </div>
-        </div>
-    </div>
+                   
 	<!-- end section -->
 	<!-- section -->
     <div class="section layout_padding">
