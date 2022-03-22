@@ -43,7 +43,7 @@
 			margin:0 auto;
 			position:relative; 
 			border-width: 3px ; 
-			width: 220px; 
+			width: 20%; 
 			height: 30px ; 
 			padding: 5px; 
 			text-align: center; 
@@ -79,35 +79,43 @@
 			margin:0 auto;
 			position: relative;
 			padding-left:75px;
+			top:10px;
 			
+			justify-content: center; 
+			align-items: center; 
 			
 			
 		}
 		.golefte
 		{
 			position: relative;
-			padding-left:270px;
+			
+			
 			top:5px;
 			
-			
+			display: flex;
+    justify-content: center; 
+    align-items: center; 
 		}
 		.positionselect{
 			position: relative; 
 			padding-left:35px;
 			margin:0 auto;
 			top: 10px;
+			
 		}
 		.positionselect1{
 			position: relative; 
 			padding-left:20px;
 			margin:0 auto;
 			top: 10px;
+			
 		}
 		.block{
 			position: relative;
 			top: 50px;
 			margin:0 auto;
-			width:600px;
+			width:50%;
 			
 			border-style:solid;
 			border-color:#013e99;
@@ -130,16 +138,16 @@
 			padding-left:270px;
 			top:10px;
 		}
-			.link-top {
-				margin:0 auto;
+			
+		.hr
+		{
 			position: relative;
-			left:50px;
-            width: 200px;
-            height: 1px;
-			top:20px;
-			padding-left:500px;
-            border-top: solid #ACC0D8 1px;
-        }
+			top:10px;
+			width: 70%;
+			
+			border-top:1px solid rgb(126, 125, 231);
+		}
+		
 	</style>
 
 </head>
@@ -209,7 +217,7 @@
 								<div class="col-xs-3-tag-title">篩選條件</div>
 								<form action="showGSAT.php" method="post">
 									<div class="block">
-									
+										<br>
 										<a class="goleft">國文</a>
 										<a class="goleft">英文</a>
 										<a class="goleft">數學A</a>
@@ -347,10 +355,10 @@
 										<br>
 										
 										
-										<a class="link-top"></a>
-										<br>
+										<hr class="hr"   >
+										
 										<a class="golefte">英文聽力</a>
-										<br><br>
+										<br>
 										<a class="goleftr">
 											<input type="radio" name="listening" value="A"> A</a>
 											<a class="goleftr">
@@ -362,8 +370,8 @@
 											<a class="goleftr">
 											<input type="radio" name="listening" value="non" checked> 無</a>
 										<br>
-										<a class="link-top"></a>
-										<br>
+										<hr class="hr"   >
+										
 										<a class="habit">請勾選您的興趣量表結果 </a>
 										<br>
 										<a class="golefth">
@@ -375,7 +383,7 @@
 										<input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
 										</a>
 										<br>
-										<a class="link-top"></a>
+										<hr class="hr"   >
 										<br>
 										<a class="buttunleft"><button type='submit'>送出</button></a>
 										<br>
