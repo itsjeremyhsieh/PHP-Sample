@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <meta charset = "utf-8">
-       <title>落點分析查詢（分科測驗）</title>
-       <style>
+
+<head>
+    <meta charset="utf-8">
+    <title>落點分析查詢（分科測驗）</title>
+    <style>
         html {
             height: 100%;
         }
@@ -16,81 +17,551 @@
             background-size: cover;
             background-blend-mode: multiply;
         }
-        select{
-            border:1px solid #c9c9c9;
-            background-color:#fff;
-            color:#666;
-            height:30px;
-            line-height:25px;
-            padding:4px 6px;
-            font-size:10px;
-            border-radius:6px;
-            cursor:pointer;
-            outline:none;
+
+        select {
+            border: 1px solid #c9c9c9;
+            background-color: #fff;
+            color: #666;
+            height: 30px;
+            line-height: 25px;
+            padding: 4px 6px;
+            font-size: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            outline: none;
         }
-        #textboxid
-        {
-            height:14px;
+
+        #textboxid {
+            height: 14px;
             width: 100px;
-            font-size:14pt;
+            font-size: 14pt;
         }
-        .container{
+
+        .container {
             display: flex;
             /* 水平置中 */
-            justify-content: center;    
+            justify-content: center;
             /* 垂直置中 */
-            align-items: center; 
+            align-items: center;
         }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div style="top:10px; position:absolute; border-width: 300px ; width:300px;height:50px;text-align:center;line-height:50px;background-color: rgba(247, 231, 179, 0.9);border-radius: 20px 20px 20px 20px;">
-                <span style="color: rgb(133, 93, 7);font-size:30px"><font face=" sans-serif ">110年大學落點分析</font></span>  
-            </div>
-            <div style="top:120px; position:absolute; border-width: 3px ; width: 220px; height: 30px ; padding: 5px; text-align: center; background-color: rgba(29, 122, 228, 0.9);border-radius: 10px 10px 0 0px;">
-                <span style="color: rgb(255, 255, 255);">落點分析查詢（學測）</span>
-                </div>
-            <div style="top:160px; position:absolute; border-width: 100px ; width: 650px; height: 3px;padding: 5px; text-align: center; background-color: rgba(142, 179, 221, 0.9);border-radius: 0 10px 0px 0;">
-            </div>
-            <div style="top:173px; position:absolute; border-width: 3px ; width: 650px; height: 380px ;text-align: center; padding: 5px;  background-color: rgba(222, 240, 173, 0.9);border-radius: 0px 0px 0 0px;">
-                <span style="color: rgb(95, 86, 4);">
-                <font face=" sans-serif "font size=3px >請輸入您的成績</font></span>
-            </div>
-            <div style="top:200px; position:absolute; border-width: 3px ; width: 600px; height: 150px ;text-align: center; padding: 5px;  background-color: rgba(255, 255, 255, 0.4);border-radius: 0px 0px 0 0px;">
-                <form action="showAST.php" method="post">
-                
-                    數甲 <input type="text" id="textboxid" name="math" value=""/> &nbsp;&nbsp;
-                    歷史 <input type="text" id="textboxid" name="history" value="" /> 
-                    <br><br/>
-                    地理 <input type="text" id="textboxid" name="geo" value="" /> &nbsp;&nbsp;
-                    公民 <input type="text" id="textboxid" name="social" value="" /> 
-                    <br><br/>
-                    物理 <input type="text" id="textboxid" name="physics" value="" /> &nbsp;&nbsp;
-                    化學 <input type="text" id="textboxid" name="chem" value="" /> 
-                    <br><br/>
-                    生物 <input type="text" id="textboxid" name="bio" value="" /> 
-            </div>
-            <div style="top: 380px; position:absolute; border-width: 3px ; width: 600px; height: 80px ;text-align:center; padding: 5px;  background-color: rgba(255, 255, 255, 0.4);border-radius: 0px 0px 0 0px;">
+    </style>
+</head>
 
-                請勾選您的興趣量表結果
-                <br/><br/>
+<body>
+
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>Perfect - Responsive HTML5 Template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .col-xs-3-tag-title {
+
+            top: 50px;
+            margin: 0 auto;
+            position: relative;
+            border-width: 3px;
+            width: 20%;
+            height: 30px;
+            padding: 5px;
+            text-align: center;
+            background-color: rgba(188, 215, 245, 0.9);
+            border-radius: 10px 10px 0 0px;
+        }
+
+        .positiontext {
+            padding-left: 50px;
+
+            position: relative;
+
+        }
+
+        .goleft {
+            margin: 0 auto;
+            position: relative;
+            padding: 5px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        
+
+        
+        .golefte {
+            position: relative;
+            top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .positionselect {
+            position: relative;
+            padding-left: 35px;
+            margin: 0 auto;
+            top: 10px;
+
+        }
+
+        .positionselect1 {
+            position: relative;
+            padding-left: 20px;
+            margin: 0 auto;
+            top: 10px;
+
+        }
+
+        .block {
+            position: relative;
+            top: 50px;
+            margin: 80px auto;
+            width: 50%;
+            padding-bottom: 30px;
+            border-style: solid;
+            border-color: #013e99;
+            height: auto;
+            align-items: center;
+        }
+
+        .habit {
+            position: relative;
+            margin: 0 auto;
+            text-align: center;
+            padding-left: 220px;
+            top: 10px;
+
+        }
+
+        .buttunleft {
+            position: block;
+            margin: 0 auto;
+            text-align: center;
+            padding-left: 270px;
+            top: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hr {
+            position: relative;
+            top: 10px;
+            width: 70%;
+
+            border-top: 1px solid rgb(126, 125, 231);
+        }
+    </style>
+
+</head>
+
+<body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="images/loader.gif" alt="#" />
+        </div>
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
+
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd"
+                    aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="GSAT.html">學測</a></li>
+                        <li><a class="nav-link" href="AST.html">分科測驗</a></li>
+                        <li><a class="nav-link" href="reaserch.html">Reaserch</a></li>
+                        <li><a class="nav-link" href="news.html">News</a></li>
+                        <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Search">
+                    <a class="search-btn">
+                        <img src="images/search_icon.png" alt="#" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+    <!-- section -->
+
+    <section class="inner_banner">
+        <div class="row">
+            <div class="col-12">
+                <div class="full">
+                    <h3>分科測驗</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- end section -->
+
+    <!-- section -->
+
+
+
+    <div class="col-xs-3-tag-title">篩選條件</div>
+    <form action="showAST.php" method="post">
+        <div class="block">
+            <br>
+
+            <h3 class="golefte">學測成績 </h3>
+            <div class="goleft">
+                <a style="padding-right: 60px;">國文</a> 
+                <a style="padding-right: 50px;">英文</a>
+                <a style="padding-right: 60px;">數學B</a>
+            </div>
+            <br>
+            <div class="goleft">
+            <a style="padding-right: 20px;">
+                <select name="chinese">
+                    <option>未報考</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                </select>
+            </a>
+            <a style="padding-right: 20px;">
+                <select name="english">
+                    <option>未報考</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                </select>
+            </a>
+            <a style="padding-right: 20px;">
+                <select name="mathB">
+                    <option>未報考</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                </select>
+            </a>
+        </div>
+            <br>
+            <hr class="hr">
+            <h3 class="golefte">分科測驗</h3>
+            <div class="goleft">
+            數甲 <input type="text" id="textboxid" name="math" value="" />
+            歷史 <input  type="text" id="textboxid" name="history" value="" />
+            
+            地理 <input  type="text" id="textboxid" name="geo" value="" />
+            公民 <input  type="text" id="textboxid" name="social" value="" />
+            <br>
+            
+            物理 <input  type="text" id="textboxid" name="physics" value="" />
+            化學 <input  type="text" id="textboxid" name="chem" value="" />
+            
+            生物 <input  type="text" id="textboxid" name="bio" value="" />
+            </div>
+            <hr class="hr">
+
+            <h3 class="golefte">請勾選您的興趣量表結果 </h3>
+            <br>
+            <a class="goleft">
                 <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
                 <input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label>
                 <input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label>
                 <input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label>
                 <input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label>
                 <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
-                <br/>
-            </div>
-            <div style="position: absolute; top: 500px;">
-                <button type='submit'>送出</button>
-            </div>
-            </form>
+            </a>
+            <br>
+            <hr class="hr">
+            <br>
+            <a class="goleft"><button type='submit'>送出</button></a>
+            <br>
+            <br>
+
         </div>
-    </body>
+
+    </form>
+
+
+
+    <!-- Start Footer -->
+    <footer class="footer-box">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog">
+                        <div class="full margin-bottom_30">
+                            <img src="images/footer_logo.png" alt="#" />
+                        </div>
+                        <div class="full white_fonts">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog footer_menu white_fonts">
+                        <h3>Quick links</h3>
+                        <ul>
+                            <li><a href="#">> Join Us</a></li>
+                            <li><a href="#">> Maintenance</a></li>
+                            <li><a href="#">> Language Packs</a></li>
+                            <li><a href="#">> LearnPress</a></li>
+                            <li><a href="#">> Release Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog full white_fonts">
+                        <h3>Newsletter</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        <div class="newsletter_form">
+                            <form action="index.html">
+                                <input type="email" placeholder="Your Email" name="#" required />
+                                <button>Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog full white_fonts">
+                        <h3>Contact us</h3>
+                        <ul class="full">
+                            <li><img src="images/i5.png"><span>London 145<br>United Kingdom</span></li>
+                            <li><img src="images/i6.png"><span>demo@gmail.com</span></li>
+                            <li><img src="images/i7.png"><span>+12586954775</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="crp">© Copyrights 2019 design by html.design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+    <script src="js/slider-index.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        /* counter js */
+
+        (function ($) {
+            $.fn.countTo = function (options) {
+                options = options || {};
+
+                return $(this).each(function () {
+                    // set options for current element
+                    var settings = $.extend({}, $.fn.countTo.defaults, {
+                        from: $(this).data('from'),
+                        to: $(this).data('to'),
+                        speed: $(this).data('speed'),
+                        refreshInterval: $(this).data('refresh-interval'),
+                        decimals: $(this).data('decimals')
+                    }, options);
+
+                    // how many times to update the value, and how much to increment the value on each update
+                    var loops = Math.ceil(settings.speed / settings.refreshInterval),
+                        increment = (settings.to - settings.from) / loops;
+
+                    // references & variables that will change with each update
+                    var self = this,
+                        $self = $(this),
+                        loopCount = 0,
+                        value = settings.from,
+                        data = $self.data('countTo') || {};
+
+                    $self.data('countTo', data);
+
+                    // if an existing interval can be found, clear it first
+                    if (data.interval) {
+                        clearInterval(data.interval);
+                    }
+                    data.interval = setInterval(updateTimer, settings.refreshInterval);
+
+                    // initialize the element with the starting value
+                    render(value);
+
+                    function updateTimer() {
+                        value += increment;
+                        loopCount++;
+
+                        render(value);
+
+                        if (typeof (settings.onUpdate) == 'function') {
+                            settings.onUpdate.call(self, value);
+                        }
+
+                        if (loopCount >= loops) {
+                            // remove the interval
+                            $self.removeData('countTo');
+                            clearInterval(data.interval);
+                            value = settings.to;
+
+                            if (typeof (settings.onComplete) == 'function') {
+                                settings.onComplete.call(self, value);
+                            }
+                        }
+                    }
+
+                    function render(value) {
+                        var formattedValue = settings.formatter.call(self, value, settings);
+                        $self.html(formattedValue);
+                    }
+                });
+            };
+
+            $.fn.countTo.defaults = {
+                from: 0,               // the number the element should start at
+                to: 0,                 // the number the element should end at
+                speed: 1000,           // how long it should take to count between the target numbers
+                refreshInterval: 100,  // how often the element should be updated
+                decimals: 0,           // the number of decimal places to show
+                formatter: formatter,  // handler for formatting the value before rendering
+                onUpdate: null,        // callback method for every time the element is updated
+                onComplete: null       // callback method for when the element finishes updating
+            };
+
+            function formatter(value, settings) {
+                return value.toFixed(settings.decimals);
+            }
+        }(jQuery));
+
+        jQuery(function ($) {
+            // custom formatting example
+            $('.count-number').data('countToOptions', {
+                formatter: function (value, options) {
+                    return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+                }
+            });
+
+            // start all the timers
+            $('.timer').each(count);
+
+            function count(options) {
+                var $this = $(this);
+                options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                $this.countTo(options);
+            }
+        });
+    </script>
+</body>
+
 </html>
-      
-   
-       
-   
