@@ -38,7 +38,7 @@
     <style>
         .col-xs-3-tag-title {
 
-            top: 50px;
+            top:80px;
             margin: 0 auto;
             position: relative;
             border-width: 3px;
@@ -95,9 +95,9 @@
 
         .block {
             position: relative;
-            top: 50px;
+            
             margin: 80px auto;
-            width: 50%;
+            width: 40%;
 
             border-style: solid;
             border-color: #013e99;
@@ -125,10 +125,24 @@
 
         .hr {
             position: relative;
-            top: 10px;
-            width: 70%;
+            top: 5px;
+            width: 80%;
 
             border-top: 1px solid rgb(126, 125, 231);
+        }
+        #div1{
+            display :inline-block;
+            
+        }
+        #div2
+        {
+            display :inline-block;
+            
+        }
+        #wrap
+        {
+            display :flex;
+            justify-content: space-around;
         }
     </style>
 
@@ -199,19 +213,25 @@
 
     <div class="col-xs-3-tag-title">篩選條件</div>
     <form action="showGSAT.php" method="post">
-        <div class="block">
+      <div class="block">
             <br>
-            <div class="goleft" >
-            <a style="padding-right: 30px;">國文</a>
-            <a style="padding-right: 30px;">英文</a>
-            <a style="padding-right: 30px;">數學A</a>
-            <a style="padding-right: 30px;">數學B</a>
-            <a style="padding-right: 30px;">社會</a>
-            <a >自然</a>
-         </div>
+            <div id="wrap">
+            
+            
+            <div id="div1">國文</div>
+            <div id="div1">英文</div>
+            <div id="div1">數學A</div>
+            <div id="div1">數學B</div>
+            <div id="div1">社會</div>
+            <div id="div1" >自然</div>
+            </div>
             <br>
-            <div class="positionselect">
-            <a>
+         
+            
+
+            <div id="wrap">
+            
+                <div id="div2">
                 <select name="chinese">
                     <option>未報考</option>
                     <option>1</option>
@@ -230,9 +250,9 @@
                     <option>14</option>
                     <option>15</option>
                 </select>
-            </a>
+                </div>
 
-            <a>
+                <div id="div2">
                 <select name="english">
                     <option>未報考</option>
                     <option>1</option>
@@ -251,9 +271,9 @@
                     <option>14</option>
                     <option>15</option>
                 </select>
-            </a>
+                </div>
 
-            <a>
+                <div id="div2">
                 <select name="mathA">
                     <option>未報考</option>
                     <option>1</option>
@@ -272,9 +292,9 @@
                     <option>14</option>
                     <option>15</option>
                 </select>
-            </a>
+                </div>
 
-            <a >
+                <div id="div2">
                 <select name="mathB">
                     <option>未報考</option>
                     <option>1</option>
@@ -293,10 +313,10 @@
                     <option>14</option>
                     <option>15</option>
                 </select>
-            </a>
+                </div>
 
 
-            <a >
+                <div id="div2">
                 <select name="social">
                     <option>未報考</option>
                     <option>1</option>
@@ -315,10 +335,10 @@
                     <option>14</option>
                     <option>15</option>
                 </select>
-            </a>
+                </div>
 
 
-            <a >
+                <div id="div2">
                 <select name="science">
                     <option>未報考</option>
                     <option>1</option>
@@ -337,47 +357,59 @@
                     <option>14</option>
                     <option>15</option>
                 </select>
-            </a>
-            <br>
-        </div>
-
-            <hr class="hr">
-
-            <h3 class="golefte">英文聽力</h3>
-            <br>
-            <div class="goleft">
-            <a >
-                <input type="radio" name="listening" value="A"> A</a>
-            <a>
-                <input type="radio" name="listening" value="B"> B</a>
-            <a>
-                <input type="radio" name="listening" value="C"> C</a>
-            <a>
-                <input type="radio" name="listening" value="F"> F</a>
-            <a>
-                <input type="radio" name="listening" value="non" checked> 無</a>
-            <br>
-        </div>
-            <hr class="hr">
-
-            <h3 class="golefte">請勾選您的興趣量表結果 </h3>
-            <br>
-            <a class="goleft">
-                <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
-                <input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label>
-                <input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label>
-                <input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label>
-                <input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label>
-                <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
-            </a>
+                </div>
+            </div>
+            
             <br>
             <hr class="hr">
             <br>
-            <a class="goleft"><button type='submit'>送出</button></a>
-            <br>
-            <br>
+            
+            
+        
+            
 
-        </div>
+            
+            
+            <div id="wrap"><h3>英文聽力</h3></div>
+            <br>
+            
+            <div id="wrap">
+                <div id="div2">
+                <input type="radio" name="listening" value="A"> A</div>
+                <div id="div2">
+                <input type="radio" name="listening" value="B"> B</div>
+                <div id="div2">
+                <input type="radio" name="listening" value="C"> C</div>
+                <div id="div2">
+                <input type="radio" name="listening" value="F"> F</div>
+                <div id="div2">
+                <input type="radio" name="listening" value="non" checked> 無</div>           
+            </div>
+            
+            
+            <hr class="hr">
+            <br>
+            <div id="wrap"><h3>請勾選您的興趣量表結果 </h3></div>
+            <br>
+            <div id="wrap">
+            <div id="div2">
+                <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label></div>
+                <div id="div2"><input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label></div>
+                <div id="div2"><input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label></div>
+                <div id="div2"><input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label></div>
+                <div id="div2"><input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label></div>
+                <div id="div2"><input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label></div>
+            </div>
+            
+            <hr class="hr">
+            <br>
+            <div id="wrap"><button type='submit'>送出</button></div>
+            <br>
+      </div><!--block-->
+    
+            
+
+        
 
     </form>
 
