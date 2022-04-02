@@ -46,7 +46,7 @@
             height: 30px;
             padding: 5px;
             text-align: center;
-            background-color: rgba(188, 215, 245, 0.9);
+            background-color: rgba(188, 215, 245, 1);
             border-radius: 10px 10px 0 0px;
         }
 
@@ -95,8 +95,15 @@
 
         .block {
             position: relative;
+<<<<<<< HEAD
             margin: 80px auto;
             width: 40%;
+=======
+            background-color: white;
+            margin: 80px auto;
+            width:45%;
+
+>>>>>>> 040d481fe028dba2587e4e3cf0c1a50172d79d36
             border-style: solid;
             border-color: #013e99;
             height: auto;
@@ -131,6 +138,7 @@
         #div1{
             display :inline-block;
             
+            
         }
         #div2
         {
@@ -141,6 +149,13 @@
         {
             display :flex;
             justify-content: space-around;
+        }
+        #back {
+        background-image:url(images/banner1_img.png);
+        background-repeat: no-repeat;
+            
+            background-position: center;
+            background-size: cover;
         }
     </style>
 
@@ -208,7 +223,7 @@
     <!-- section -->
 
 
-
+    <div id="back">
     <div class="col-xs-3-tag-title">篩選條件</div>
     <form action="showGSAT.php" method="post">
       <div class="block">
@@ -403,8 +418,9 @@
             
 
         
-
+    
     </form>
+
 
 
 
