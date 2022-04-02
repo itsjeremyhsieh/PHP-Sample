@@ -95,7 +95,7 @@
     <style>
         .col-xs-3-tag-title {
 
-            top: 50px;
+            top: 80px;
             margin: 0 auto;
             position: relative;
             border-width: 3px;
@@ -124,9 +124,9 @@
             text-align: center;
         }
 
-        
 
-        
+
+
         .golefte {
             position: relative;
             top: 5px;
@@ -153,33 +153,11 @@
 
         .block {
             position: relative;
-            top: 50px;
             margin: 80px auto;
-            width: 50%;
-            padding-bottom: 30px;
+            width: 40%;
             border-style: solid;
             border-color: #013e99;
             height: auto;
-            align-items: center;
-        }
-
-        .habit {
-            position: relative;
-            margin: 0 auto;
-            text-align: center;
-            padding-left: 220px;
-            top: 10px;
-
-        }
-
-        .buttunleft {
-            position: block;
-            margin: 0 auto;
-            text-align: center;
-            padding-left: 270px;
-            top: 10px;
-            justify-content: center;
-            align-items: center;
         }
 
         .hr {
@@ -188,6 +166,16 @@
             width: 70%;
 
             border-top: 1px solid rgb(126, 125, 231);
+        }
+
+        #div1 {
+            display: inline-block;
+
+        }
+
+        #wrap {
+            display: flex;
+            justify-content: space-around;
         }
     </style>
 
@@ -259,109 +247,128 @@
     <form action="showAST.php" method="post">
         <div class="block">
             <br>
-
             <h3 class="golefte">學測成績 </h3>
-            <div class="goleft">
-                <a style="padding-right: 60px;">國文</a> 
-                <a style="padding-right: 50px;">英文</a>
-                <a style="padding-right: 60px;">數學B</a>
+
+            <br>
+            <div id="wrap">
+
+                <div id="div1">國文</div>
+                <div id="div1">英文</div>
+
+                <div id="div1">數學B</div>
+
             </div>
             <br>
-            <div class="goleft">
-            <a style="padding-right: 20px;">
-                <select name="chinese">
-                    <option>未報考</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                    <option>13</option>
-                    <option>14</option>
-                    <option>15</option>
-                </select>
-            </a>
-            <a style="padding-right: 20px;">
-                <select name="english">
-                    <option>未報考</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                    <option>13</option>
-                    <option>14</option>
-                    <option>15</option>
-                </select>
-            </a>
-            <a style="padding-right: 20px;">
-                <select name="mathB">
-                    <option>未報考</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                    <option>13</option>
-                    <option>14</option>
-                    <option>15</option>
-                </select>
-            </a>
-        </div>
+
+            <div id="wrap">
+                <div id="div1">
+                    <select name="chinese">
+                        <option>未報考</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                    </select>
+                </div>
+                <div id="div1">
+                    <select name="english">
+                        <option>未報考</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                    </select>
+                </div>
+                <div id="div1">
+                    <select name="mathA">
+                        <option>未報考</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                    </select>
+                </div>
+            </div>
             <br>
             <hr class="hr">
             <h3 class="golefte">分科測驗</h3>
-            <div class="goleft">
-            數甲 <input type="text" id="textboxid" name="math" value="" />
-            歷史 <input  type="text" id="textboxid" name="history" value="" />
-            
-            地理 <input  type="text" id="textboxid" name="geo" value="" />
-            公民 <input  type="text" id="textboxid" name="social" value="" />
-            <br>
-            
-            物理 <input  type="text" id="textboxid" name="physics" value="" />
-            化學 <input  type="text" id="textboxid" name="chem" value="" />
-            
-            生物 <input  type="text" id="textboxid" name="bio" value="" />
-            </div>
-            <hr class="hr">
+            <div id="wrap">
 
-            <h3 class="golefte">請勾選您的興趣量表結果 </h3>
+                <div id="div1">
+                    數A <input type="text" name="math" value=""></div>
+                <div id="div1">
+                    歷史 <input type="text" name="history" value="" /></div>
+                <div id="div1">
+                    地理 <input type="text" name="geo" value="" /></div>
+            </div>
             <br>
-            <a class="goleft">
-                <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
-                <input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label>
-                <input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label>
-                <input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label>
-                <input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label>
-                <input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label>
-            </a>
+            <div id="wrap">
+                <div id="div1">
+                    公民 <input type="text" name="social" value="" /></div>
+
+                <div id="div1">
+                    物理 <input type="text" name="physics" value="" /></div>
+                <div id="div1">化學 <input type="text" name="chem" value="" /></div>
+            </div>
             <br>
+            <div id="wrap">
+                <div id="div1">生物 <input type="text" name="bio" value="" /></div>
+            </div>
+
+
             <hr class="hr">
             <br>
-            <a class="goleft"><button type='submit'>送出</button></a>
+            <div id="wrap">
+                <h3>請勾選您的興趣量表結果 </h3>
+            </div>
             <br>
+            <div id="wrap">
+                <div id="div1">
+                    <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
+                </div>
+                <div id="div1"><input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label></div>
+                <div id="div1"><input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label></div>
+                <div id="div1"><input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label></div>
+                <div id="div1"><input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label></div>
+                <div id="div1"><input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label></div>
+            </div>
+
+            <hr class="hr">
+            <br>
+            <div id="wrap"><button type='submit'>送出</button></div>
             <br>
 
         </div>
