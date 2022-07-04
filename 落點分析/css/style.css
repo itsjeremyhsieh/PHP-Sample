@@ -160,7 +160,11 @@ ol {
 
 button:focus {
 	outline: none;
+	
+		
+	  
 }
+
 
 .form-control::-moz-placeholder {
 	color: #ffffff;
@@ -1671,6 +1675,7 @@ p.count-text {
 .custom-select {
 	height: 45px;
 	font-size: 16px;
+	
 }
 
 select.form-control:not([size]):not([multiple]) {
@@ -2306,6 +2311,7 @@ section.inner_banner h3 {
 	height:100px;
 	background: none;
 	padding: 70px 42px 0px;
+	
 	color: #666;
 	font-family: "Muli-SemiBold";
 	font-size: 20px; }
