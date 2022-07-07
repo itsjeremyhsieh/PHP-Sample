@@ -34,80 +34,22 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	<style>
-	.wrapper {
-            position: relative;
-            width: 80%;
-            height:fit-content;
-        }
-        
-        label {
-            display: inline-block;
-            padding: 5px 10px;
-            background-color:#61A3CF;
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
-			width: 20%;
-			color:beige;
-        }
-        
-        label:hover {
-            cursor: pointer;
-        }
-        /* 隐藏radio，只显示标签文字 */
-        
-        input[type="radio"] {
-            display: none;
-        }
-        
-        input[type="radio"]:checked+label {
-            background-color:#A5CCE6;
-            color: white;
-        }
-        
-        input[type="radio"]:checked+label+div {
-            display: block;
-        }
-        
-        .content {
-			position: relative;
-			width:100%;
-			
-            height:fit-content;
-            background-color: aliceblue;
-        }
-        
-        .content div {
-            display: none;
-        }
-        
-        #navi1:checked~.content>#content1,
-        #navi2:checked~.content>#content2,
-        #navi3:checked~.content>#content3,
-        #navi4:checked~.content>#content4 {display: block;}
-		
-		#wrap
+    <style>
+        #outer
         {
-            display :flex;
-            justify-content: space-around;
-            font-weight: 500;
-            font-size: 20px;
-            font-family:KaiTi;
-            color: black;
-            height: auto;
-			width: 100%;
+            background-color: #95afba;
+  			position: relative; /* ★ */
+  			height: 400px;
+  			display: flex; /* ★ */
+  			align-items: center; /* ★ */
         }
-
-	
-	
-
-		
-        
-
-
-
-</style>
+		.container
+		{
+			display: flex;
+			justify-content: center; 
+			align-items: center; 
+		}
+    </style>
 
 </head>
 
@@ -134,7 +76,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
-					<li><a class="nav-link active" href="index.html">Home</a></li>
+						<li><a class="nav-link active" href="index.html">Home</a></li>
                         <li><a class="nav-link" href="GSAT.html">學測</a></li>
                         <li><a class="nav-link" href="AST.html">分科測驗</a></li>
 						<li><a class="nav-link" href="result.php">更新消息</a></li>
@@ -162,7 +104,7 @@
 	      <div class="row">
 		      <div class="col-12">
 			     <div class="full">
-				     <h3>結果分析</h3>
+				     <h3>我的最愛</h3>
 				 </div>
 			  </div>
 		  </div>
@@ -170,103 +112,17 @@
 	</section>
 	
 	<!-- end section -->
-	<br>
-
-	<!-- section-->
-	<div class="container">
-	<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-						<tr>
-							<td colspan="6" align="center" bgcolor="#E3E3E3" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
-						</tr>
-						<tr>
-							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">排名</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
-								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">4</td>
-								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">5</td>
-																
-							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
-						</tr>
-						   <tr>
-							   <td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">科目組合</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學A、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學B、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、社會、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學B、社會</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學A、社會</td>
-							</tr>
-					</table>
-	</div>
-
-
-	<br>
-
-	<div class="container">
-		<div class="wrap" style="text-align: center">
-			<input type="radio" id="navi2" name="radio" />
-			<label for="navi1" >落點分析</label>
-			<input type="radio" id="navi1" name="radio" checked/>
-			<label for="navi2">校系推薦</label>
-			
-				<div class="content">
-				<div id="content1">
-				<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;border: 1px solid #FFFFFF; ">
-				<tr>
-				<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;" ><b>我的最愛</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;" ><b>順位</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;" ><b>校系代碼</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>校系名稱</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>檢定標準</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>篩選倍率</b></td>	
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序一</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序二</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序三</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>興趣類型</b></td>     
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>通過機率</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>甄試日期</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>更多分析</b></td></tr>
-				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;"> 1 </td><td align="center" style="border: 1px solid #FFFFFF;">023152</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立彰化師範大學資訊工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">社會型</td><td align="center" style="border: 1px solid #FFFFFF;">☆☆☆☆☆</td><td align="center" style="border: 1px solid #FFFFFF;">無</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
-				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;"> 2 </td><td align="center" style="border: 1px solid #FFFFFF;">001572</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立台灣大學電機工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">社會型</td><td align="center" style="border: 1px solid #FFFFFF;">☆</td><td align="center" style="border: 1px solid #FFFFFF;">3/10</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
-				</p>
-				</table>
-				</div>
-				
-
-				<div id="content2">
-				<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-						
-						<tr>
-							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">順序</td>
-								<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦學校</td>
-								<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦校系</td>
-								<td style="color: #FF79BC;border: 1px  solid #E3E3E3;">適配度</td>
-								
-																
-							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
-						</tr>
-						   <tr>
-							   <td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">1</td>
-									<td style="border: 1px solid #E3E3E3;">國立台灣大學</td>
-									<td style="border: 1px solid #E3E3E3;">電機工程學系</td>
-									<td style="border: 1px solid #E3E3E3;">95%</td>
-									
-							</tr>
-					</table>
-				</div>
-				</div>
-					
-		</div>
-
-	</div>
-
-
-	<br>
-
-
-	<!-- end section -->
    
-	
+	<!-- section -->
+    <div class="section layout_padding contact_section" style="background:#f6f6f6;">
+        
+
+
+
+           
+    
+	</div>
+	<!-- end section -->
   <!-- Start Footer -->
   <footer class="footer-box">
 	<div class="container">
