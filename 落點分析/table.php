@@ -34,76 +34,14 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
+
 	<style>
-	.wrapper {
-            position: relative;
-            width: 80%;
-            height:fit-content;
-        }
-        
-        label {
-            display: inline-block;
-            padding: 5px 10px;
-            background-color:#61A3CF;
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
-			width: 20%;
-			color:beige;
-        }
-        
-        label:hover {
-            cursor: pointer;
-        }
-        /* 隐藏radio，只显示标签文字 */
-        
-        input[type="radio"] {
-            display: none;
-        }
-        
-        input[type="radio"]:checked+label {
-            background-color:#A5CCE6;
-            color: white;
-        }
-        
-        input[type="radio"]:checked+label+div {
-            display: block;
-        }
-        
-        .content {
-			position: relative;
-			width:100%;
-			
-            height:fit-content;
-            background-color: aliceblue;
-        }
-        
-        .content div {
-            display: none;
-        }
-        
-        #navi1:checked~.content>#content1,
-        #navi2:checked~.content>#content2,
-        #navi3:checked~.content>#content3,
-        #navi4:checked~.content>#content4 {display: block;}
-		
-		#wrap
-        {
-            display :flex;
-            justify-content: space-around;
-            font-weight: 500;
-            font-size: 20px;
-            font-family:KaiTi;
-            color: black;
-            height: auto;
-        }
-		
-		
-        
-
-
-
-</style>
+	.tab-content .tab-pane.active {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+}</style>
 
 </head>
 
@@ -164,81 +102,174 @@
 	</section>
 	
 	<!-- end section -->
-	<br>
 
-	<!-- section-->
-	<div class="container">
-	<table align="center" style="width: 95%;text-align: center;border-collapse:collapse;">
+
+	
+
+
+
+   
+	<!-- section -->
+    <div class="section layout_padding contact_section" style="background:#f6f6f6;">
+        <div class="container">
+               <div class="row">
+				<div class="col-xs-8">
+					<table align="center" style="width: 95%;text-align: center;border-collapse:collapse;">
 						<tr>
 							<td colspan="6" align="center" bgcolor="#E3E3E3" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
 						</tr>
 						<tr>
 							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">排名</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
-								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">4</td>
-								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">5</td>
+																								<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
+																									<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
+																									<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
+																									<td style="color: #FF3299;border: 1px solid #E3E3E3;">4</td>
+																									<td style="color: #FF3299;border: 1px  solid #E3E3E3;">5</td>
 																
 							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 						</tr>
 						   <tr>
 							   <td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">科目組合</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學A、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學B、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、社會、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學B、社會</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學A、社會</td>
-							</tr>
+																	  <td style="border: 1px solid #E3E3E3;">英文、數學A、自然</td>
+																	  <td style="border: 1px solid #E3E3E3;">英文、數學B、自然</td>
+																	  <td style="border: 1px solid #E3E3E3;">英文、社會、自然</td>
+																	  <td style="border: 1px solid #E3E3E3;">英文、數學B、社會</td>
+																	  <td style="border: 1px solid #E3E3E3;">英文、數學A、社會</td>
+															  </tr>
 					</table>
-	</div>
-
-
-	<br>
-
-	<div class="container">
-		<div class="wrap">
-			<input type="radio" id="navi2" name="radio" />
-			<label for="navi1" >落點分析</label>
-			<input type="radio" id="navi1" name="radio" checked/>
-			<label for="navi2">校系推薦</label>
-			
-			<div class="content">
-				<div id="content1">
-				<table  wide=”200” height=”800” border =”4”  >
-				<tr>
-				<td align="center"><b>順位</b></td>
-				<td align="center"><b>校系代碼</b></td>
-				<td align="center"><b>校系名稱</b></td>
-				<td align="center"><b>檢定標準</b></td>
-				<td align="center"><b>篩選倍率</b></td>	
-				<td align="center"><b>順序一</b></td>
-				<td align="center"><b>順序二</b></td>
-				<td align="center"><b>順序三</b></td>
-				<td align="center"><b>興趣類型</b></td>     
-				<td align="center"><b>通過機率</b></td>
-				<td align="center"><b>甄試日期</b></td></tr>
-				<tr><td> 1 </td><td>023152</td><td> 國立彰化師範大學資訊工程學系</td><td>英文(底)</td><td>國文[3.00]</td><td>國文(7)</td><td>英文(3)</td><td>數學A(3)</td><td>社會型</td><td>☆☆☆☆☆</td><td>無</td></tr> 
-				<tr><td> 2 </td><td>001572</td><td> 國立台灣大學電機工程學系</td><td>英文(底)</td><td>國文[3.00]</td><td>國文(7)</td><td>英文(3)</td><td>數學A(3)</td><td>社會型</td><td>☆</td><td>3/10</td></tr> 
-				</p>
-				</table>
 				</div>
 
 
-				<div id="content2">内容区域B</div>
+
+
+			
 				
-			</div>		
-		</div>
+				
+				<table style="width:1100px;line-height:3px;border:2px #D4D4D4 solid;"  align=center cellpadding="10" border=1 >
+					<tr>
+					<td  colspan=64  bgcolor="#19CAAD" style="width: 50%; border:1px #D4D4D4 solid;" align=center cellpadding="8" border="1"><b>我的成績</b></td>
+					</tr>
+				
+							<tr>
+							<td   colspan=4   bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>科目</td>
+							<td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國文</td>
+							<td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>英文</td>
+							<td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>數學A</td>
+							<td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>數學B</td>
+							<td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>社會</td>
+							<td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>自然</td>
+							<td   colspan=4 bgcolor=#8CC7B5 style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>聽力</td>
+							</tr>
+							
+							<?php 
+						   
+							
+							echo  "<tr><td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>級分</td>";
+							$chi = $_POST['chinese']; 
+							if(strcmp($chi, "未報考") )
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$chi</td>";
+							else{
+								$chi = 0;
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+							}
+							$eng = $_POST['english']; 
+							if(strcmp($eng, "未報考") )
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$eng</td>";
+							else{
+								$eng = 0;
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+							}
+							$matA= $_POST['mathA']; 
+							if(strcmp($matA, "未報考") )
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matA</td>";
+							else{
+								$matA = 0;
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+							}
+							$matB= $_POST['mathB']; 
+							if(strcmp($matB, "未報考") )
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$matB</td>";
+							else{
+								$matB = 0;
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+							}
+							$soc = $_POST['social']; 
+							if(strcmp($soc, "未報考") )
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$soc</td>";
+							else{
+								$soc = 0;
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+							}
+							$sci = $_POST['science']; 
+							if(strcmp($sci, "未報考") )
+								echo "<td colspan=4 align='center' bgcolor=#A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$sci</td>";
+							else{
+								$sci = 0;
+								echo "<td colspan=4 align='center' bgcolor=#A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+							}
+							$listen = $_POST['listening'];
+							if(strcmp($listen, "non"))
+							{
+								if($listen == "A")
+									$listennum = 3;
+								else if($listen == "B")
+									$listennum = 2;
+								else if($listen == "C")
+									$listennum = 1;
+								else if($listen == "F")
+									$listennum = 0;
+									echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$listen</td>";
+							}
+							else{
+								$listennum = 0;
+								echo "<td colspan=4 align='center' bgcolor= #A0EEE1 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>未報考</td>";
+							}
+							echo "</tr>";
+							echo "<tr><td  colspan=4 align='center' bgcolor=#BEE7E9 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>換算去年級分</td></tr>";
+			
+			
+							//
+							echo "<td  colspan=4 align='center' bgcolor=#BEEDC7 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>你的興趣量表</td>";
+							if(isset( $_POST ["interest"]))
+							{
+								$ins = $_POST ["interest"];
+								echo '<br>';  
+								$myallins = implode (", ", $ins);
+								echo "<td colspan=28 align='center' bgcolor=#BEEDC7	 style= 'border:1px #D4D4D4 solid'; align=center cellpadding=10 border=1>$myallins</td>";
+								
+							}
+						  
+							?>
+					</table>
 
-	</div>
 
 
-	<br>
 
 
+
+
+					您的落點分析結果如下表所示：
+        <table  wide=”200” height=”800” border =”3”>
+        <tr>
+        <td align="center"><b>順位</b></td>
+        <td align="center"><b>校系代碼</b></td>
+        <td align="center"><b>校系名稱</b></td>   
+        <td align="center"><b>通過機率</b></td>
+        <td align="center"><b>甄試日期</b></td></tr>
+        <tr><td> 1 </td><td>023152</td><td> 國立彰化師範大學資訊工程學系</td><td>☆☆☆☆☆</td><td>無</td></tr> 
+        <tr><td> 2 </td><td>001572</td><td> 國立台灣大學電機工程學系</td><td>☆</td><td>3/10</td></tr> 
+        </p>
+        </table>
+
+		
+
+
+
+                
+               </div>			  
+           </div>
+        </div>
 	<!-- end section -->
-   
-	
   <!-- Start Footer -->
   <footer class="footer-box">
 	<div class="container">
