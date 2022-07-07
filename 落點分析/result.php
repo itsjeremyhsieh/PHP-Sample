@@ -230,26 +230,22 @@
 
 				<div id="content2">
 				<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+						
 						<tr>
-							<td colspan="6" align="center" bgcolor="#E3E3E3" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
-						</tr>
-						<tr>
-							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">排名</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
-								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
-								<td style="color: #FF3299;border: 1px solid #E3E3E3;">4</td>
-								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">5</td>
+							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">順序</td>
+								<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦學校</td>
+								<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦校系</td>
+								<td style="color: #FF79BC;border: 1px  solid #E3E3E3;">適配度</td>
+								
 																
 							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 						</tr>
 						   <tr>
-							   <td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">科目組合</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學A、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學B、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、社會、自然</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學B、社會</td>
-									<td style="border: 1px solid #E3E3E3;">英文、數學A、社會</td>
+							   <td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">1</td>
+									<td style="border: 1px solid #E3E3E3;">國立台灣大學</td>
+									<td style="border: 1px solid #E3E3E3;">電機工程學系</td>
+									<td style="border: 1px solid #E3E3E3;">95%</td>
+									
 							</tr>
 					</table>
 				</div>
