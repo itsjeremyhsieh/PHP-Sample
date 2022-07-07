@@ -214,7 +214,6 @@
 				<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;border: 1px solid #FFFFFF; ">
 				<tr>
 				<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;" ><b>我的最愛</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;" ><b>順位</b></td>
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;" ><b>校系代碼</b></td>
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>校系名稱</b></td>
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>檢定標準</b></td>
@@ -222,12 +221,13 @@
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序一</b></td>
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序二</b></td>
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序三</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>興趣類型</b></td>     
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>興趣量表</b></td>     
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>通過機率</b></td>
 				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>甄試日期</b></td>
-				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>更多分析</b></td></tr>
-				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;"> 1 </td><td align="center" style="border: 1px solid #FFFFFF;">023152</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立彰化師範大學資訊工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">社會型</td><td align="center" style="border: 1px solid #FFFFFF;">☆☆☆☆☆</td><td align="center" style="border: 1px solid #FFFFFF;">無</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
-				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;"> 2 </td><td align="center" style="border: 1px solid #FFFFFF;">001572</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立台灣大學電機工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">社會型</td><td align="center" style="border: 1px solid #FFFFFF;">☆</td><td align="center" style="border: 1px solid #FFFFFF;">3/10</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;" ><b>簡章</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>分析更多</b></td></tr>
+				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;">023152</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立彰化師範大學資訊工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">I</td><td align="center" style="border: 1px solid #FFFFFF;">⭐⭐⭐⭐⭐</td><td align="center" style="border: 1px solid #FFFFFF;">無</td><td align="center" style="border: 1px solid #FFFFFF;"> 📃 </td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
+				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;">001572</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立台灣大學電機工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">I</td><td align="center" style="border: 1px solid #FFFFFF;">⭐</td><td align="center" style="border: 1px solid #FFFFFF;">3/10</td><td align="center" style="border: 1px solid #FFFFFF;"> 📃</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
 				</p>
 				</table>
 				</div>
@@ -263,7 +263,176 @@
 
 	<br>
 
+	<div class="container">
+	<table style="font-size: 15px;width: 100%;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1 >
+<tr>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校名</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>系名</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>興趣量表</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>分析更多</td>
+<td    bgcolor=#85B8CB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>通過率</td>
+</tr>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
+
+<tr>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>醫學系</td>
+<td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:國(4)<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
+<td    bgcolor=#D1DDDB style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序一：國文(13)<br>
+順序二：國文+英文+數學A+自然(59)<br>
+順序三：英文+數學A+自然(45)</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>I</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>📃</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>🌱</td>
+<td    bgcolor=#D1DDDB style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>⭐⭐⭐⭐⭐</td>
+</tr>
+</table>
+	</div>
+<br>
+
+<div class="container">
+	
+<table style="text-align:center; font-size: 15px;width:max-content;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1  >
+
+<thead>
+  <tr>
+    <th colspan="2" rowspan="2">校系名稱</th>
+    <th colspan="2" rowspan="2">校系代碼</th>
+    <th colspan="2" rowspan="4">招生名額</th>
+    <th colspan="20">篩選倍率</th>
+  </tr>
+  <tr>
+    <th colspan="4">順序一</th>
+    <th colspan="4">順序二</th>
+    <th colspan="4">順序三</th>
+	<th colspan="4">順序四</th>
+    <th colspan="4">順序五</th>
+  </tr>
+  <tr>
+    <th colspan="2" rowspan="2">國立台灣大學<br>電機工程學系</th>
+    <th colspan="2" rowspan="2">120458</th>
+    <th rowspan="2">科目</th>
+    <th rowspan="2">倍率</th>
+    <th colspan="2" rowspan="2">通過級分</th>
+    <th rowspan="2">科目</th>
+    <th rowspan="2">倍率</th>
+    <th colspan="2" rowspan="2">通過級分</th>
+    <th rowspan="2">科目</th>
+    <th rowspan="2">倍率</th>
+    <th colspan="2" rowspan="2">通過級分</th>
+    <th rowspan="2">科目</th>
+    <th rowspan="2">倍率</th>
+    <th colspan="2" rowspan="2">通過級分</th>
+    <th rowspan="2">科目</th>
+    <th rowspan="2">倍率</th>
+    <th colspan="2" rowspan="2">通過級分</th>
+  </tr>
+  <tr>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="4">111年度</td>
+    <td colspan="2">20</td>
+    <td>英</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐⭐</td>
+    <td>國</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐</td>
+    <td>社會</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>數A</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>自</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    
+    
+  </tr>
+  <tr>
+  <td colspan="4">110年度</td>
+    <td colspan="2">18</td>
+    <td>英</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐⭐</td>
+    <td>國</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐</td>
+    <td>社會</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>數A</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>自</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    
+  </tr>
+  <tr>
+  <td colspan="4">109年度</td>
+    <td colspan="2">22</td>
+    <td>英</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐⭐</td>
+    <td>國</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐</td>
+    <td>社會</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>數A</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>自</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    
+  </tr>
+  <tr>
+  <td colspan="4">108年度</td>
+    <td colspan="2">21</td>
+    <td>英</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐⭐</td>
+    <td>國</td>
+    <td>3</td>
+    <td colspan="2">⭐⭐</td>
+    <td>社會</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>數A</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    <td>自</td>
+    <td>3</td>
+    <td colspan="2">⭐</td>
+    
+  </tr>
+  <tr>
+    <td colspan="4">校系簡章</td>
+    <td colspan="3">甄試日期</td>
+	<td colspan="3">111.5.3</td>
+    <td colspan="3">繳交資料收件截止日期</td>
+    <td colspan="3">111.4.7</td>
+    <td colspan="3">第二階段指定項目</td>
+    <td colspan="3">--</td>
+    <td colspan="3">--</td>
+    <td colspan="4">--</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<br>
 	<!-- end section -->
    
 	
