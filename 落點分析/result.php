@@ -96,6 +96,7 @@
             font-family:KaiTi;
             color: black;
             height: auto;
+			width: 100%;
         }
 		
 		
@@ -134,7 +135,7 @@
                         <li><a class="nav-link" href="GSAT.html">學測</a></li>
                         <li><a class="nav-link" href="AST.html">分科測驗</a></li>
                         <li><a class="nav-link" href="register.html">會員註冊</a></li>
-						<li><a class="nav-link" href="news.html">更新消息</a></li>
+						<li><a class="nav-link" href="result.php">更新消息</a></li>
 						<li><a class="nav-link" href="contact.html">聯絡我們</a></li>
 					</ul>
                 </div>
@@ -168,7 +169,7 @@
 
 	<!-- section-->
 	<div class="container">
-	<table align="center" style="width: 95%;text-align: center;border-collapse:collapse;">
+	<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 						<tr>
 							<td colspan="6" align="center" bgcolor="#E3E3E3" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
 						</tr>
@@ -197,37 +198,63 @@
 	<br>
 
 	<div class="container">
-		<div class="wrap">
+		<div class="wrap" style="text-align: center">
 			<input type="radio" id="navi2" name="radio" />
 			<label for="navi1" >落點分析</label>
 			<input type="radio" id="navi1" name="radio" checked/>
 			<label for="navi2">校系推薦</label>
 			
-			<div class="content">
+				<div class="content">
 				<div id="content1">
-				<table  wide=”200” height=”800” border =”4”  >
+				<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;border: 1px solid #FFFFFF; ">
 				<tr>
-				<td align="center"><b>順位</b></td>
-				<td align="center"><b>校系代碼</b></td>
-				<td align="center"><b>校系名稱</b></td>
-				<td align="center"><b>檢定標準</b></td>
-				<td align="center"><b>篩選倍率</b></td>	
-				<td align="center"><b>順序一</b></td>
-				<td align="center"><b>順序二</b></td>
-				<td align="center"><b>順序三</b></td>
-				<td align="center"><b>興趣類型</b></td>     
-				<td align="center"><b>通過機率</b></td>
-				<td align="center"><b>甄試日期</b></td></tr>
-				<tr><td> 1 </td><td>023152</td><td> 國立彰化師範大學資訊工程學系</td><td>英文(底)</td><td>國文[3.00]</td><td>國文(7)</td><td>英文(3)</td><td>數學A(3)</td><td>社會型</td><td>☆☆☆☆☆</td><td>無</td></tr> 
-				<tr><td> 2 </td><td>001572</td><td> 國立台灣大學電機工程學系</td><td>英文(底)</td><td>國文[3.00]</td><td>國文(7)</td><td>英文(3)</td><td>數學A(3)</td><td>社會型</td><td>☆</td><td>3/10</td></tr> 
+				<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;" ><b>我的最愛</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;" ><b>順位</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;" ><b>校系代碼</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>校系名稱</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>檢定標準</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>篩選倍率</b></td>	
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序一</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序二</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>順序三</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>興趣類型</b></td>     
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>通過機率</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>甄試日期</b></td>
+				<td bgcolor="#DFFFDF"align="center" style="border: 1px solid #FFFFFF;"><b>更多分析</b></td></tr>
+				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;"> 1 </td><td align="center" style="border: 1px solid #FFFFFF;">023152</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立彰化師範大學資訊工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">社會型</td><td align="center" style="border: 1px solid #FFFFFF;">☆☆☆☆☆</td><td align="center" style="border: 1px solid #FFFFFF;">無</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
+				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;"> 2 </td><td align="center" style="border: 1px solid #FFFFFF;">001572</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立台灣大學電機工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">社會型</td><td align="center" style="border: 1px solid #FFFFFF;">☆</td><td align="center" style="border: 1px solid #FFFFFF;">3/10</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
 				</p>
 				</table>
 				</div>
-
-
-				<div id="content2">内容区域B</div>
 				
-			</div>		
+
+				<div id="content2">
+				<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+						<tr>
+							<td colspan="6" align="center" bgcolor="#E3E3E3" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
+						</tr>
+						<tr>
+							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">排名</td>
+								<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
+								<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
+								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
+								<td style="color: #FF3299;border: 1px solid #E3E3E3;">4</td>
+								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">5</td>
+																
+							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
+						</tr>
+						   <tr>
+							   <td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">科目組合</td>
+									<td style="border: 1px solid #E3E3E3;">英文、數學A、自然</td>
+									<td style="border: 1px solid #E3E3E3;">英文、數學B、自然</td>
+									<td style="border: 1px solid #E3E3E3;">英文、社會、自然</td>
+									<td style="border: 1px solid #E3E3E3;">英文、數學B、社會</td>
+									<td style="border: 1px solid #E3E3E3;">英文、數學A、社會</td>
+							</tr>
+					</table>
+				</div>
+				</div>
+					
 		</div>
 
 	</div>
