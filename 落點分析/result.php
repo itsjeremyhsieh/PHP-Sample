@@ -176,10 +176,10 @@
 	<div class="container">
 	<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 						<tr>
-							<td colspan="6" align="center" bgcolor="#E3E3E3" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
+							<td colspan="6" align="center" bgcolor="#F1E1FF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
 						</tr>
 						<tr>
-							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">排名</td>
+							<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">排名</td>
 								<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
 								<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
 								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
@@ -189,7 +189,7 @@
 							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 						</tr>
 						   <tr>
-							   <td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">科目組合</td>
+							   <td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">科目組合</td>
 									<td style="border: 1px solid #E3E3E3;">英文、數學A、自然</td>
 									<td style="border: 1px solid #E3E3E3;">英文、數學B、自然</td>
 									<td style="border: 1px solid #E3E3E3;">英文、社會、自然</td>
@@ -199,6 +199,50 @@
 					</table>
 	</div>
 
+
+	<br>
+
+
+
+
+	<div class="container">
+	<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+						<tr>
+							<td colspan="7" align="center" bgcolor="#FFFFDF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">換算去年級分</span></td>
+						</tr>
+						<tr>
+							<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">科目</td>
+								<td style="color: #FF3299;border: 1px solid #E3E3E3;">國文</td>
+								<td style="color: #FF3299;border: 1px solid #E3E3E3;">英文</td>
+								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">數A</td>
+								<td style="color: #FF3299;border: 1px solid #E3E3E3;">數B</td>
+								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">自然</td>
+								<td style="color: #FF3299;border: 1px  solid #E3E3E3;">社會</td>
+																
+							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
+						</tr>
+						   <tr>
+							   <td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">110年度</td>
+									<td style="border: 1px solid #E3E3E3;">15</td>
+									<td style="border: 1px solid #E3E3E3;">14</td>
+									<td style="border: 1px solid #E3E3E3;">13</td>
+									<td style="border: 1px solid #E3E3E3;">14</td>
+									<td style="border: 1px solid #E3E3E3;">12</td>
+									<td style="border: 1px solid #E3E3E3;">12</td>
+							</tr>
+							<tr>
+							   <td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">109年度</td>
+									<td style="border: 1px solid #E3E3E3;">13</td>
+									<td style="border: 1px solid #E3E3E3;">14</td>
+									<td style="border: 1px solid #E3E3E3;">12</td>
+									<td style="border: 1px solid #E3E3E3;">15</td>
+									<td style="border: 1px solid #E3E3E3;">11</td>
+									<td style="border: 1px solid #E3E3E3;">12</td>
+							</tr>
+					</table>
+
+
+	</div>
 
 	<br>
 
@@ -230,6 +274,53 @@
 				<tr><td align="center" style="border: 1px solid #FFFFFF;">♡</td><td align="center" style="border: 1px solid #FFFFFF;">001572</td><td align="center" style="border: 1px solid #FFFFFF;"> 國立台灣大學電機工程學系</td><td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td><td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td><td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td><td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td><td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td><td align="center" style="border: 1px solid #FFFFFF;">I</td><td align="center" style="border: 1px solid #FFFFFF;">⭐</td><td align="center" style="border: 1px solid #FFFFFF;">3/10</td><td align="center" style="border: 1px solid #FFFFFF;"> 📃</td><td align="center" style="border: 1px solid #FFFFFF;">🌱</td></tr> 
 				</p>
 				</table>
+
+				<table style=" font-size: 15px;width:max-content;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1 >
+						<tr>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>我的最愛</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校系名稱</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>招生名額</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>檢定標準</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>備註說明</td>
+
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>興趣量表</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>通過率</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>甄試日期</td>
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
+
+						<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>分析更多</td>
+
+						</tr>
+						<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+						<tr>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>💗</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學醫學系</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>50</td>
+						<td    bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國文(頂)<br>英文(頂)<br>數A(頂)</td>
+						<td    bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:國(4)<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
+						<td    bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序一：國文(13)<br>順序二：國文+英文+數學A+自然(59)<br>
+						順序三：英文+數學A+自然(45)</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>採計標準改變</td>
+
+
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>I</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>⭐⭐⭐⭐⭐</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>4/7</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>📃</td>
+						<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>🌱</td>
+
+						</tr>
+				</table>
+
+
+
+
 				</div>
 				
 
@@ -269,7 +360,7 @@
 <td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>我的最愛</td>
 <td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
 <td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校系名稱</td>
-
+<td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>招生名額</td>
 <td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>檢定標準</td>
 <td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
 <td    bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
@@ -290,7 +381,7 @@
 <td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>💗</td>
 <td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
 <td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學醫學系</td>
-
+<td    bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>50</td>
 <td    bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國文(頂)<br>英文(頂)<br>數A(頂)</td>
 <td    bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:國(4)<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
 <td    bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序一：國文(13)<br>順序二：國文+英文+數學A+自然(59)<br>
