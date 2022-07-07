@@ -360,42 +360,41 @@
   </tr>
   <tr>
   <td colspan="4">110年度</td>
-    <td colspan="2">18</td>
+  <td colspan="2">18</td>
     <td>英</td>
     <td>3</td>
-    <td colspan="2">⭐⭐⭐</td>
+    <td colspan="2">15</td>
     <td>國</td>
     <td>3</td>
-    <td colspan="2">⭐⭐</td>
+    <td colspan="2">14</td>
     <td>社會</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">12</td>
     <td>數A</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">15</td>
     <td>自</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
-    
+    <td colspan="2">14</td>
   </tr>
   <tr>
   <td colspan="4">109年度</td>
-    <td colspan="2">22</td>
+  <td colspan="2">20</td>
     <td>英</td>
     <td>3</td>
-    <td colspan="2">⭐⭐⭐</td>
+    <td colspan="2">15</td>
     <td>國</td>
     <td>3</td>
-    <td colspan="2">⭐⭐</td>
+    <td colspan="2">14</td>
     <td>社會</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">12</td>
     <td>數A</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">15</td>
     <td>自</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">14</td>
     
   </tr>
   <tr>
@@ -403,23 +402,23 @@
     <td colspan="2">21</td>
     <td>英</td>
     <td>3</td>
-    <td colspan="2">⭐⭐⭐</td>
+    <td colspan="2">15</td>
     <td>國</td>
     <td>3</td>
-    <td colspan="2">⭐⭐</td>
+    <td colspan="2">14</td>
     <td>社會</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">12</td>
     <td>數A</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">15</td>
     <td>自</td>
     <td>3</td>
-    <td colspan="2">⭐</td>
+    <td colspan="2">14</td>
     
   </tr>
   <tr>
-    <td colspan="4">校系簡章</td>
+    <td colspan="4">校系簡章📃</td>
     <td colspan="3">甄試日期</td>
 	<td colspan="3">111.5.3</td>
     <td colspan="3">繳交資料收件截止日期</td>
