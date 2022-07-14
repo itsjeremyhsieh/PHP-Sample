@@ -34,6 +34,22 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        #outer
+        {
+            background-color: #95afba;
+  			position: relative; /* ★ */
+  			height: 400px;
+  			display: flex; /* ★ */
+  			align-items: center; /* ★ */
+        }
+		.container
+		{
+			display: flex;
+			justify-content: center; 
+			align-items: center; 
+		}
+    </style>
 
 </head>
 
@@ -48,38 +64,7 @@
     <!-- end loader -->
     <!-- END LOADER -->
 
-    <!-- Start header -->
-    <header class="top-header">
-        <nav class="navbar header-nav navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
-						<li><a class="nav-link active" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="GSAT.html">學測</a></li>
-                        <li><a class="nav-link" href="AST.html">分科測驗</a></li>
-						<li><a class="nav-link" href="result.php">更新消息</a></li>
-						<li><a class="nav-link" href="contact.html">聯絡我們</a></li>
-                        <li><a class="nav-link" href="register.html">會員註冊</a></li>
-						<li><a class="nav-link" href="login.html">會員登入</a></li>
-						<li><a class="nav-link" href="whislist.html">我的最愛💖</a></li>
-					</ul>
-                </div>
-                <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Search">
-                    <a class="search-btn">
-                        <img src="images/search_icon.png" alt="#" />
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- End header -->
+    <?php include "header.php" ?>
 
 	<!-- section -->
 	
@@ -88,7 +73,7 @@
 	      <div class="row">
 		      <div class="col-12">
 			     <div class="full">
-				     <h3>聯絡我們</h3>
+				     <h3>會員登入</h3>
 				 </div>
 			  </div>
 		  </div>
@@ -100,38 +85,35 @@
 	<!-- section -->
     <div class="section layout_padding contact_section" style="background:#f6f6f6;">
         <div class="container">
-               <div class="row">
-                 <div class="col-lg-8 col-md-8 col-sm-12">
-				    <div class="full float-right_img">
-                        <img src="images/圖片1.png" alt="#">
-                    </div>
-                 </div>
-				 <div class="col-lg-4 col-md-4 col-sm-12">
-				    <div class="contact_form">
-					    <form action="contact.html">
+            
+              
+                 
+            <div class="col-md-auto col-lg-4  justify-content-center">
+                   
+				    <div class="register_form" >
+                       
+					    <form action="register.html">
 						   <fieldset>
-						       <div class="full field">
-							      <input type="text" placeholder="姓名" name="your name" />
-							   </div>
-							   <div class="full field">
+                                
+                                <div  class =" row justify-content-center" >
 							      <input type="email" placeholder="Email" name="Email" />
 							   </div>
-							   <div class="full field">
-							      <input type="phn" placeholder="電話號碼" name="Phone number" />
-							   </div>
-							   <div class="full field">
-							      <textarea placeholder="訊息"></textarea>
-							   </div>
-							   <div class="full field">
+							   <div  class =" row justify-content-center " >
+								<input type="password" placeholder="密碼" name="Phone number" />
+							 </div>
+							
+							   <div  class =" row justify-content-center " >
 							      <div class="center"><button>送出</button></div>
 							   </div>
 						   </fieldset>
 						</form>
-					</div>
-                 </div>
-               </div>			  
-           </div>
-        </div>
+                    </div>
+                   
+             </div>
+        </div>			  
+           
+    
+	</div>
 	<!-- end section -->
   <!-- Start Footer -->
   <footer class="footer-box">
