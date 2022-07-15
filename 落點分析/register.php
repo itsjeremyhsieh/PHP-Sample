@@ -30,15 +30,13 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css" />
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 	<!--additional method - for checkbox .. ,require_from_group method ...-->
-	<script src="//jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
-	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+	<!--中文錯誤訊息-->
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
+
 	<style>
 		#outer {
 			background-color: #95afba;
@@ -69,41 +67,71 @@
 					form.submit();
 				},
 				rules: {
+					username: {
+						required: true,
+					},
 					name: {
 						required: true,
 					},
 					email: {
 						required: true,
-						minlength: 6,
-						maxlength: 12
 					},
 					password1: {
-
+						required: true,
 					},
 					password2: {
-
+						required: true,
+						equalTo: "#password1"
+					},
+					gender: {
+						required: true,
 					},
 					phone: {
-
+						required: true,
 					},
 					testyear: {
-
+						required: true,
 					},
 				},
 				messages: {
 					username: {
-						required: "帳號為必填欄位"
-
+						required: "此為必填欄位",
 					},
-					pwd: {
-						required: "密碼為必填欄位",
-						minlength: "密碼最少要6個字",
-						maxlength: "密碼最長12個字"
+					name: {
+						required: "此為必填欄位",
+					},
+					email: {
+						required: "此為必填欄位",
+					},
+					password1: {
+						required: "此為必填欄位",
+					},
+					password2: {
+						required: "此為必填欄位",
+						equalTo: "兩次密碼不相符",
+					},
+					gender: {
+						required: "此為必填欄位",
+					},
+					phone: {
+						required: "此為必填欄位",
+					},
+					testyear: {
+						required: "此為必填欄位",
 					},
 				}
 			});
 		});
 	</script>
+	<style type="text/css">
+		.error {
+			color: #D82424;
+			font-weight: normal;
+			font-family: "微軟正黑體";
+			display: inline;
+			padding: 1px;
+		}
+	</style>
 </head>
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -142,10 +170,12 @@
 
 			<div class="col-md-auto col-lg-4  justify-content-center">
 
-				<div class="register_form ">
-
-					<form action="registerfunc.php">
+				<form action="registerfunc.php" method="POST" name="register_form" id="register_form">
+					<div class="register_form">
 						<fieldset>
+							<div class=" row justify-content-center ">
+								<input type="text" placeholder="使用者名稱" name="username" />
+							</div>
 							<div class=" row justify-content-center ">
 								<input type="text" placeholder="姓名" name="name" />
 							</div>
@@ -159,15 +189,11 @@
 								<input type="password" placeholder="確認密碼" name="password2" />
 							</div>
 							<div class="row justify-content-center">
-
-							
-
-									<select name="gender" class="dropdown" id="gender" style="width: 100%;">
-										<option value="" disabled selected>性別</option>
-										<option value="1">男性</option>
-										<option value="0">女性</option>
-									</select>
-							
+								<select name="gender" class="dropdown" id="gender" style="width: 100%;">
+									<option value="" disabled selected>性別</option>
+									<option value="1">男性</option>
+									<option value="0">女性</option>
+								</select>
 							</div>
 							<div class=" row justify-content-center ">
 								<input type="text" placeholder="電話號碼" name="phone" />
@@ -179,8 +205,8 @@
 								<div class="center"><button>註冊帳號</button></div>
 							</div>
 						</fieldset>
-					</form>
-				</div>
+					</div>
+				</form>
 
 			</div>
 		</div>
