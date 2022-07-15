@@ -76,7 +76,7 @@
 			width: 100%;
 
 			height: fit-content;
-			background-color: aliceblue;
+			background-color: white;
 		}
 
 		.content div {
@@ -237,54 +237,7 @@ button:focus {
 
 			<div class="content">
 				<div id="content1">
-					<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;border: 1px solid #FFFFFF; ">
-						<tr>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>我的最愛</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>校系代碼</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>校系名稱</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>檢定標準</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>篩選倍率</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>順序一</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>順序二</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>順序三</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>興趣量表</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>通過機率</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>甄試日期</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>簡章</b></td>
-							<td bgcolor="#DFFFDF" align="center" style="border: 1px solid #FFFFFF;"><b>分析更多</b></td>
-						</tr>
-						<tr>
-							<td align="center" style="border: 1px solid #FFFFFF;">♡</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">023152</td>
-							<td align="center" style="border: 1px solid #FFFFFF;"> 國立彰化師範大學資訊工程學系</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">I</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">⭐⭐⭐⭐⭐</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">無</td>
-							<td align="center" style="border: 1px solid #FFFFFF;"> 📃 </td>
-							<td align="center" style="border: 1px solid #FFFFFF;">🌱</td>
-						</tr>
-						<tr>
-							<td align="center" style="border: 1px solid #FFFFFF;">♡</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">001572</td>
-							<td align="center" style="border: 1px solid #FFFFFF;"> 國立台灣大學電機工程學系</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">英文(底)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">國文[3.00]</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">國文(7)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">英文(3)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">數學A(3)</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">I</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">⭐</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">3/10</td>
-							<td align="center" style="border: 1px solid #FFFFFF;"> 📃</td>
-							<td align="center" style="border: 1px solid #FFFFFF;">🌱</td>
-						</tr>
-						</p>
-					</table>
+					
 
 					<table style=" font-size: 15px;width:max-content;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
 						<tr>
@@ -332,85 +285,7 @@ button:focus {
 
 
 
-				</div>
-
-
-				<div id="content2">
-					<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-
-						<tr>
-							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">順序</td>
-							<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦學校</td>
-							<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦校系</td>
-							<td style="color: #FF79BC;border: 1px  solid #E3E3E3;">適配度</td>
-
-
-							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
-						</tr>
-						<tr>
-							<td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">1</td>
-							<td style="border: 1px solid #E3E3E3;">國立台灣大學</td>
-							<td style="border: 1px solid #E3E3E3;">電機工程學系</td>
-							<td style="border: 1px solid #E3E3E3;">95%</td>
-
-						</tr>
-					</table>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-
-
-	<br>
-
-	<div class="container">
-		<table style=" font-size: 15px;width:max-content;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
-			<tr>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>我的最愛</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校系名稱</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>招生名額</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>檢定標準</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>備註說明</td>
-
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>興趣量表</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>通過率</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>甄試日期</td>
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
-
-				<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>分析更多</td>
-
-			</tr>
-			<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-
-			<tr>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>💗</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學醫學系</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>50</td>
-				<td bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國文(頂)<br>英文(頂)<br>數A(頂)</td>
-				<td bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序1:國(4)<br>順序2:國+英+數A+自(3)<br>順序3:英+數A+自(2)</td>
-				<td bgcolor=#F0F8FF style="line-height:50px;border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>順序一：國文(13)<br>順序二：國文+英文+數學A+自然(59)<br>
-					順序三：英文+數學A+自然(45)</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>採計標準改變</td>
-
-
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>I</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>⭐⭐⭐⭐⭐</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>4/7</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>📃</td>
-				<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>🌱</td>
-
-			</tr>
-		</table>
-	</div>
-	<br>
-	<div id="toShow" style="display: none;">
+					<div id="toShow" style="display: none;">
 
 
 		
@@ -537,9 +412,49 @@ button:focus {
 
 				</tbody>
 			</table>
-		</div>
+		</div><!---TO SHOW--->
 
 	<br>
+
+
+
+				</div>
+			
+
+				<div id="content2">
+					<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+
+						<tr>
+							<td bgcolor="#F4FF83" style="border: 1px  solid #E3E3E3;">順序</td>
+							<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦學校</td>
+							<td style="color: #FF79BC;border: 1px solid #E3E3E3;">推薦校系</td>
+							<td style="color: #FF79BC;border: 1px  solid #E3E3E3;">適配度</td>
+
+
+							<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
+						</tr>
+						<tr>
+							<td bgcolor="#F9FFBF" style="border: 1px solid #E3E3E3;">1</td>
+							<td style="border: 1px solid #E3E3E3;">國立台灣大學</td>
+							<td style="border: 1px solid #E3E3E3;">電機工程學系</td>
+							<td style="border: 1px solid #E3E3E3;">95%</td>
+
+						</tr>
+					</table>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<br>
+
+	
+	<br>
+	
+
 	<!-- end section -->
 	<?php include "footer.php"?>
 
