@@ -64,7 +64,7 @@
     <!-- end loader -->
     <!-- END LOADER -->
 
-    <?php include "footer.php" ?>
+    <?php include "header.php" ?>
 
 	<!-- section -->
 	
