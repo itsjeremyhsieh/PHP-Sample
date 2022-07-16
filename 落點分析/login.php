@@ -35,12 +35,12 @@ session_start();
 	<link rel="stylesheet" href="css/custom.css" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-<!--additional method - for checkbox .. ,require_from_group method ...-->
-<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
-<!--中文錯誤訊息-->
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
-	
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	<!--additional method - for checkbox .. ,require_from_group method ...-->
+	<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+	<!--中文錯誤訊息-->
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
+
 
 	<style>
 		#outer {
@@ -94,15 +94,15 @@ session_start();
 		});
 	</script>
 
-<style type="text/css">
-.error {
-     color: #D82424;
-     font-weight: normal;
-     font-family: "微軟正黑體";
-     display: inline;
-     padding: 1px;
-}
-</style>
+	<style type="text/css">
+		.error {
+			color: #D82424;
+			font-weight: normal;
+			font-family: "微軟正黑體";
+			display: inline;
+			padding: 1px;
+		}
+	</style>
 </head>
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -144,30 +144,30 @@ session_start();
 
 
 
-				<form action="loginfunc.php" method= "POST" name="login_form" id="login_form" >
+				<form action="loginfunc.php" method="POST" name="login_form" id="login_form">
 					<div class="login_form">
-					<fieldset>
+						<fieldset>
 
-						<div class=" row justify-content-center">
-							<input type="text" placeholder="帳號名稱" name="username" />
-						</div>
-						<div class=" row justify-content-center ">
-							<input type="password" placeholder="密碼" name="password" />
-						</div>
+							<div class=" row justify-content-center">
+								<input type="text" placeholder="帳號名稱" name="username" />
+							</div>
+							<div class=" row justify-content-center ">
+								<input type="password" placeholder="密碼" name="password" />
+							</div>
 
-						<div class=" row justify-content-center ">
-							<div class="center"><button>登入</button></div>
-						</div>
+							<div class=" row justify-content-center ">
+								<div class="center"><button>登入</button></div>
+							</div>
 
-						<!--<div class="row justify-content-center">
+							<!--<div class="row justify-content-center">
 								<div class="col-4 mb-10"><a class="form-link" href="forgetpsw.php">忘記帳號/密碼</a> </div>
 							</div>
 							-->
 
-						<div class="row justify-content-center">
-							<div class="col-4 mb-10"><a class="form-link" href="register.php">尚未註冊?</a></div>
-						</div>
-					</fieldset>
+							<div class="row justify-content-center">
+								<div class="col-4 mb-10"><a class="form-link" href="register.php">尚未註冊?</a></div>
+							</div>
+						</fieldset>
 					</div>
 				</form>
 
