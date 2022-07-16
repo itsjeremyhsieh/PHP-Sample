@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$link = mysqli_connect('120.107.172.131', 'root', '123456', 'website_database') // 建立MySQL的資料庫連結
+$link = mysqli_connect('120.107.172.131', 'server-113', '123456', 'website_database') // 建立MySQL的資料庫連結
 or die("無法開啟MySQL資料庫連結!<br>");
 $sql = "select * from member";
 // 送出編碼的MySQL指令
