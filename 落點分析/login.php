@@ -72,7 +72,7 @@ session_start();
 					form.submit();
 				},
 				rules: {
-					email: {
+					username: {
 						required: true,
 					},
 					password: {
@@ -82,7 +82,7 @@ session_start();
 					}
 				},
 				messages: {
-					email: {
+					username: {
 						required: "帳號為必填欄位"
 					},
 					password: {
@@ -149,7 +149,7 @@ session_start();
 					<fieldset>
 
 						<div class=" row justify-content-center">
-							<input type="email" placeholder="Email" name="email" />
+							<input type="text" placeholder="帳號名稱" name="username" />
 						</div>
 						<div class=" row justify-content-center ">
 							<input type="password" placeholder="密碼" name="password" />

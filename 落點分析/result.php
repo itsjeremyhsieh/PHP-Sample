@@ -287,8 +287,6 @@
 
 
 					<div id="toShow" style="display: none;">
-
-
 						<br>
 
 						<table style="text-align:center; font-size: 15px;width:auto;margin-left: auto; margin-right: auto;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
