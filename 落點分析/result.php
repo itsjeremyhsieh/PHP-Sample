@@ -266,7 +266,7 @@
 
 
 						<tr>
-							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1><button class="button button-1">🐰</button></td>
+							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid ;" align=center cellpadding="8" border=1><button class="button button-1" style="font-size: 20px;">🐰</button></td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學醫學系</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>50</td>
