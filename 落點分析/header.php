@@ -16,7 +16,7 @@
 						<li><a class="nav-link" href="contact.php">聯絡我們</a></li>
                         <li><a class="nav-link" href="register.php">會員註冊</a></li>
 						<li><a class="nav-link" href="login.php">會員登入</a></li>
-						<li><a class="nav-link" href="wishlist.php">我的最愛💖</a></li>
+						<li><a class="nav-link" href="wishlist.php">我的最愛🦥</a></li>
                     </ul>
                 </div>
                 <div class="search-box">
