@@ -102,14 +102,15 @@
 		}
 
 		button {
-    border: none;
-    background-color: transparent;
-    outline: none;
-	cursor: pointer;
-}
-button:focus {
-    border: none;
-}
+			border: none;
+			background-color: transparent;
+			outline: none;
+			cursor: pointer;
+		}
+
+		button:focus {
+			border: none;
+		}
 	</style>
 
 	<script>
@@ -237,9 +238,9 @@ button:focus {
 
 			<div class="content">
 				<div id="content1">
-					
 
-					<table style=" font-size: 15px;width:max-content;line-height:2px;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
+
+					<table style=" font-size: 15px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:auto">
 						<tr>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>我的最愛</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
@@ -288,138 +289,139 @@ button:focus {
 					<div id="toShow" style="display: none;">
 
 
-		
+						<br>
 
-			<table style="text-align:center; font-size: 15px;width:max-content;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
+						<table style="text-align:center; font-size: 15px;width:auto;margin-left: auto; margin-right: auto;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
 
-				<thead>
-					<tr>
-						<th colspan="2" rowspan="2">校系名稱</th>
-						<th colspan="2" rowspan="2">校系代碼</th>
-						<th colspan="2" rowspan="4">招生名額</th>
-						<th colspan="20">篩選倍率</th>
-					</tr>
-					<tr>
-						<th colspan="4">順序一</th>
-						<th colspan="4">順序二</th>
-						<th colspan="4">順序三</th>
-						<th colspan="4">順序四</th>
-						<th colspan="4">順序五</th>
-					</tr>
-					<tr>
-						<th colspan="2" rowspan="2">國立台灣大學<br>電機工程學系</th>
-						<th colspan="2" rowspan="2">120458</th>
-						<th rowspan="2">科目</th>
-						<th rowspan="2">倍率</th>
-						<th colspan="2" rowspan="2">通過級分</th>
-						<th rowspan="2">科目</th>
-						<th rowspan="2">倍率</th>
-						<th colspan="2" rowspan="2">通過級分</th>
-						<th rowspan="2">科目</th>
-						<th rowspan="2">倍率</th>
-						<th colspan="2" rowspan="2">通過級分</th>
-						<th rowspan="2">科目</th>
-						<th rowspan="2">倍率</th>
-						<th colspan="2" rowspan="2">通過級分</th>
-						<th rowspan="2">科目</th>
-						<th rowspan="2">倍率</th>
-						<th colspan="2" rowspan="2">通過級分</th>
-					</tr>
-					<tr>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td colspan="4">111年度</td>
-						<td colspan="2">20</td>
-						<td>英</td>
-						<td>3</td>
-						<td colspan="2">⭐⭐⭐</td>
-						<td>國</td>
-						<td>3</td>
-						<td colspan="2">⭐⭐</td>
-						<td>社會</td>
-						<td>3</td>
-						<td colspan="2">⭐</td>
-						<td>數A</td>
-						<td>3</td>
-						<td colspan="2">⭐</td>
-						<td>自</td>
-						<td>3</td>
-						<td colspan="2">⭐</td>
+							<thead>
+								<tr>
+									<th colspan="2" rowspan="2">校系名稱</th>
+									<th colspan="2" rowspan="2">校系代碼</th>
+									<th colspan="2" rowspan="4">招生名額</th>
+									<th colspan="20">篩選倍率</th>
+								</tr>
+								<tr>
+									<th colspan="4">順序一</th>
+									<th colspan="4">順序二</th>
+									<th colspan="4">順序三</th>
+									<th colspan="4">順序四</th>
+									<th colspan="4">順序五</th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2">國立台灣大學<br>電機工程學系</th>
+									<th colspan="2" rowspan="2">120458</th>
+									<th rowspan="2">科目</th>
+									<th rowspan="2">倍率</th>
+									<th colspan="2" rowspan="2">通過級分</th>
+									<th rowspan="2">科目</th>
+									<th rowspan="2">倍率</th>
+									<th colspan="2" rowspan="2">通過級分</th>
+									<th rowspan="2">科目</th>
+									<th rowspan="2">倍率</th>
+									<th colspan="2" rowspan="2">通過級分</th>
+									<th rowspan="2">科目</th>
+									<th rowspan="2">倍率</th>
+									<th colspan="2" rowspan="2">通過級分</th>
+									<th rowspan="2">科目</th>
+									<th rowspan="2">倍率</th>
+									<th colspan="2" rowspan="2">通過級分</th>
+								</tr>
+								<tr>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td colspan="4">111年度</td>
+									<td colspan="2">20</td>
+									<td>英</td>
+									<td>3</td>
+									<td colspan="2">⭐⭐⭐</td>
+									<td>國</td>
+									<td>3</td>
+									<td colspan="2">⭐⭐</td>
+									<td>社會</td>
+									<td>3</td>
+									<td colspan="2">⭐</td>
+									<td>數A</td>
+									<td>3</td>
+									<td colspan="2">⭐</td>
+									<td>自</td>
+									<td>3</td>
+									<td colspan="2">⭐</td>
 
 
-					</tr>
-					<tr>
-						<td colspan="4">110年度</td>
-						<td colspan="2">18</td>
-						<td>英</td>
-						<td>3</td>
-						<td colspan="2">15</td>
-						<td>國</td>
-						<td>3</td>
-						<td colspan="2">14</td>
-						<td>社會</td>
-						<td>3</td>
-						<td colspan="2">12</td>
-						<td>數A</td>
-						<td>3</td>
-						<td colspan="2">15</td>
-						<td>自</td>
-						<td>3</td>
-						<td colspan="2">14</td>
-					</tr>
-					<tr>
-						<td colspan="4">109年度</td>
-						<td colspan="2">20</td>
-						<td>英</td>
-						<td>3</td>
-						<td colspan="2">15</td>
-						<td>國</td>
-						<td>3</td>
-						<td colspan="2">14</td>
-						<td>社會</td>
-						<td>3</td>
-						<td colspan="2">12</td>
-						<td>數A</td>
-						<td>3</td>
-						<td colspan="2">15</td>
-						<td>自</td>
-						<td>3</td>
-						<td colspan="2">14</td>
+								</tr>
+								<tr>
+									<td colspan="4">110年度</td>
+									<td colspan="2">18</td>
+									<td>英</td>
+									<td>3</td>
+									<td colspan="2">15</td>
+									<td>國</td>
+									<td>3</td>
+									<td colspan="2">14</td>
+									<td>社會</td>
+									<td>3</td>
+									<td colspan="2">12</td>
+									<td>數A</td>
+									<td>3</td>
+									<td colspan="2">15</td>
+									<td>自</td>
+									<td>3</td>
+									<td colspan="2">14</td>
+								</tr>
+								<tr>
+									<td colspan="4">109年度</td>
+									<td colspan="2">20</td>
+									<td>英</td>
+									<td>3</td>
+									<td colspan="2">15</td>
+									<td>國</td>
+									<td>3</td>
+									<td colspan="2">14</td>
+									<td>社會</td>
+									<td>3</td>
+									<td colspan="2">12</td>
+									<td>數A</td>
+									<td>3</td>
+									<td colspan="2">15</td>
+									<td>自</td>
+									<td>3</td>
+									<td colspan="2">14</td>
 
-					</tr>
-					<tr>
-						<td colspan="4">108年度</td>
-						<td colspan="2">21</td>
-						<td>英</td>
-						<td>3</td>
-						<td colspan="2">15</td>
-						<td>國</td>
-						<td>3</td>
-						<td colspan="2">14</td>
-						<td>社會</td>
-						<td>3</td>
-						<td colspan="2">12</td>
-						<td>數A</td>
-						<td>3</td>
-						<td colspan="2">15</td>
-						<td>自</td>
-						<td>3</td>
-						<td colspan="2">14</td>
+								</tr>
+								<tr>
+									<td colspan="4">108年度</td>
+									<td colspan="2">21</td>
+									<td>英</td>
+									<td>3</td>
+									<td colspan="2">15</td>
+									<td>國</td>
+									<td>3</td>
+									<td colspan="2">14</td>
+									<td>社會</td>
+									<td>3</td>
+									<td colspan="2">12</td>
+									<td>數A</td>
+									<td>3</td>
+									<td colspan="2">15</td>
+									<td>自</td>
+									<td>3</td>
+									<td colspan="2">14</td>
 
-					</tr>
+								</tr>
 
-				</tbody>
-			</table>
-		</div><!---TO SHOW--->
+							</tbody>
+						</table>
+					</div>
+					<!---TO SHOW--->
 
-	<br>
+					<br>
 
 
 
 				</div>
-			
+
 
 				<div id="content2">
 					<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
@@ -451,12 +453,12 @@ button:focus {
 
 	<br>
 
-	
+
 	<br>
-	
+
 
 	<!-- end section -->
-	<?php include "footer.php"?>
+	<?php include "footer.php" ?>
 
 
 	<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
