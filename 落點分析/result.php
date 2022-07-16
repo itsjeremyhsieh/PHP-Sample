@@ -74,7 +74,7 @@
 		.content {
 			position: relative;
 			width: 100%;
-
+			
 			height: fit-content;
 			background-color: white;
 		}
@@ -111,6 +111,9 @@
 		button:focus {
 			border: none;
 		}
+		.button-1:hover {
+
+			}
 	</style>
 
 	<script>
@@ -240,7 +243,7 @@
 				<div id="content1">
 
 
-					<table style=" font-size: 15px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:auto">
+					<table style=" font-size: 13px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:auto">
 						<tr>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>我的最愛</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
@@ -263,7 +266,7 @@
 
 
 						<tr>
-							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>💗</td>
+							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid ;" align=center cellpadding="8" border=1><button class="button button-1" style="font-size: 20px;">🐰</button></td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學醫學系</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>50</td>
@@ -289,7 +292,7 @@
 					<div id="toShow" style="display: none;">
 						<br>
 
-						<table style="text-align:center; font-size: 15px;width:auto;margin-left: auto; margin-right: auto;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
+						<table style="text-align:center; font-size: 11px;width:auto;margin-left: auto; margin-right: auto;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
 
 							<thead>
 								<tr>
@@ -576,6 +579,16 @@
 				$this.countTo(options);
 			}
 		});
+
+
+		let btn = document.querySelector(".button-1");
+
+btn.addEventListener("mouseover", function() {
+ 	this.textContent = "🦊";
+})
+btn.addEventListener("mouseout", function() {
+ 	this.textContent = "🐰";
+})
 	</script>
 </body>
 
