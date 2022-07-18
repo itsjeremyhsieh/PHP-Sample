@@ -297,14 +297,15 @@
 									<th colspan="2" rowspan="2">校系名稱</th>
 									<th colspan="2" rowspan="2">校系代碼</th>
 									<th colspan="2" rowspan="4">招生名額</th>
-									<th colspan="20">篩選倍率</th>
+									<th colspan="20">通過倍率篩選最低級分</th>
 								</tr>
 								<tr>
-									<th colspan="4">順序一</th>
-									<th colspan="4">順序二</th>
-									<th colspan="4">順序三</th>
-									<th colspan="4">順序四</th>
-									<th colspan="4">順序五</th>
+									<th colspan="4">篩選順序一</th>
+									<th colspan="4">篩選順序二</th>
+									<th colspan="4">篩選順序三</th>
+									<th colspan="4">篩選順序四</th>
+									<th colspan="4">超額篩選</th>
+									
 								</tr>
 								<tr>
 									<th colspan="2" rowspan="2">國立台灣大學<br>電機工程學系</th>
@@ -321,9 +322,8 @@
 									<th rowspan="2">科目</th>
 									<th rowspan="2">倍率</th>
 									<th colspan="2" rowspan="2">通過級分</th>
-									<th rowspan="2">科目</th>
-									<th rowspan="2">倍率</th>
-									<th colspan="2" rowspan="2">通過級分</th>
+									<th colspan="6" rowspan="2">採計科目</th>
+									
 								</tr>
 								<tr>
 								</tr>
@@ -332,81 +332,78 @@
 								<tr>
 									<td colspan="4">111年度</td>
 									<td colspan="2">20</td>
-									<td>英</td>
-									<td>3</td>
-									<td colspan="2">⭐⭐⭐</td>
 									<td>國</td>
+									<td>4</td>
+									<td colspan="2">⭐⭐⭐</td>
+									<td>(英+國+數+自)</td>
 									<td>3</td>
 									<td colspan="2">⭐⭐</td>
-									<td>社會</td>
-									<td>3</td>
+									<td>(英+數+自)</td>
+									<td>2</td>
 									<td colspan="2">⭐</td>
-									<td>數A</td>
-									<td>3</td>
-									<td colspan="2">⭐</td>
-									<td>自</td>
-									<td>3</td>
-									<td colspan="2">⭐</td>
+									<td></td>
+									<td></td>
+									<td colspan="2"></td>
+									<td colspan="6">(英+國+數A+自)</td>
 
 
 								</tr>
 								<tr>
 									<td colspan="4">110年度</td>
 									<td colspan="2">18</td>
-									<td>英</td>
-									<td>3</td>
-									<td colspan="2">15</td>
 									<td>國</td>
+									<td>4</td>
+									<td colspan="2">13</td>
+									<td>(英+國+數+自)</td>
 									<td>3</td>
-									<td colspan="2">14</td>
-									<td>社會</td>
-									<td>3</td>
-									<td colspan="2">12</td>
-									<td>數A</td>
-									<td>3</td>
-									<td colspan="2">15</td>
-									<td>自</td>
-									<td>3</td>
-									<td colspan="2">14</td>
+									<td colspan="2">59</td>
+									<td>(英+數+自)</td>
+									<td>2</td>
+									<td colspan="2">45</td>
+									<td></td>
+									<td></td>
+									<td colspan="2"></td>
+									
+									<td colspan="6">(英+國+數A+自)</td>
+									
 								</tr>
 								<tr>
 									<td colspan="4">109年度</td>
 									<td colspan="2">20</td>
-									<td>英</td>
-									<td>3</td>
-									<td colspan="2">15</td>
 									<td>國</td>
+									<td>4</td>
+									<td colspan="2">13</td>
+									<td>(英+國+數+自)</td>
 									<td>3</td>
-									<td colspan="2">14</td>
-									<td>社會</td>
-									<td>3</td>
-									<td colspan="2">12</td>
-									<td>數A</td>
-									<td>3</td>
-									<td colspan="2">15</td>
-									<td>自</td>
-									<td>3</td>
-									<td colspan="2">14</td>
+									<td colspan="2">59</td>
+									<td>(英+數+自)</td>
+									<td>2</td>
+									<td colspan="2">45</td>
+									<td></td>
+									<td></td>
+									<td colspan="2"></td>
+									
+									<td colspan="6">(英+國+數A+自)</td>
+									
 
 								</tr>
 								<tr>
 									<td colspan="4">108年度</td>
 									<td colspan="2">21</td>
-									<td>英</td>
-									<td>3</td>
-									<td colspan="2">15</td>
 									<td>國</td>
+									<td>4</td>
+									<td colspan="2">13</td>
+									<td>(英+國+數+自)</td>
 									<td>3</td>
-									<td colspan="2">14</td>
-									<td>社會</td>
-									<td>3</td>
-									<td colspan="2">12</td>
-									<td>數A</td>
-									<td>3</td>
-									<td colspan="2">15</td>
-									<td>自</td>
-									<td>3</td>
-									<td colspan="2">14</td>
+									<td colspan="2">59</td>
+									<td>(英+數+自)</td>
+									<td>2</td>
+									<td colspan="2">45</td>
+									<td></td>
+									<td></td>
+									<td colspan="2"></td>
+									
+									<td colspan="6">(英+國+數A+自)</td>
 
 								</tr>
 
