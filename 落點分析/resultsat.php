@@ -192,12 +192,13 @@
 	<div class="container">
 		<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 			<tr>
-				<td colspan="13" align="center" bgcolor="#FFFFDF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">我的成績</span></td>
+				<td colspan="14" align="center" bgcolor="#FFFFDF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">我的成績</span></td>
 			</tr>
 			<tr>
 				<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">科目</td>
                 <td style="color: #FF3299;border: 1px solid #E3E3E3;">國文(學)</td>
                 <td style="color: #FF3299;border: 1px solid #E3E3E3;">英文(學)</td>
+                <td style="color: #FF3299;border: 1px solid #E3E3E3;">數學乙(學)</td>
 				<td style="color: #FF3299;border: 1px solid #E3E3E3;">國文</td>
 				<td style="color: #FF3299;border: 1px solid #E3E3E3;">英文</td>
                 <td style="color: #FF3299;border: 1px  solid #E3E3E3;">數甲</td>
@@ -215,6 +216,7 @@
 				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">分數</td>
                 <td style="border: 1px solid #E3E3E3;">頂標</td>
 				<td style="border: 1px solid #E3E3E3;">前標</td>
+                <td style="border: 1px solid #E3E3E3;">前標</td>
 				<td style="border: 1px solid #E3E3E3;">79</td>
 				<td style="border: 1px solid #E3E3E3;">80</td>
 				<td style="border: 1px solid #E3E3E3;">35</td>
