@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<!-- Site Metas -->
-	<title>Perfect - Responsive HTML5 Template</title>
+	<title>Mirai</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -30,13 +30,11 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-	<!--additional method - for checkbox .. ,require_from_group method ...-->
-	<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
-	<!--中文錯誤訊息-->
-	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+    <!--additional method - for checkbox .. ,require_from_group method ...-->
+    <script src="//jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
 	<style>
 		#outer {
 			background-color: #95afba;
@@ -76,12 +74,12 @@
 					email: {
 						required: true,
 					},
-					password1: {
+					password: {
 						required: true,
 					},
 					password2: {
 						required: true,
-						equalTo: "#password1"
+						equalTo: "#password"
 					},
 					gender: {
 						required: true,
@@ -103,7 +101,7 @@
 					email: {
 						required: "此為必填欄位",
 					},
-					password1: {
+					password: {
 						required: "此為必填欄位",
 					},
 					password2: {
@@ -122,7 +120,21 @@
 				}
 			});
 		});
+		function sendRequest() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    if (this.responseText == 1) document.getElementById('show_msg').innerHTML = '此帳號已存在!';
+                    else document.getElementById('show_msg').innerHTML = '';
+                }
+            };
+            
+            var url = 'checkaccount.php?p_usr=' + document.register_form.username.value + '&timeStamp=' + new Date().getTime();
+            xhttp.open('GET', url, true); //建立XMLHttpRequest連線要求
+            xhttp.send();
+        }
 	</script>
+
 	<style type="text/css">
 		.error {
 			color: #D82424;
@@ -165,28 +177,26 @@
 	<!-- section -->
 	<div class="section layout_padding contact_section" style="background:#f6f6f6;">
 		<div class="container">
-
-
-
 			<div class="col-md-auto col-lg-4  justify-content-center">
-
 				<form action="registerfunc.php" method="POST" name="register_form" id="register_form">
 					<div class="register_form">
 						<fieldset>
 							<div class=" row justify-content-center ">
-								<input type="text" placeholder="使用者名稱" name="username" />
+								<input type="text" placeholder="使用者名稱" name="username" id="username" onkeyup=sendRequest();>
+								<center><span id='show_msg' style="color:red"></span></center>
 							</div>
 							<div class=" row justify-content-center ">
-								<input type="text" placeholder="姓名" name="name" />
+								<input type="text" placeholder="姓名" name="name" id="name" />
 							</div>
 							<div class=" row justify-content-center">
-								<input type="email" placeholder="Email" name="email" />
+								<input type="email" placeholder="Email" name="email" id="email" />
+
 							</div>
 							<div class=" row justify-content-center ">
-								<input type="password" placeholder="密碼" name="password1" />
+								<input type="password" placeholder="密碼" name="password" id="password" />
 							</div>
 							<div class=" row justify-content-center ">
-								<input type="password" placeholder="確認密碼" name="password2" />
+								<input type="password" placeholder="確認密碼" name="password2" id="password2" />
 							</div>
 							<div class="row justify-content-center">
 								<select name="gender" class="dropdown" id="gender" style="width: 100%;">
