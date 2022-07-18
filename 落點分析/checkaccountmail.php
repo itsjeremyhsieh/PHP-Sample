@@ -1,10 +1,10 @@
 <?php
-$user = trim($_GET["p_usr"]);
-$mail = trim($_GET["mail"]);
+$email = trim($_GET["email"]);
+
 $link = mysqli_connect("localhost", "root", "root123456", "website_database") // 建立MySQL的資料庫連結
 or die("無法開啟MySQL資料庫連結!<br>");
 
-$sql = "SELECT * FROM member where username ='$user' "; // 指定SQL查詢字串
+$sql = "SELECT * FROM member where email ='$email' "; // 指定SQL查詢字串
 
 // 送出編碼的MySQL指令
 mysqli_query($link, 'SET CHARACTER SET utf8');

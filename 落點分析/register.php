@@ -132,7 +132,20 @@
             var url = 'checkaccount.php?p_usr=' + document.register_form.username.value + '&timeStamp=' + new Date().getTime();
             xhttp.open('GET', url, true); //建立XMLHttpRequest連線要求
             xhttp.send();
-        }
+        };
+		function sendRequest_mail() {
+            var xhttp1 = new XMLHttpRequest();
+            xhttp1.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    if (this.responseText == 1) document.getElementById('show_msg_mail').innerHTML = '此email已註冊!';
+                    else document.getElementById('show_msg_mail').innerHTML = 'email可用';
+                }
+            };
+            
+            var url1 = 'checkaccountmail.php?email=' + document.register_form.email.value + '&timeStamp=' + new Date().getTime();
+            xhttp1.open('GET', url1, true); //建立XMLHttpRequest連線要求
+            xhttp1.send();
+        };
 	</script>
 
 	<style type="text/css">
@@ -189,8 +202,8 @@
 								<input type="text" placeholder="姓名" name="name" id="name" />
 							</div>
 							<div class=" row justify-content-center">
-								<input type="email" placeholder="Email" name="email" id="email" />
-
+								<input type="text" placeholder="Email" name="email" id="email" onkeyup=sendRequest_mail();>
+								<center><span id='show_msg_mail' style="color:red"></span></center>
 							</div>
 							<div class=" row justify-content-center ">
 								<input type="password" placeholder="密碼" name="password" id="password" />
