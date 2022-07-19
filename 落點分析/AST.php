@@ -74,7 +74,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Site Metas -->
-    <title>Perfect - Responsive HTML5 Template</title>
+    <title>Mirai</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -743,25 +743,7 @@ border-radius: 0px 0px 0 0px;
                             <td>&nbsp;</td>
                             </tr>
                         </table>
-
-
-
-
-
-
-
-
         </div>
-          
-
-
-
-
-
-
-
-
-            
             <br>
             <div id="wrap"> <input type="button" value="送出" name="按鈕名稱" style="width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px;"></div>
             <br>
