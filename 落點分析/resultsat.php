@@ -160,10 +160,10 @@
 	<div class="container">
 		<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 			<tr>
-				<td colspan="6" align="center" bgcolor="#F1E1FF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">單科優勢排名</span></td>
+				<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">單科優勢排名</span></td>
 			</tr>
 			<tr>
-				<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">排名</td>
+				<td bgcolor="#FCC5CB" style="border: 1px  solid #E3E3E3;">排名</td>
 				<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
 				<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
 				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
@@ -173,7 +173,7 @@
 				<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 			</tr>
 			<tr>
-				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">科目</td>
+				<td bgcolor="#FEDDE4" style="border: 1px solid #E3E3E3;">科目</td>
 				<td style="border: 1px solid #E3E3E3;">英文</td>
 				<td style="border: 1px solid #E3E3E3;">數學乙</td>
 				<td style="border: 1px solid #E3E3E3;">國文</td>
@@ -192,10 +192,10 @@
 	<div class="container">
 		<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 			<tr>
-				<td colspan="14" align="center" bgcolor="#FFFFDF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">我的成績</span></td>
+				<td colspan="14" align="center" bgcolor="#FABB85" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">我的成績</span></td>
 			</tr>
 			<tr>
-				<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">科目</td>
+				<td bgcolor="#FDD790" style="border: 1px  solid #E3E3E3;">科目</td>
                 <td style="color: #FF3299;border: 1px solid #E3E3E3;">國文(學)</td>
                 <td style="color: #FF3299;border: 1px solid #E3E3E3;">英文(學)</td>
                 <td style="color: #FF3299;border: 1px solid #E3E3E3;">數學乙(學)</td>
@@ -213,7 +213,7 @@
 				<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 			</tr>
 			<tr>
-				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">分數</td>
+				<td bgcolor="#FDE6B4" style="border: 1px solid #E3E3E3;">分數</td>
                 <td style="border: 1px solid #E3E3E3;">頂標</td>
 				<td style="border: 1px solid #E3E3E3;">前標</td>
                 <td style="border: 1px solid #E3E3E3;">前標</td>
@@ -298,19 +298,19 @@
 
                         <thead>
   <tr>
-    <th bgcolor="#DCEBF5" colspan="2" rowspan="2">校系名稱</th>
-    <th bgcolor="#DCEBF5" colspan="2" rowspan="2">校系代碼</th>
-    <th bgcolor="#DCEBF5" rowspan="4">招生名額</th>
-    <th bgcolor="#DCEBF5" colspan="3" rowspan="4">學測採計標準</th>
-    <th bgcolor="#DCEBF5" colspan="7" rowspan="4">採計科目</th>
-    <th bgcolor="#DCEBF5" colspan="3" rowspan="4">錄取最低總分</th>
-	<th bgcolor="#DCEBF5" colspan="3" rowspan="4">換算該年總分</th>
+    <th bgcolor="#D5CCE6" colspan="2" rowspan="2">校系名稱</th>
+    <th bgcolor="#D5CCE6" colspan="2" rowspan="2">校系代碼</th>
+    <th bgcolor="#D5CCE6" rowspan="4">招生名額</th>
+    <th bgcolor="#D5CCE6" colspan="3" rowspan="4">學測採計標準</th>
+    <th bgcolor="#D5CCE6" colspan="7" rowspan="4">採計科目</th>
+    <th bgcolor="#D5CCE6" colspan="3" rowspan="4">錄取最低總分</th>
+	<th bgcolor="#D5CCE6" colspan="3" rowspan="4">換算該年總分</th>
   </tr>
   <tr>
   </tr>
   <tr>
-    <th bgcolor="#DCEBF5" colspan="2" rowspan="2">國立台灣大學<br>醫學系</th>
-    <th bgcolor="#DCEBF5" colspan="2" rowspan="2">010292</th>
+    <th bgcolor="#D5CCE6" colspan="2" rowspan="2">國立台灣大學<br>醫學系</th>
+    <th bgcolor="#D5CCE6" colspan="2" rowspan="2">010292</th>
   </tr>
   <tr>
   </tr>
@@ -318,7 +318,7 @@
 <tbody>
   
   <tr>
-    <td bgcolor="#FFFFDF" colspan="4">110年度</td>
+    <td bgcolor="#B9DBE6" colspan="4">110年度</td>
     <td>50</td>
     <td colspan="3">國[頂標]</td>
     <td colspan="7">英[1]，數甲[1]，物[1]，化[1]，生[1]</td>
@@ -326,7 +326,7 @@
 	<td colspan="3">400.95</td>
   </tr>
   <tr>
-    <td bgcolor="#FFFFDF" colspan="4">109年度</td>
+    <td bgcolor="#B9DBE6" colspan="4">109年度</td>
     <td>50</td>
     <td colspan="3">國[頂標]</td>
     <td colspan="7">英[1]，數甲[1]，物[1]，化[1]，生[1]</td>
@@ -334,7 +334,7 @@
 	<td colspan="3">405.85</td>
   </tr>
   <tr>
-    <td bgcolor="#FFFFDF" colspan="4">108年度</td>
+    <td bgcolor="#B9DBE6" colspan="4">108年度</td>
     <td>50</td>
     <td colspan="3">國[頂標]</td>
     <td colspan="7">英[1]，數甲[1]，物[1]，化[1]，生[1]</td>
