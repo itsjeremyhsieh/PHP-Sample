@@ -191,37 +191,60 @@
 
 	<div class="container">
 		<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-			<tr>
-				<td colspan="7" align="center" bgcolor="#FFFFDF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">換算去年級分</span></td>
+		<tr>
+				<td colspan="7" align="center" bgcolor="#FFFFDF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">我的成績</span></td>
 			</tr>
 			<tr>
-				<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">科目</td>
+                <td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">科目</td>
 				<td style="color: #FF3299;border: 1px solid #E3E3E3;">國文</td>
 				<td style="color: #FF3299;border: 1px solid #E3E3E3;">英文</td>
 				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">數A</td>
 				<td style="color: #FF3299;border: 1px solid #E3E3E3;">數B</td>
 				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">自然</td>
 				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">社會</td>
-
+				
 				<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 			</tr>
 			<tr>
-				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">110年度</td>
-				<td style="border: 1px solid #E3E3E3;">15</td>
+				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">級分</td>
+                <td style="border: 1px solid #E3E3E3;">15</td>
 				<td style="border: 1px solid #E3E3E3;">14</td>
 				<td style="border: 1px solid #E3E3E3;">13</td>
 				<td style="border: 1px solid #E3E3E3;">14</td>
 				<td style="border: 1px solid #E3E3E3;">12</td>
 				<td style="border: 1px solid #E3E3E3;">12</td>
 			</tr>
+			
 			<tr>
-				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">109年度</td>
-				<td style="border: 1px solid #E3E3E3;">13</td>
-				<td style="border: 1px solid #E3E3E3;">14</td>
-				<td style="border: 1px solid #E3E3E3;">12</td>
+				<td colspan="7" align="center" bgcolor="#E7F6DA" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">換算歷年級分</span></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor="#E5FCF5" style="border: 1px solid #E3E3E3;">110年度</td>
 				<td style="border: 1px solid #E3E3E3;">15</td>
-				<td style="border: 1px solid #E3E3E3;">11</td>
-				<td style="border: 1px solid #E3E3E3;">12</td>
+				<td style="border: 1px solid #E3E3E3;">14.2</td>
+				<td style="border: 1px solid #E3E3E3;">13.1</td>
+				<td style="border: 1px solid #E3E3E3;">14</td>
+				<td style="border: 1px solid #E3E3E3;">12.5</td>
+				<td style="border: 1px solid #E3E3E3;">12.7</td>
+			</tr>
+			<tr>
+				<td bgcolor="#E5FCF5" style="border: 1px solid #E3E3E3;">109年度</td>
+				<td style="border: 1px solid #E3E3E3;">13.1</td>
+				<td style="border: 1px solid #E3E3E3;">14.3</td>
+				<td style="border: 1px solid #E3E3E3;">12.2</td>
+				<td style="border: 1px solid #E3E3E3;">15</td>
+				<td style="border: 1px solid #E3E3E3;">11.5</td>
+				<td style="border: 1px solid #E3E3E3;">12.1</td>
+			</tr>
+			<tr>
+				<td bgcolor="#E5FCF5" style="border: 1px solid #E3E3E3;">108年度</td>
+				<td style="border: 1px solid #E3E3E3;">13.1</td>
+				<td style="border: 1px solid #E3E3E3;">14.3</td>
+				<td style="border: 1px solid #E3E3E3;">12.2</td>
+				<td style="border: 1px solid #E3E3E3;">15</td>
+				<td style="border: 1px solid #E3E3E3;">11.5</td>
+				<td style="border: 1px solid #E3E3E3;">12.1</td>
 			</tr>
 		</table>
 

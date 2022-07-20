@@ -304,6 +304,7 @@
     <th colspan="3" rowspan="4">學測採計標準</th>
     <th colspan="7" rowspan="4">採計科目</th>
     <th colspan="3" rowspan="4">錄取最低總分</th>
+	<th colspan="3" rowspan="4">換算該年總分</th>
   </tr>
   <tr>
   </tr>
@@ -315,19 +316,14 @@
   </tr>
 </thead>
 <tbody>
+  
   <tr>
-    <td colspan="4">111年度</td>
-    <td>50</td>
-    <td colspan="3">國[頂標]</td>
-    <td colspan="7">英[1]，數甲[1]，物[1]，化[1]，生[1]</td>
-    <td colspan="3">⭐⭐</td>
-  </tr>
-  <tr>
-    <td colspan="4">100年度</td>
+    <td colspan="4">110年度</td>
     <td>50</td>
     <td colspan="3">國[頂標]</td>
     <td colspan="7">英[1]，數甲[1]，物[1]，化[1]，生[1]</td>
     <td colspan="3">415.95</td>
+	<td colspan="3">400.95</td>
   </tr>
   <tr>
     <td colspan="4">109年度</td>
@@ -335,6 +331,7 @@
     <td colspan="3">國[頂標]</td>
     <td colspan="7">英[1]，數甲[1]，物[1]，化[1]，生[1]</td>
     <td colspan="3">415.95</td>
+	<td colspan="3">405.85</td>
   </tr>
   <tr>
     <td colspan="4">108年度</td>
@@ -342,6 +339,7 @@
     <td colspan="3">國[頂標]</td>
     <td colspan="7">英[1]，數甲[1]，物[1]，化[1]，生[1]</td>
     <td colspan="3">415.95</td>
+	<td colspan="3">410.25</td>
   </tr>
 </tbody>
 </table>
