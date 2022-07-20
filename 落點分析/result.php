@@ -297,14 +297,14 @@
 									<th colspan="2" rowspan="2">校系名稱</th>
 									<th colspan="2" rowspan="2">校系代碼</th>
 									<th colspan="2" rowspan="4">招生名額</th>
-									<th colspan="20">通過倍率篩選最低級分</th>
+									<th colspan="24">通過倍率篩選最低級分</th>
 								</tr>
 								<tr>
 									<th colspan="4">篩選順序一</th>
 									<th colspan="4">篩選順序二</th>
 									<th colspan="4">篩選順序三</th>
 									<th colspan="4">篩選順序四</th>
-									<th colspan="4">超額篩選</th>
+									
 									
 								</tr>
 								<tr>
@@ -312,59 +312,48 @@
 									<th colspan="2" rowspan="2">120458</th>
 									<th rowspan="2">科目</th>
 									<th rowspan="2">倍率</th>
-									<th colspan="2" rowspan="2">通過級分</th>
+									<th rowspan="2">通過級分</th>
+									<th colspan="1" rowspan="2">換算該年級分</th>
 									<th rowspan="2">科目</th>
 									<th rowspan="2">倍率</th>
-									<th colspan="2" rowspan="2">通過級分</th>
+									<th rowspan="2">通過級分</th>
+									<th colspan="1" rowspan="2">換算該年級分</th>
 									<th rowspan="2">科目</th>
 									<th rowspan="2">倍率</th>
-									<th colspan="2" rowspan="2">通過級分</th>
+									<th rowspan="2">通過級分</th>
+									<th colspan="1" rowspan="2">換算該年級分</th>
 									<th rowspan="2">科目</th>
 									<th rowspan="2">倍率</th>
-									<th colspan="2" rowspan="2">通過級分</th>
-									<th colspan="6" rowspan="2">採計科目</th>
+									<th rowspan="2">通過級分</th>
+									<th colspan="1" rowspan="2">換算該年級分</th>
+									
 									
 								</tr>
 								<tr>
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td colspan="4">111年度</td>
-									<td colspan="2">20</td>
-									<td>國</td>
-									<td>4</td>
-									<td colspan="2">⭐⭐⭐</td>
-									<td>(英+國+數+自)</td>
-									<td>3</td>
-									<td colspan="2">⭐⭐</td>
-									<td>(英+數+自)</td>
-									<td>2</td>
-									<td colspan="2">⭐</td>
-									<td></td>
-									<td></td>
-									<td colspan="2"></td>
-									<td colspan="6">(英+國+數A+自)</td>
-
-
-								</tr>
+								
 								<tr>
 									<td colspan="4">110年度</td>
 									<td colspan="2">18</td>
 									<td>國</td>
 									<td>4</td>
-									<td colspan="2">13</td>
+									<td>13</td>
+									<td colspan="1">13</td>
 									<td>(英+國+數+自)</td>
 									<td>3</td>
-									<td colspan="2">59</td>
+									<td>59</td>
+									<td colspan="1">59</td>
 									<td>(英+數+自)</td>
 									<td>2</td>
-									<td colspan="2">45</td>
+									<td >45</td>
+									<td colspan="1">45</td>
 									<td></td>
 									<td></td>
-									<td colspan="2"></td>
+									<td></td>
+									<td colspan="1"></td>
 									
-									<td colspan="6">(英+國+數A+自)</td>
 									
 								</tr>
 								<tr>
@@ -372,18 +361,22 @@
 									<td colspan="2">20</td>
 									<td>國</td>
 									<td>4</td>
-									<td colspan="2">13</td>
+									<td>13</td>
+									<td >13</td>
 									<td>(英+國+數+自)</td>
 									<td>3</td>
-									<td colspan="2">59</td>
+									<td>59</td>
+									<td>59</td>
 									<td>(英+數+自)</td>
 									<td>2</td>
-									<td colspan="2">45</td>
+									<td>45</td>
+									<td>45</td>
 									<td></td>
 									<td></td>
-									<td colspan="2"></td>
+									<td></td>
+									<td></td>
 									
-									<td colspan="6">(英+國+數A+自)</td>
+									
 									
 
 								</tr>
@@ -392,18 +385,22 @@
 									<td colspan="2">21</td>
 									<td>國</td>
 									<td>4</td>
-									<td colspan="2">13</td>
+									<td>13</td>
+									<td colspan="1">13</td>
 									<td>(英+國+數+自)</td>
 									<td>3</td>
-									<td colspan="2">59</td>
+									<td>59</td>
+									<td colspan="1">59</td>
 									<td>(英+數+自)</td>
 									<td>2</td>
-									<td colspan="2">45</td>
+									<td>45</td>
+									<td colspan="1">45</td>
 									<td></td>
 									<td></td>
-									<td colspan="2"></td>
+									<td></td>
+									<td colspan="1"></td>
 									
-									<td colspan="6">(英+國+數A+自)</td>
+									
 
 								</tr>
 
