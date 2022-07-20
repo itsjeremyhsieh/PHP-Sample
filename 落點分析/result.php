@@ -164,11 +164,11 @@
 			</tr>
 			<tr>
 				<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">排名</td>
-				<td style="color: #FF3299;border: 1px solid #E3E3E3;">1</td>
-				<td style="color: #FF3299;border: 1px solid #E3E3E3;">2</td>
-				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">3</td>
-				<td style="color: #FF3299;border: 1px solid #E3E3E3;">4</td>
-				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">5</td>
+				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">1</td>
+				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">2</td>
+				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">3</td>
+				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">4</td>
+				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">5</td>
 
 				<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 			</tr>
@@ -196,12 +196,12 @@
 			</tr>
 			<tr>
                 <td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">科目</td>
-				<td style="color: #FF3299;border: 1px solid #E3E3E3;">國文</td>
-				<td style="color: #FF3299;border: 1px solid #E3E3E3;">英文</td>
-				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">數A</td>
-				<td style="color: #FF3299;border: 1px solid #E3E3E3;">數B</td>
-				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">自然</td>
-				<td style="color: #FF3299;border: 1px  solid #E3E3E3;">社會</td>
+				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">國文</td>
+				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">英文</td>
+				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">數A</td>
+				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">數B</td>
+				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">自然</td>
+				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">社會</td>
 				
 				<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 			</tr>
@@ -313,42 +313,42 @@
 					<div id="toShow" style="display: none;">
 						<br>
 
-						<table style="text-align:center; font-size: 11px;width:auto;margin-left: auto; margin-right: auto;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
+						<table bgcolor="#FCFCFD" style="text-align:center; font-size: 11px;width:auto;margin-left: auto; margin-right: auto;line-height:normal;border:2px #D4D4D4 solid;" align=center cellpadding="10" border=1>
 
 							<thead>
 								<tr>
-									<th colspan="2" rowspan="2">校系名稱</th>
-									<th colspan="2" rowspan="2">校系代碼</th>
-									<th colspan="2" rowspan="4">招生名額</th>
-									<th colspan="24">通過倍率篩選最低級分</th>
+									<th bgcolor="#F1EEFB" colspan="2" rowspan="2">校系名稱</th>
+									<th bgcolor="#F1EEFB" colspan="2" rowspan="2">校系代碼</th>
+									<th bgcolor="#F1EEFB" colspan="2" rowspan="4">招生名額</th>
+									<th  bgcolor="#F1EEFB" colspan="24">通過倍率篩選最低級分</th>
 								</tr>
 								<tr>
-									<th colspan="4">篩選順序一</th>
-									<th colspan="4">篩選順序二</th>
-									<th colspan="4">篩選順序三</th>
-									<th colspan="4">篩選順序四</th>
+									<th  bgcolor="#F1EEFB"colspan="4">篩選順序一</th>
+									<th bgcolor="#F1EEFB"colspan="4">篩選順序二</th>
+									<th bgcolor="#F1EEFB"colspan="4">篩選順序三</th>
+									<th bgcolor="#F1EEFB"colspan="4">篩選順序四</th>
 									
 									
 								</tr>
 								<tr>
-									<th colspan="2" rowspan="2">國立台灣大學<br>電機工程學系</th>
-									<th colspan="2" rowspan="2">120458</th>
-									<th rowspan="2">科目</th>
-									<th rowspan="2">倍率</th>
-									<th rowspan="2">通過級分</th>
-									<th colspan="1" rowspan="2">換算該年級分</th>
-									<th rowspan="2">科目</th>
-									<th rowspan="2">倍率</th>
-									<th rowspan="2">通過級分</th>
-									<th colspan="1" rowspan="2">換算該年級分</th>
-									<th rowspan="2">科目</th>
-									<th rowspan="2">倍率</th>
-									<th rowspan="2">通過級分</th>
-									<th colspan="1" rowspan="2">換算該年級分</th>
-									<th rowspan="2">科目</th>
-									<th rowspan="2">倍率</th>
-									<th rowspan="2">通過級分</th>
-									<th colspan="1" rowspan="2">換算該年級分</th>
+									<th bgcolor="#F1EEFB" colspan="2" rowspan="2">國立台灣大學<br>電機工程學系</th>
+									<th bgcolor="#F1EEFB" colspan="2" rowspan="2">120458</th>
+									<th bgcolor="#F1EEFB" rowspan="2">科目</th>
+									<th bgcolor="#F1EEFB" rowspan="2">倍率</th>
+									<th bgcolor="#F1EEFB" rowspan="2">通過級分</th>
+									<th bgcolor="#F1EEFB" colspan="1" rowspan="2">換算該年級分</th>
+									<th bgcolor="#F1EEFB" rowspan="2">科目</th>
+									<th bgcolor="#F1EEFB" rowspan="2">倍率</th>
+									<th bgcolor="#F1EEFB" rowspan="2">通過級分</th>
+									<th bgcolor="#F1EEFB" colspan="1" rowspan="2">換算該年級分</th>
+									<th bgcolor="#F1EEFB" rowspan="2">科目</th>
+									<th bgcolor="#F1EEFB" rowspan="2">倍率</th>
+									<th bgcolor="#F1EEFB" rowspan="2">通過級分</th>
+									<th bgcolor="#F1EEFB" colspan="1" rowspan="2">換算該年級分</th>
+									<th bgcolor="#F1EEFB" rowspan="2">科目</th>
+									<th bgcolor="#F1EEFB" rowspan="2">倍率</th>
+									<th bgcolor="#F1EEFB" rowspan="2">通過級分</th>
+									<th bgcolor="#F1EEFB" colspan="1" rowspan="2">換算該年級分</th>
 									
 									
 								</tr>
@@ -358,20 +358,20 @@
 							<tbody>
 								
 								<tr>
-									<td colspan="4">110年度</td>
+									<td bgcolor="d7e4fe" colspan="4">110年度</td>
 									<td colspan="2">18</td>
 									<td>國</td>
 									<td>4</td>
 									<td>13</td>
-									<td colspan="1">13</td>
+									<td style="color:#ff46a3;" colspan="1">13</td>
 									<td>(英+國+數+自)</td>
 									<td>3</td>
 									<td>59</td>
-									<td colspan="1">59</td>
+									<td style="color:#ff46a3;" colspan="1">59</td>
 									<td>(英+數+自)</td>
 									<td>2</td>
 									<td >45</td>
-									<td colspan="1">45</td>
+									<td style="color:#ff46a3;" colspan="1">45</td>
 									<td></td>
 									<td></td>
 									<td></td>
@@ -380,20 +380,20 @@
 									
 								</tr>
 								<tr>
-									<td colspan="4">109年度</td>
+									<td bgcolor="d7e4fe" colspan="4">109年度</td>
 									<td colspan="2">20</td>
 									<td>國</td>
 									<td>4</td>
 									<td>13</td>
-									<td >13</td>
+									<td style="color:#ff46a3;">13</td>
 									<td>(英+國+數+自)</td>
 									<td>3</td>
 									<td>59</td>
-									<td>59</td>
+									<td style="color:#ff46a3;">59</td>
 									<td>(英+數+自)</td>
 									<td>2</td>
 									<td>45</td>
-									<td>45</td>
+									<td style="color:#ff46a3;">45</td>
 									<td></td>
 									<td></td>
 									<td></td>
@@ -404,24 +404,24 @@
 
 								</tr>
 								<tr>
-									<td colspan="4">108年度</td>
+									<td bgcolor="d7e4fe" colspan="4">108年度</td>
 									<td colspan="2">21</td>
 									<td>國</td>
 									<td>4</td>
 									<td>13</td>
-									<td colspan="1">13</td>
+									<td style="color:#ff46a3;" colspan="1">13</td>
 									<td>(英+國+數+自)</td>
 									<td>3</td>
 									<td>59</td>
-									<td colspan="1">59</td>
+									<td style="color:#ff46a3;" colspan="1">59</td>
 									<td>(英+數+自)</td>
 									<td>2</td>
 									<td>45</td>
-									<td colspan="1">45</td>
+									<td style="color:#ff46a3;" colspan="1">45</td>
 									<td></td>
 									<td></td>
 									<td></td>
-									<td colspan="1"></td>
+									<td style="color:#ff46a3;" colspan="1"></td>
 									
 									
 
