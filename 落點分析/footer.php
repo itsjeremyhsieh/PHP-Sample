@@ -45,7 +45,7 @@
 
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
 					<div class="footer_blog full white_fonts">
-						<h3>Contact us</h3>
+						<h3>聯絡我們</h3>
 						<ul class="full">
 							<li><img src="images/i5.png"><span>500彰化縣彰化市進德路1號<br>寶山校區</span></li>
 							<li><img src="images/i6.png"><span>csie@cc2.ncue.edu.tw</span></li>
