@@ -2,12 +2,9 @@
 session_start();
 
 
-$db_host        = 'locahost';
-$db_user        = 'root';
-$db_pass        = 'root123456';
-$db_database    = 'website_database'; 
 
-$link = mysqli_connect('localhost', 'root', 'root123456', 'website_database') 
+
+$link = mysqli_connect('120.107.172.131', 'admin', 'NCUEcsie!@', 'website_database') 
 or die("無法開啟MySQL資料庫連結!<br>");
 $sql = "select * from member";
 // 送出編碼的MySQL指令

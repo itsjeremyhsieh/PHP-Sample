@@ -20,7 +20,7 @@
 					<div class="footer_blog footer_menu white_fonts">
 						<h3>快速連結</h3>
 						<ul>
-							<li><a href="#">> Home</a></li>
+							<li><a href="#">> 首頁</a></li>
 							<li><a href="#">> 學測</a></li>
 							<li><a href="#">> 分科測驗</a></li>
 							<li><a href="#">> 會員註冊</a></li>
