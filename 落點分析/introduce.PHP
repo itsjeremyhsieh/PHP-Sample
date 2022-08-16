@@ -63,6 +63,13 @@
 			justify-content: center;
 			align-items: center;
 		}
+		.box1{
+			width:200%;
+			padding: 10px;
+			border: 1px  gray;
+			box-shadow:3px 3px 9px gray;
+			align-items: center;
+		}
 		
 	</style>
 
@@ -198,12 +205,13 @@
 	</section>
 
 	<!-- end section -->
-
+<br>
 	<!-- section -->
 	<div class="container">
+	<div class="box1">
+	<h1>學校基本資料</h1>
 	
-	
-<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:120% ">
+<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:100%; ">
 <thead>
   <tr>
     <th bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
@@ -241,10 +249,11 @@
   </tr>
 </tbody>
 </table>
-	
+	</div>
 	</div>
 
 	<!-- end section -->
+	<br>
 	<?php include "footer.php" ?>
 
 	<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
