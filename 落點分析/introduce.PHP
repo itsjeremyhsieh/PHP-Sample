@@ -79,6 +79,23 @@
 			border-radius: 10px 10px 10px 10px;
 			
 		}
+		.label{
+			width:10%;
+			padding: 0px;
+			border: 1px  gray;
+			box-shadow:3px 3px 9px gray;
+			align-items: center;
+
+
+		}
+		p{
+			width:100%;
+			background-color: #95afba;
+			height:120%;
+			font-size: 21px;
+			text-align: center;
+		}
+		
 		.hr {
             
             
@@ -267,7 +284,7 @@
 <table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:100%; ">
 <thead>
   <tr>
-    <th bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
+    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
     <th style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">1930年</th>
   </tr>
 </thead>
@@ -282,7 +299,8 @@
   </tr>
   <tr>
     <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">新生住宿</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20"></td>
+    <td style="font-weight:700; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20"><div class="label"><p>男</p><p>561</p>
+	</div> </td>
   </tr>
   <tr>
     <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">院系所及社團數</td>
