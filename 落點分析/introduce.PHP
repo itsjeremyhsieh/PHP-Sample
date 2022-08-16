@@ -70,7 +70,22 @@
 			box-shadow:3px 3px 9px gray;
 			align-items: center;
 		}
-		
+		.box2{
+			
+			padding: 10px;
+			border: 1px  gray;
+			box-shadow:3px 3px 9px gray;
+			height:200px;
+			border-radius: 10px 10px 10px 10px;
+			
+		}
+		.hr {
+            
+            
+            width: 100%;
+
+            border-top: 3px solid gray;
+        }
 	</style>
 
 	<script>
@@ -209,6 +224,44 @@
 	<!-- section -->
 	<div class="container">
 	<div class="box1">
+	<br>
+	
+
+
+	<h1 >🏫 國立彰化師範大學</h1>
+	<hr class="hr">
+	
+	<div class="row">
+	<div class="col-md-6 col-lg-4 col-xl-3">
+	<div>
+	<div style="text-align:center;">學費</div>
+	<div class="box2" style="text-align:center;">
+	<div style="font-size:70px;">💵</div>
+	<div style="font-size:20px;">$20000</div>
+	</div>
+	</div>
+	<div>
+	<div style="text-align:center;">師生比</div>
+	<div class="box2" style="position:relative;text-align:center;">
+	<div style="font-size:70px;">👩🏻‍🏫</div>
+	<div style="font-size:20px;">1:6</div>
+	</div>
+	</div>
+	<div>
+	<div style="text-align:center;">註冊率</div>
+	<div class="box2" style="position:relative;text-align:center;">
+	<div style="font-size:70px;">📋</div>
+	<div style="font-size:20px;">98%</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+   
+	
+	
+    
+    <br>
 	<h1>學校基本資料</h1>
 	
 <table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:100%; ">
@@ -233,7 +286,20 @@
   </tr>
   <tr>
     <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">院系所及社團數</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20"></td>
+    <td style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;" >
+    <thead>
+	<tr>
+	<th bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="2"> 男 </th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td colspan="2" > 123人 </td>		
+	</tr>
+	</tbody>
+	</table>
+    </td>
   </tr>
   <tr>
     <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校網址</td>
