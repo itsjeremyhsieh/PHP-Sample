@@ -105,110 +105,9 @@
         }
 	</style>
 
-	<script>
-		$(document).ready(function($) {
-			$.validator.addMethod("notEqualsto", function(value, element, arg) {
-				return arg != value;
-			}, "您尚未選擇!");
+	
 
-			$("#register_form").validate({
-				submitHandler: function(form) {
-					form.submit();
-				},
-				rules: {
-					username: {
-						required: true,
-					},
-					name: {
-						required: true,
-					},
-					email: {
-						required: true,
-					},
-					password: {
-						required: true,
-					},
-					password2: {
-						required: true,
-						equalTo: "#password"
-					},
-					gender: {
-						required: true,
-					},
-					phone: {
-						required: true,
-					},
-					testyear: {
-						required: true,
-					},
-				},
-				messages: {
-					username: {
-						required: "此為必填欄位",
-					},
-					name: {
-						required: "此為必填欄位",
-					},
-					email: {
-						required: "此為必填欄位",
-					},
-					password: {
-						required: "此為必填欄位",
-					},
-					password2: {
-						required: "此為必填欄位",
-						equalTo: "兩次密碼不相符",
-					},
-					gender: {
-						required: "此為必填欄位",
-					},
-					phone: {
-						required: "此為必填欄位",
-					},
-					testyear: {
-						required: "此為必填欄位",
-					},
-				}
-			});
-		});
-		function sendRequest() {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    if (this.responseText == 1) document.getElementById('show_msg').innerHTML = '此帳號已存在!';
-                    else document.getElementById('show_msg').innerHTML = '';
-                }
-            };
-            
-            var url = 'checkaccount.php?p_usr=' + document.register_form.username.value + '&timeStamp=' + new Date().getTime();
-            xhttp.open('GET', url, true); //建立XMLHttpRequest連線要求
-            xhttp.send();
-        };
-		function sendRequest_mail() {
-            var xhttp1 = new XMLHttpRequest();
-            xhttp1.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    if (this.responseText == 1) document.getElementById('show_msg_mail').innerHTML = '此email已註冊!';
-                    else document.getElementById('show_msg_mail').innerHTML = 'email可用';
-                }
-            };
-            
-            var url1 = 'checkaccountmail.php?email=' + document.register_form.email.value + '&timeStamp=' + new Date().getTime();
-            xhttp1.open('GET', url1, true); //建立XMLHttpRequest連線要求
-            xhttp1.send();
-        };
-	</script>
-
-	<style type="text/css">
-		.error {
-			color: #D82424;
-			font-weight: normal;
-			font-family: "微軟正黑體";
-			display: inline;
-			padding: 1px;
-		}
-	</style>
-</head>
+	
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
@@ -245,31 +144,30 @@
 	
 
 
-	<h1 >🏫 國立彰化師範大學</h1>
+	<h1 > 🏫 國立彰化師範大學  資訊工程學系</h1>
 	<hr class="hr">
 	
 	<div class="row">
 	<div class="col-md-6 col-lg-4 col-xl-3">
-	<div>
+	
 	<div style="text-align:center;">學費</div>
 	<div class="box2" style="text-align:center;">
 	<div style="font-size:70px;">💵</div>
 	<div style="font-size:20px;">$20000</div>
 	</div>
-	</div>
-	<div>
+	
 	<div style="text-align:center;">師生比</div>
 	<div class="box2" style="position:relative;text-align:center;">
 	<div style="font-size:70px;">👩🏻‍🏫</div>
 	<div style="font-size:20px;">1:6</div>
 	</div>
-	</div>
-	<div>
+	
+	
 	<div style="text-align:center;">註冊率</div>
 	<div class="box2" style="position:relative;text-align:center;">
 	<div style="font-size:70px;">📋</div>
 	<div style="font-size:20px;">98%</div>
-	</div>
+	
 	</div>
 	</div>
 	</div>
@@ -284,57 +182,129 @@
 <table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:100%; ">
 <thead>
   <tr>
-    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
-    <th style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">1930年</th>
+    <td bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
+    <th style="font-weight:500; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">1930年</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">全校學生人數</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">19250</td>
+    <td bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">全校學生人數</td>
+    <td style="font-weight:500; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">19250</td>
   </tr>
   <tr>
-    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">科系學生人數</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">256</td>
+    <td bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">科系學生人數</td>
+    <td style="font-weight:500; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">256</td>
   </tr>
   <tr>
-    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">新生住宿</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20"><div class="label"><p>男</p><p>561</p>
-	</div> </td>
-  </tr>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">院系所及社團數</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;" >
-    <thead>
-	<tr>
-	<th bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="2"> 男 </th>
-	</tr>
+    <td bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">新生住宿</td>
+    <td style="font-weight:500; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">
+
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
+	<thead>
+  	<tr>
+    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 男 </td>
+    <td colspan="2">123人</td>
+  	</tr>
 	</thead>
-	<tbody>
-	<tr>
-	<td colspan="2" > 123人 </td>		
-	</tr>
-	</tbody>
 	</table>
+
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
+	<thead>
+  	<tr>
+    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 女 </td>
+    <td colspan="2">256人</td>
+  	</tr>
+	</thead>
+	</table>
+
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
+	<thead>
+  	<tr>
+    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 新生住宿比率 </td>
+    <td colspan="2">98.5%</td>
+  	</tr>
+	</thead>
+	</table>
+
+
+
+
+
+	</td>
+  </tr>
+  <tr>
+    <td bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">院系所及社團數</td>
+    <td style="font-weight:500; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">
+	
+
+
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
+	<thead>
+  	<tr>
+    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 學院 </td>
+    <td colspan="2">13</td>
+  	</tr>
+	</thead>
+	</table>
+
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
+	<thead>
+  	<tr>
+    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 科系 </td>
+    <td colspan="2">8</td>
+  	</tr>
+	</thead>
+	</table>
+
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
+	<thead>
+  	<tr>
+    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 研究所 </td>
+    <td colspan="2">78</td>
+  	</tr>
+	</thead>
+	</table>
+
+	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
+	<thead>
+  	<tr>
+    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 社團數 </td>
+    <td colspan="2">30</td>
+  	</tr>
+	</thead>
+	</table>
+
+
+
+
+
+	
+
+
+
+
+
+
+
     </td>
   </tr>
   <tr>
-    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校網址</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;" cellpadding="8" border=1colspan="20"> csie@cc2.ncue.edu.tw</td>
+    <td bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校網址</td>
+    <td style="font-weight:500; border:1px #D4D4D4 solid;" cellpadding="8" border=1colspan="20"> csie@cc2.ncue.edu.tw</td>
   </tr>
   <tr>
-    <td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校電話</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20"> 04-7232105</td>
+    <td bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校電話</td>
+    <td style="font-weight:500; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20"> 04-7232105</td>
   </tr>
   <tr>
-    <td  bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校地址</td>
-    <td style="font-weight:700; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20"> 彰化縣彰化市進德路1號寶山校區</td>
+    <td  bgcolor=#DFFFDF style="font-weight:500; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校地址</td>
+    <td style="font-weight:500; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20"> 彰化縣彰化市進德路1號寶山校區</td>
   </tr>
 </tbody>
 </table>
 	</div>
 	</div>
+
 
 	<!-- end section -->
 	<br>
