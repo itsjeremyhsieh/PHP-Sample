@@ -88,13 +88,7 @@
 
 
 		}
-		p{
-			width:100%;
-			background-color: #95afba;
-			height:120%;
-			font-size: 21px;
-			text-align: center;
-		}
+		
 		
 		.hr {
             
