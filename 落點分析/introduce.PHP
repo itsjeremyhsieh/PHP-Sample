@@ -132,6 +132,8 @@
 	<!-- end section -->
 <br>
 	<!-- section -->
+	<div style="position:relative;left:21%">首頁/國立彰化師範大學/資訊工程學系</div>
+	<br>
 	<div class="container">
 	<div class="box1">
 	<br>
