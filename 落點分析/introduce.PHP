@@ -32,20 +32,20 @@
 
 	<!-- bootstrap core css -->
 	<link rel="stylesheet" type="text/css" href="css1/bootstrap.css" />
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<!-- slider stylesheet -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
 
-  <!-- Custom styles for this template -->
-  <link href="css1/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css1/responsive.css" rel="stylesheet" />
+	<!-- Custom styles for this template -->
+	<link href="css1/style.css" rel="stylesheet" />
+	<!-- responsive style -->
+	<link href="css1/responsive.css" rel="stylesheet" />
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-    <!--additional method - for checkbox .. ,require_from_group method ...-->
-    <script src="//jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
-    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	<!--additional method - for checkbox .. ,require_from_group method ...-->
+	<script src="//jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
 	<style>
 		#outer {
 			background-color: #95afba;
@@ -63,45 +63,55 @@
 			justify-content: center;
 			align-items: center;
 		}
-		.box1{
-			width:200%;
+
+		.box1 {
+			width: 200%;
 			padding: 10px;
-			border: 1px  gray;
-			box-shadow:3px 3px 9px gray;
+			border: 1px gray;
+			box-shadow: 3px 3px 9px gray;
 			align-items: center;
 		}
-		.box2{
-			
+
+		.box2 {
+
 			padding: 10px;
-			border: 1px  gray;
-			box-shadow:3px 3px 9px gray;
-			height:200px;
+			border: 1px gray;
+			box-shadow: 3px 3px 9px gray;
+			height: 200px;
 			border-radius: 10px 10px 10px 10px;
-			
+
 		}
-		.label{
-			width:10%;
+
+		.label {
+			width: 10%;
 			padding: 0px;
-			border: 1px  gray;
-			box-shadow:3px 3px 9px gray;
+			border: 1px gray;
+			box-shadow: 3px 3px 9px gray;
 			align-items: center;
 
 
 		}
-		
-		
-		.hr {
-            
-            
-            width: 100%;
 
-            border-top: 3px solid gray;
-        }
+
+		.hr {
+
+
+			width: 100%;
+
+			border-top: 3px solid gray;
+		}
+
+
+		.column {
+			align-items: center;
+
+			width: 30%;
+		}
 	</style>
 
-	
 
-	
+
+
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
@@ -130,178 +140,167 @@
 	</section>
 
 	<!-- end section -->
-<br>
+	<br>
 	<!-- section -->
 	<div style="position:relative;left:21%">首頁/國立彰化師範大學/資訊工程學系</div>
 	<br>
 	<div class="container">
-	<div class="box1">
-	<br>
-	
+		<div class="box1">
+			<br>
 
-	<div class="col-xs-12">
-	<h1 > 🏫 國立彰化師範大學  資訊工程學系</h1>
-	<hr class="hr">
-	
-	<div class="row">
-	<div class="col-md-6 col-lg-4 col-xl-3">
-	<div >
-	<div style="text-align:center;">學費</div>
-	<div class="box2" style="text-align:center;">
-	<div style="font-size:70px;">💵</div>
-	<div style="font-size:20px;">$20000</div>
-	</div>
-	</div>
-	<div >
-	<div style="text-align:center;">師生比</div>
-	<div class="box2" style="position:relative;text-align:center;">
-	<div style="font-size:70px;">👩🏻‍🏫</div>
-	<div style="font-size:20px;">1:6</div>
-	</div>
-	</div>
-	<div >
-	<div style="text-align:center;">註冊率</div>
-	<div class="box2" style="position:relative;text-align:center;">
-	<div style="font-size:70px;">📋</div>
-	<div style="font-size:20px;">98%</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	
-   
-	</div>
-	
-    
-    <br>
-	<div class="col-xs-12">
-	<h1>學校基本資料</h1>
-	
-<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:100%; ">
-<thead>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
-    <th style="font-weight:300; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">1930年</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">全校學生人數</td>
-    <td style="font-weight:300; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">19250</td>
-  </tr>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">科系學生人數</td>
-    <td style="font-weight:300; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">256</td>
-  </tr>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">新生住宿</td>
-    <td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">
 
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
-	<thead>
-  	<tr>
-    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 男 </td>
-    <td colspan="2">123人</td>
-  	</tr>
-	</thead>
-	</table>
+			<div class="col-xs-12">
+				<h1> 🏫 國立彰化師範大學 資訊工程學系</h1>
+				<hr class="hr">
 
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
-	<thead>
-  	<tr>
-    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 女 </td>
-    <td colspan="2">256人</td>
-  	</tr>
-	</thead>
-	</table>
+				<div class="row">
 
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
-	<thead>
-  	<tr>
-    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 新生住宿比率 </td>
-    <td colspan="2">98.5%</td>
-  	</tr>
-	</thead>
-	</table>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<div class="column" style="display: inline-block; ">
+						<div style="text-align:center;">學費</div>
+						<div class="box2" style="text-align:center;">
+							<div style="font-size:70px;">💵</div>
+							<div style="font-size:20px;">$20000</div>
+						</div>
+					</div>
+					&nbsp&nbsp
+					<div class="column" style="display: inline-block">
+						<div style="text-align:center;">師生比</div>
+						<div class="box2" style="position:relative;text-align:center;">
+							<div style="font-size:70px;">👩🏻‍🏫</div>
+							<div style="font-size:20px;">1:6</div>
+						</div>
+					</div>
+					&nbsp&nbsp
+					<div class="column" style="display: inline-block">
+						<div style="text-align:center;">註冊率</div>
+						<div class="box2" style="position:relative;text-align:center;">
+							<div style="font-size:70px;">📋</div>
+							<div style="font-size:20px;">98%</div>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+			<br>
+			<div class="col-xs-12">
+				<h1>學校基本資料</h1>
+
+				<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:100%; ">
+					<thead>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
+							<th style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">1930年</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">全校學生人數</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">19250</td>
+						</tr>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">科系學生人數</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">256</td>
+						</tr>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">新生住宿</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid; " cellpadding="4" colspan="20">
 
 
 
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 男 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
 
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 女 </td>
+											<td colspan="2">256人</td>
+										</tr>
+									</thead>
+								</table>
 
-	</td>
-  </tr>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">院系所及社團數</td>
-    <td style="font-weight:300; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20">
-	
-
-
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
-	<thead>
-  	<tr>
-    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 學院 </td>
-    <td colspan="2">13</td>
-  	</tr>
-	</thead>
-	</table>
-
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
-	<thead>
-  	<tr>
-    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 科系 </td>
-    <td colspan="2">8</td>
-  	</tr>
-	</thead>
-	</table>
-
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
-	<thead>
-  	<tr>
-    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 研究所 </td>
-    <td colspan="2">78</td>
-  	</tr>
-	</thead>
-	</table>
-
-	<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left:1%; margin-right: auto; text-align:center;">
-	<thead>
-  	<tr>
-    <td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1  colspan="3"> 社團數 </td>
-    <td colspan="2">30</td>
-  	</tr>
-	</thead>
-	</table>
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 新生住宿比率 </td>
+											<td colspan="2">98.5%</td>
+										</tr>
+									</thead>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">院系所及社團數</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">
 
 
 
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 學院 </td>
+											<td colspan="2">13</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 科系 </td>
+											<td colspan="2">8</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 研究所 </td>
+											<td colspan="2">78</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom: 1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 社團數 </td>
+											<td colspan="2">30</td>
+										</tr>
+									</thead>
+								</table>
 
 
-	
-
-
-
-
-
-
-
-    </td>
-  </tr>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校網址</td>
-    <td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1colspan="20"> csie@cc2.ncue.edu.tw</td>
-  </tr>
-  <tr>
-    <td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校電話</td>
-    <td style="font-weight:300; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20"> 04-7232105</td>
-  </tr>
-  <tr>
-    <td  bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校地址</td>
-    <td style="font-weight:300; border:1px #D4D4D4 solid;"  cellpadding="8" border=1 colspan="20"> 彰化縣彰化市進德路1號寶山校區</td>
-  </tr>
-</tbody>
-</table>
-	</div>
-	</div>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校網址</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1colspan="20"> csie@cc2.ncue.edu.tw</td>
+						</tr>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校電話</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20"> 04-7232105</td>
+						</tr>
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">學校地址</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20"> 彰化縣彰化市進德路1號寶山校區</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
 
 	<!-- end section -->
