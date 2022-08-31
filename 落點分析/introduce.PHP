@@ -159,7 +159,7 @@
 					<div class="column" style="display: inline-block; ">
 						<div style="text-align:center;">學費</div>
 						<div class="box2" style="text-align:center;">
-							<div style="font-size:70px;">💵</div>
+							<div style="font-size:70px;">💰</div>
 							<div style="font-size:20px;">$20000</div>
 						</div>
 					</div>
