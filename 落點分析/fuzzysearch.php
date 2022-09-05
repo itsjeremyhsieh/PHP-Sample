@@ -34,7 +34,32 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    </head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	<!--additional method - for checkbox .. ,require_from_group method ...-->
+	<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+	<!--中文錯誤訊息-->
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
+
+	<script type="text/javascript">
+		function chkcontrol(j) {
+			var total = 0;
+			for (var i = 0; i < document.form1.interest.length; i++) {
+				if (document.form1.interest[i].checked) {
+					total = total + 1;
+				}
+				if (total > 2) {
+
+					document.form1.interest[j].checked = false;
+					return false;
+				}
+			}
+		}
+	</script>
+
+</head>
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
@@ -56,7 +81,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="full">
-						<h3>結果分析</h3>
+						<h3>模糊查詢</h3>
 					</div>
 				</div>
 			</div>
@@ -67,27 +92,259 @@
 	<br>
 
 	<!-- section-->
-	<div class="container">
+	<form name=form1 method=post action=>
+		<div class="container">
+			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+				<tr>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">校系排名 || 重要程度 </span><select id="interest_order" name="interest_order">
+							<option style="display:none">請選擇</option>
+							<option value="7">最重要</option>
+							<option value="6">非常重要</option>
+							<option value="5">有點重要</option>
+							<option value="4">普通重要</option>
+							<option value="3">不太重要</option>
+							<option value="2">非常不重要</option>
+							<option value="1">完全不重要</option>
+						</select></td>
+				</tr>
+			</table>
+		</div>
 
-    </div>
-    
-	<!-- end section -->
-	<?php include "footer.php" ?>
+		<div class="container">
+			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+				<tr>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">錄取機率 || 重要程度 </span><select id="interest_order" name="interest_order">
+							<option style="display:none">請選擇</option>
+							<option value="7">最重要</option>
+							<option value="6">非常重要</option>
+							<option value="5">有點重要</option>
+							<option value="4">普通重要</option>
+							<option value="3">不太重要</option>
+							<option value="2">非常不重要</option>
+							<option value="1">完全不重要</option>
+						</select></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="container">
+			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+				<tr>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">學群領域 || 重要程度 </span><select id="location_order" name="location_order">
+							<option style="display:none">請選擇</option>
+							<option value="7">最重要</option>
+							<option value="6">非常重要</option>
+							<option value="5">有點重要</option>
+							<option value="4">普通重要</option>
+							<option value="3">不太重要</option>
+							<option value="2">非常不重要</option>
+							<option value="1">完全不重要</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">/////////////////////////北部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">中部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">南部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px  solid #E3E3E3;">東部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">離島地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="container">
+			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+				<tr>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">學校地區 || 重要程度 </span><select id="location_order" name="location_order">
+							<option style="display:none">請選擇</option>
+							<option value="7">最重要</option>
+							<option value="6">非常重要</option>
+							<option value="5">有點重要</option>
+							<option value="4">普通重要</option>
+							<option value="3">不太重要</option>
+							<option value="2">非常不重要</option>
+							<option value="1">完全不重要</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">北部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">中部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">南部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px  solid #E3E3E3;">東部地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">離島地區</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="container">
+			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+				<tr>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">興趣屬性 || 重要程度 </span><select id="interest_order" name="interest_order">
+							<option style="display:none">請選擇</option>
+							<option value="7">最重要</option>
+							<option value="6">非常重要</option>
+							<option value="5">有點重要</option>
+							<option value="4">普通重要</option>
+							<option value="3">不太重要</option>
+							<option value="2">非常不重要</option>
+							<option value="1">完全不重要</option>
+						</select></td>
+				</tr>
+				<tr style="border: 1px solid #E3E3E3;">
+					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="R" onclick='chkcontrol(0)' ;>實作型（R）</td>
+				</tr>
+				<tr style="border: 1px solid #E3E3E3;">
+					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="I" onclick='chkcontrol(1)' ;>研究型（I）</td>
+				</tr>
+				<tr style="border: 1px solid #E3E3E3;">
+					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="A" onclick='chkcontrol(2)' ;>藝術型（A）</td>
+				</tr>
+				<tr style="border: 1px solid #E3E3E3;">
+					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="S" onclick='chkcontrol(3)' ;>社交型（S）</td>
+				</tr>
+				<tr style="border: 1px solid #E3E3E3;">
+					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="E" onclick='chkcontrol(4)' ;>企業型（E）</td>
+				</tr>
+				<tr style="border: 1px solid #E3E3E3;">
+					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="C" onclick='chkcontrol(5)' ;>常規型（C）</td>
+				</tr>
+
+			</table>
+			<form>
+		</div>
+
+		<!-- end section -->
+		<?php include "footer.php" ?>
 
 
-<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+		<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
-<!-- ALL JS FILES -->
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!-- ALL PLUGINS -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.pogo-slider.min.js"></script>
-<script src="js/slider-index.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/form-validator.min.js"></script>
-<script src="js/contact-form-script.js"></script>
-<script src="js/isotope.min.js"></script>
-<script src="js/images-loded.min.js"></script>
-<script src="js/custom.js"></script>
+		<!-- ALL JS FILES -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- ALL PLUGINS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.pogo-slider.min.js"></script>
+		<script src="js/slider-index.js"></script>
+		<script src="js/smoothscroll.js"></script>
+		<script src="js/form-validator.min.js"></script>
+		<script src="js/contact-form-script.js"></script>
+		<script src="js/isotope.min.js"></script>
+		<script src="js/images-loded.min.js"></script>
+		<script src="js/custom.js"></script>
