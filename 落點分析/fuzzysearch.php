@@ -96,7 +96,8 @@
 		<div class="container">
 			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 				<tr>
-					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">校系排名 || 重要程度 </span><select id="interest_order" name="interest_order">
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">校系排名 </span> </td>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;"> 重要程度 <select id="interest_order" name="interest_order">
 							<option style="display:none">請選擇</option>
 							<option value="7">最重要</option>
 							<option value="6">非常重要</option>
@@ -105,15 +106,195 @@
 							<option value="3">不太重要</option>
 							<option value="2">非常不重要</option>
 							<option value="1">完全不重要</option>
+						</select></span></td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div class="container">
+			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+				<tr>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">錄取機率 </span>
+					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;"> 重要程度 <select id="interest_order" name="interest_order">
+							<option style="display:none">請選擇</option>
+							<option value="7">最重要</option>
+							<option value="6">非常重要</option>
+							<option value="5">有點重要</option>
+							<option value="4">普通重要</option>
+							<option value="3">不太重要</option>
+							<option value="2">非常不重要</option>
+							<option value="1">完全不重要</option>
+						</select></span></td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div class="container">
+			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
+				<tr>
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%" ><span style="font-size: 18px;font-weight: bold;">學群領域</span>
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">重要程度<select id="location_order" name="location_order">
+							<option style="display:none">請選擇</option>
+							<option value="7">最重要</option>
+							<option value="6">非常重要</option>
+							<option value="5">有點重要</option>
+							<option value="4">普通重要</option>
+							<option value="3">不太重要</option>
+							<option value="2">非常不重要</option>
+							<option value="1">完全不重要</option>
+						</select> </span></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">教育</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">藝術及人文</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">社會科學、新聞學及圖書資訊</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px  solid #E3E3E3;">商業、管理及法律</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">自然科學、數學及統計</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">資訊通訊科技</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">醫藥衛生及社會福利</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">工程、製造及營建</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">農業、林業、漁業及獸醫</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">服務</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">其他</td>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
+							<option style="display:none">請選擇</option>
+							<option value="7">最符合</option>
+							<option value="6">非常符合</option>
+							<option value="5">有點符合</option>
+							<option value="4">普通</option>
+							<option value="3">不太符合</option>
+							<option value="2">非常符合</option>
+							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
 			</table>
 		</div>
-
+		<br>
 		<div class="container">
 			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 				<tr>
-					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">錄取機率 || 重要程度 </span><select id="interest_order" name="interest_order">
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">學校地區 
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">重要程度<select id="location_order" name="location_order">
 							<option style="display:none">請選擇</option>
 							<option value="7">最重要</option>
 							<option value="6">非常重要</option>
@@ -122,106 +303,7 @@
 							<option value="3">不太重要</option>
 							<option value="2">非常不重要</option>
 							<option value="1">完全不重要</option>
-						</select></td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="container">
-			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-				<tr>
-					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">學群領域 || 重要程度 </span><select id="location_order" name="location_order">
-							<option style="display:none">請選擇</option>
-							<option value="7">最重要</option>
-							<option value="6">非常重要</option>
-							<option value="5">有點重要</option>
-							<option value="4">普通重要</option>
-							<option value="3">不太重要</option>
-							<option value="2">非常不重要</option>
-							<option value="1">完全不重要</option>
-						</select></td>
-				</tr>
-				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">/////////////////////////北部地區</td>
-					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
-							<option style="display:none">請選擇</option>
-							<option value="7">最符合</option>
-							<option value="6">非常符合</option>
-							<option value="5">有點符合</option>
-							<option value="4">普通</option>
-							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
-							<option value="1">完全不符合</option>
-						</select></td>
-				</tr>
-				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">中部地區</td>
-					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
-							<option style="display:none">請選擇</option>
-							<option value="7">最符合</option>
-							<option value="6">非常符合</option>
-							<option value="5">有點符合</option>
-							<option value="4">普通</option>
-							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
-							<option value="1">完全不符合</option>
-						</select></td>
-				</tr>
-				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">南部地區</td>
-					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
-							<option style="display:none">請選擇</option>
-							<option value="7">最符合</option>
-							<option value="6">非常符合</option>
-							<option value="5">有點符合</option>
-							<option value="4">普通</option>
-							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
-							<option value="1">完全不符合</option>
-						</select></td>
-				</tr>
-				<tr>
-					<td style="color: #FF3299;border: 1px  solid #E3E3E3;">東部地區</td>
-					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
-							<option style="display:none">請選擇</option>
-							<option value="7">最符合</option>
-							<option value="6">非常符合</option>
-							<option value="5">有點符合</option>
-							<option value="4">普通</option>
-							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
-							<option value="1">完全不符合</option>
-						</select></td>
-				</tr>
-				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">離島地區</td>
-					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
-							<option style="display:none">請選擇</option>
-							<option value="7">最符合</option>
-							<option value="6">非常符合</option>
-							<option value="5">有點符合</option>
-							<option value="4">普通</option>
-							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
-							<option value="1">完全不符合</option>
-						</select></td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="container">
-			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-				<tr>
-					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">學校地區 || 重要程度 </span><select id="location_order" name="location_order">
-							<option style="display:none">請選擇</option>
-							<option value="7">最重要</option>
-							<option value="6">非常重要</option>
-							<option value="5">有點重要</option>
-							<option value="4">普通重要</option>
-							<option value="3">不太重要</option>
-							<option value="2">非常不重要</option>
-							<option value="1">完全不重要</option>
-						</select></td>
+						</select> </span></td>
 				</tr>
 				<tr>
 					<td style="color: #FF3299;border: 1px solid #E3E3E3;">北部地區</td>
@@ -290,11 +372,12 @@
 				</tr>
 			</table>
 		</div>
-
+		<br>
 		<div class="container">
 			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 				<tr>
-					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">興趣屬性 || 重要程度 </span><select id="interest_order" name="interest_order">
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width:30%"><span style="font-size: 18px;font-weight: bold;">興趣屬性
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">重要程度 <select id="interest_order" name="interest_order">
 							<option style="display:none">請選擇</option>
 							<option value="7">最重要</option>
 							<option value="6">非常重要</option>
@@ -303,31 +386,32 @@
 							<option value="3">不太重要</option>
 							<option value="2">非常不重要</option>
 							<option value="1">完全不重要</option>
-						</select></td>
+						</select></span></td>
 				</tr>
 				<tr style="border: 1px solid #E3E3E3;">
-					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="R" onclick='chkcontrol(0)' ;>實作型（R）</td>
+					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="R" onclick='chkcontrol(0)' ;>實作型（R）</td>
 				</tr>
 				<tr style="border: 1px solid #E3E3E3;">
-					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="I" onclick='chkcontrol(1)' ;>研究型（I）</td>
+					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="I" onclick='chkcontrol(1)' ;>研究型（I）</td>
 				</tr>
 				<tr style="border: 1px solid #E3E3E3;">
-					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="A" onclick='chkcontrol(2)' ;>藝術型（A）</td>
+					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="A" onclick='chkcontrol(2)' ;>藝術型（A）</td>
 				</tr>
 				<tr style="border: 1px solid #E3E3E3;">
-					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="S" onclick='chkcontrol(3)' ;>社交型（S）</td>
+					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="S" onclick='chkcontrol(3)' ;>社交型（S）</td>
 				</tr>
 				<tr style="border: 1px solid #E3E3E3;">
-					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="E" onclick='chkcontrol(4)' ;>企業型（E）</td>
+					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="E" onclick='chkcontrol(4)' ;>企業型（E）</td>
 				</tr>
 				<tr style="border: 1px solid #E3E3E3;">
-					<td style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="C" onclick='chkcontrol(5)' ;>常規型（C）</td>
+					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="C" onclick='chkcontrol(5)' ;>常規型（C）</td>
 				</tr>
 
 			</table>
 			<form>
 		</div>
-
+		<br>
+		
 		<!-- end section -->
 		<?php include "footer.php" ?>
 
