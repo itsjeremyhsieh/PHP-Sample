@@ -153,7 +153,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -166,7 +166,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -179,7 +179,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -192,7 +192,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -205,7 +205,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -218,7 +218,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -231,7 +231,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -244,7 +244,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -257,7 +257,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -270,7 +270,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -283,7 +283,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -314,7 +314,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -327,7 +327,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -340,7 +340,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -353,7 +353,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
@@ -366,7 +366,7 @@
 							<option value="5">有點符合</option>
 							<option value="4">普通</option>
 							<option value="3">不太符合</option>
-							<option value="2">非常符合</option>
+							<option value="2">非常不符合</option>
 							<option value="1">完全不符合</option>
 						</select></td>
 				</tr>
