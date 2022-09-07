@@ -217,6 +217,11 @@
         }
     </style>
 
+<script>
+    function fuzzy(){
+        window.location.href = "fuzzysearch.php";
+}
+    </script>
 </head>
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -434,22 +439,28 @@
             <hr class="hr">
             <br>
             <div id="wrap">
-                <h3>請勾選您的興趣量表結果 </h3>
+                <h3>興趣量表結果</h3>
             </div>
             <br>
             <div id="wrap">
-                <div id="div2">
-                    <input type="checkbox" name="interest[]" value="R"><label>實用型(R)</label>
-                </div>
-                <div id="div2"><input type="checkbox" name="interest[]" value="I"><label>研究型(I)</label></div>
-                <div id="div2"><input type="checkbox" name="interest[]" value="A"><label>藝術型(A)</label></div>
-                <div id="div2"><input type="checkbox" name="interest[]" value="S"><label>社會型(S)</label></div>
-                <div id="div2"><input type="checkbox" name="interest[]" value="E"><label>企業型(E)</label></div>
-                <div id="div2"><input type="checkbox" name="interest[]" value="C"><label>事務型(C)</label></div>
+                <div id="div2"><label>實作型（R）</label></div>
+                <div id="div2"><label>研究型（I）</label></div>
+                <div id="div2"><label>藝術型（A）</label></div>
+                <div id="div2"><label>社交型（S）</label></div>
+                <div id="div2"><label>企業型（E）</label></div>
+                <div id="div2"><label>常規型（C）</label></div>
+            </div>
+            <br>
+            <div id="wrap">
+                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
             </div>
 
-
-
+<!--
             <hr class="hr">
             <br>
             <div id="wrap">
@@ -845,13 +856,13 @@
 
         </div>
 
-
+-->
         <br>
-        <div id="wrap"> <input type="button" value="送出" name="按鈕名稱" style="width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px;"></div>
+        <div id="wrap"> <input type="button" value="送出" name="按鈕名稱" style="width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px;" onclick="fuzzy()"></div>
 
         <br>
         </div>
-        <!--block-->
+    
 
     </form>
 

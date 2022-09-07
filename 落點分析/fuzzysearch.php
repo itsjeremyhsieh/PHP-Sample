@@ -197,7 +197,7 @@
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">自然科學、數學及統計</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">⭐自然科學、數學及統計</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
 							<option style="display:none">請選擇</option>
 							<option value="7">最符合</option>
@@ -210,7 +210,7 @@
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">資訊通訊科技</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;">⭐資訊通訊科技</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="north">
 							<option style="display:none">請選擇</option>
 							<option value="7">最符合</option>
@@ -371,44 +371,6 @@
 						</select></td>
 				</tr>
 			</table>
-		</div>
-		<br>
-		<div class="container">
-			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-				<tr>
-					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width:30%"><span style="font-size: 18px;font-weight: bold;">興趣屬性
-					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">重要程度 <select id="interest_order" name="interest_order">
-							<option style="display:none">請選擇</option>
-							<option value="7">最重要</option>
-							<option value="6">非常重要</option>
-							<option value="5">有點重要</option>
-							<option value="4">普通重要</option>
-							<option value="3">不太重要</option>
-							<option value="2">非常不重要</option>
-							<option value="1">完全不重要</option>
-						</select></span></td>
-				</tr>
-				<tr style="border: 1px solid #E3E3E3;">
-					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="R" onclick='chkcontrol(0)' ;>實作型（R）</td>
-				</tr>
-				<tr style="border: 1px solid #E3E3E3;">
-					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="I" onclick='chkcontrol(1)' ;>研究型（I）</td>
-				</tr>
-				<tr style="border: 1px solid #E3E3E3;">
-					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="A" onclick='chkcontrol(2)' ;>藝術型（A）</td>
-				</tr>
-				<tr style="border: 1px solid #E3E3E3;">
-					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="S" onclick='chkcontrol(3)' ;>社交型（S）</td>
-				</tr>
-				<tr style="border: 1px solid #E3E3E3;">
-					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="E" onclick='chkcontrol(4)' ;>企業型（E）</td>
-				</tr>
-				<tr style="border: 1px solid #E3E3E3;">
-					<td colspan="2" style="border: 1px solid #E3E3E3;"><input type=checkbox name=interest value="C" onclick='chkcontrol(5)' ;>常規型（C）</td>
-				</tr>
-
-			</table>
-			<form>
 		</div>
 		<br>
 		
