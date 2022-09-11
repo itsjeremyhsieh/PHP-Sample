@@ -65,7 +65,7 @@
 		}
 
 		.box1 {
-			width: 200%;
+			width:auto;
 			padding: 10px;
 			border: 1px gray;
 			box-shadow: 3px 3px 9px gray;
@@ -207,6 +207,10 @@
 							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">256</td>
 						</tr>
 						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">科系教師人數</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">20</td>
+						</tr>
+						<tr>
 							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">新生住宿</td>
 							<td style="font-weight:300; border:1px #D4D4D4 solid; " cellpadding="4" colspan="20">
 
@@ -240,6 +244,315 @@
 								</table>
 							</td>
 						</tr>
+
+
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">境外學生人數</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid; " cellpadding="4" colspan="20">
+
+
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 學位生_正式修讀學位外國生 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 學位生_僑生(含港澳) </td>
+											<td colspan="2">256人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 學位生_正式修讀學位陸生 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 非學位生_外國交換生 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 非學位生_外國短期研習及個人選讀 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 非學位生_大專附設華語文中心學生 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 非學位生_大陸研修生 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 非學位生_海青班 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 境外專班 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">圖書館統計</td>
+							<td style="font-weight:300; border:1px #D4D4D4 solid; " cellpadding="4" colspan="20">
+
+
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-總類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-哲學類 </td>
+											<td colspan="2">256人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-宗教類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-科學類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-應用科學類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-社會科學類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-史地類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-語言文學類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中文圖書收藏冊數(冊)-藝術類 </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 外文圖書收藏冊數(冊) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 期刊合訂本(未以圖書編目)(冊) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 光碟及其他類型資料庫(種) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 線上資料庫(種) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 電子期刊(種) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 電子書(種) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 視聽資料(件) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 圖書閱覽座位數(個) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 全年圖書(含視聽資料及其他館藏)借閱人次(人次) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 全年圖書(含視聽資料及其他館藏)借閱冊次(冊次) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 全年線上及光碟資料庫(含電子書及電子期刊)檢索(人次) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 報紙(種) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 中.日文期刊(種) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+
+								<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-top:2%; margin-bottom:1%; margin-left:2%; margin-right: 2%; text-align:center; display:inline-block;">
+									<thead>
+										<tr>
+											<td bgcolor=#F0F0F0 style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="3"> 西文期刊(種) </td>
+											<td colspan="2">123人</td>
+										</tr>
+									</thead>
+								</table>
+							</td>
+						</tr>
+
+
+
 						<tr>
 							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">院系所及社團數</td>
 							<td style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">
