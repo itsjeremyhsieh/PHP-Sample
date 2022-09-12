@@ -157,7 +157,7 @@
 
 					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					<div class="column" style="display: inline-block; ">
-						<div style="text-align:center;">學費</div>
+						<div style="text-align:center">學費</div>
 						<div class="box2" style="text-align:center;">
 							<div style="font-size:70px;">💰</div>
 							<div style="font-size:20px;">$20000</div>
@@ -193,7 +193,7 @@
 				<table style=" font-size: 21px;border:2px #D4D4D4 solid; margin-left: auto; margin-right: auto; width:100%; ">
 					<thead>
 						<tr>
-							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
+							<td bgcolor=#DFFFDF style="font-weight:300; border:1px #D4D4D4 solid; width:20%;" align=center cellpadding="8" border=1 colspan="11">創立時間</th>
 							<th style="font-weight:300; border:1px #D4D4D4 solid;" cellpadding="8" border=1 colspan="20">1930年</th>
 						</tr>
 					</thead>
