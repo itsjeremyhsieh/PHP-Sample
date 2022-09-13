@@ -74,7 +74,7 @@
 
 		.content {
 			position: relative;
-			width: 100%;
+			width: auto;
 			
 			height: fit-content;
 			background-color: white;
@@ -275,13 +275,14 @@
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>備註說明</td>
-
+							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>學群分類</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>興趣量表</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>通過率</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>甄試日期</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
 
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>分析更多</td>
+							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校園介紹</td>
 
 						</tr>
 						<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -298,16 +299,17 @@
 								順序三：英文+數學A+自然(45)</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>採計標準改變</td>
 
-
+							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>資訊學群</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>I</td>
-							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>⭐⭐⭐⭐⭐</td>
+							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>53%</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>4/7</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>📃</td>
-							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1><button onclick="clicktoshow()">🌱</button></td>
+							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1><button onclick="clicktoshow()" style="font-size: 17.5px;">🌱</button></td>
+							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1><button style="font-size: 17.5px;">☁️</button></td>
 
 						</tr>
 					</table>
-
+					
 
 
 
