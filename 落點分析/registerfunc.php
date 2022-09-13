@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$link = mysqli_connect('localhost', 'root', 'root123456', 'website_database') // 建立MySQL的資料庫連結
+$link = mysqli_connect('localhost', 'admin', 'NCUEcsie!@', 'website_database') // 建立MySQL的資料庫連結
 or die("無法開啟MySQL資料庫連結!<br>");
 $sql = "select * from message ";
 // 送出編碼的MySQL指令

@@ -4,7 +4,7 @@ session_start();
 
 
 
-$link = mysqli_connect('120.107.172.131', 'admin', 'NCUEcsie!@', 'website_database') 
+$link = mysqli_connect('localhost', 'admin', 'NCUEcsie!@', 'website_database') 
 or die("無法開啟MySQL資料庫連結!<br>");
 $sql = "select * from member";
 // 送出編碼的MySQL指令
