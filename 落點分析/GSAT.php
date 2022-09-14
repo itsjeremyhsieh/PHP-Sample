@@ -31,6 +31,12 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	<!--additional method - for checkbox .. ,require_from_group method ...-->
+	<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+	<!--中文錯誤訊息-->
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js "></script>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -217,10 +223,47 @@
         }
     </style>
 
-<script>
-    function fuzzy(){
-        window.location.href = "fuzzysearch.php";
-}
+    <script>
+       ipt>
+		$(document).ready(function($) {
+			$.validator.addMethod("notEqualsto", function(value, element, arg) {
+				return arg != value;
+			}, "您尚未選擇!");
+
+			$("#gsat").validate({
+				submitHandler: function(form) {
+					form.submit();
+				},
+				rules: {
+					realistic: {
+						required: true,
+					},
+					investigative: {
+						required: true,
+					},
+                    artistic: {
+						required: true,
+					},
+                    social: {
+						required: true,
+					},
+                    enterprising: {
+						required: true,
+					},
+                    conventional: {
+						required: true,
+					}
+				},
+				messages: {
+					realistic: {
+						required: "必填"
+					},
+					investigative: {
+						required: "必填"
+					},
+				}
+			});
+		});
     </script>
 </head>
 
@@ -259,7 +302,7 @@
 
     <div class="col-xs-3-tag-title">篩選條件</div>
     <div class="col-xs-3-tag-title-1"></div>
-    <form action="showGSAT.php" method="post">
+    <form action="fuzzysearch.php" method="post" name="gsat" id="gsat">
         <div class="block">
             <br>
             <div id="wrap">
@@ -452,15 +495,15 @@
             </div>
             <br>
             <div id="wrap">
-                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
-                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
-                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
-                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
-                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
-                <div id="div2"><input type="text" name="interest[]" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="realistic" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="investigative" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="artistic" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="social" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="enterprising" maxlength="4" size="6"></div>
+                <div id="div2"><input type="text" name="conventional" maxlength="4" size="6"></div>
             </div>
 
-<!--
+            <!--
             <hr class="hr">
             <br>
             <div id="wrap">
@@ -857,11 +900,9 @@
         </div>
 
 -->
-        <br>
-        <div id="wrap" style= " margin-left: auto;
-  margin-right: auto;"> <input type="button" value="自訂模糊搜尋" style="width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px; text-align: center;" onclick="fuzzy()"></div>
-
-        <br>
+            <br>
+            <div id="wrap" style=" margin-left: auto; margin-right: auto;"> <input type="submit" value="自訂模糊搜尋" style="width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px; text-align: center;"></div>
+            <br>
         </div>
     </form>
 
