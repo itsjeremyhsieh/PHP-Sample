@@ -184,8 +184,6 @@
 				</div>
 
 			</div>
-
-
 			<br>
 			<div class="col-xs-12">
 				<h1>學校基本資料</h1>
