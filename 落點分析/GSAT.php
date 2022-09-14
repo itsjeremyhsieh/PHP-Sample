@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Basic -->
@@ -302,7 +306,7 @@
 
     <div class="col-xs-3-tag-title">篩選條件</div>
     <div class="col-xs-3-tag-title-1"></div>
-    <form action="fuzzysearch.php" method="post" name="gsat" id="gsat">
+    <form action="savetmp.php" method="post" name="gsat" id="gsat">
         <div class="block">
             <br>
             <div id="wrap">
@@ -323,7 +327,7 @@
 
                 <div id="div2">
                     <select name="chinese">
-                        <option>未報考</option>
+                        <option value="0">未報考</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -344,7 +348,7 @@
 
                 <div id="div2">
                     <select name="english">
-                        <option>未報考</option>
+                        <option value="0">未報考</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -364,8 +368,8 @@
                 </div>
 
                 <div id="div2">
-                    <select name="mathA">
-                        <option>未報考</option>
+                    <select name="matha">
+                        <option value="0">未報考</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -385,30 +389,8 @@
                 </div>
 
                 <div id="div2">
-                    <select name="mathB">
-                        <option>未報考</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                        <option>11</option>
-                        <option>12</option>
-                        <option>13</option>
-                        <option>14</option>
-                        <option>15</option>
-                    </select>
-                </div>
-
-
-                <div id="div2">
-                    <select name="social">
-                        <option>未報考</option>
+                    <select name="mathb">
+                        <option value="0">未報考</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -429,8 +411,30 @@
 
 
                 <div id="div2">
-                    <select name="science">
-                        <option>未報考</option>
+                    <select name="socialstu">
+                        <option value="0">未報考</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                    </select>
+                </div>
+
+
+                <div id="div2">
+                    <select name="sciencestu">
+                        <option value="0">未報考</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -462,19 +466,19 @@
 
             <div id="wrap">
                 <div id="div2">
-                    <input type="radio" name="listening" value="A"> A
+                    <input type="radio" name="listening" value="4"> A
                 </div>
                 <div id="div2">
-                    <input type="radio" name="listening" value="B"> B
+                    <input type="radio" name="listening" value="3"> B
                 </div>
                 <div id="div2">
-                    <input type="radio" name="listening" value="C"> C
+                    <input type="radio" name="listening" value="2"> C
                 </div>
                 <div id="div2">
-                    <input type="radio" name="listening" value="F"> F
+                    <input type="radio" name="listening" value="1"> F
                 </div>
                 <div id="div2">
-                    <input type="radio" name="listening" value="non" checked> 無
+                    <input type="radio" name="listening" value="0" checked> 無
                 </div>
             </div>
 

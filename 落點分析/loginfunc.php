@@ -1,9 +1,6 @@
 <?php
 session_start();
 
-
-
-
 $link = mysqli_connect('localhost', 'admin', 'NCUEcsie!@', 'website_database') 
 or die("無法開啟MySQL資料庫連結!<br>");
 $sql = "select * from member";
