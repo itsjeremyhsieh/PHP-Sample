@@ -858,12 +858,11 @@
 
 -->
         <br>
-        <div id="wrap"> <input type="button" value="送出" name="按鈕名稱" style="width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px;" onclick="fuzzy()"></div>
+        <div id="wrap" style= " margin-left: auto;
+  margin-right: auto;"> <input type="button" value="自訂模糊搜尋" style="width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px; text-align: center;" onclick="fuzzy()"></div>
 
         <br>
         </div>
-    
-
     </form>
 
 

@@ -58,7 +58,12 @@
 			}
 		}
 	</script>
-
+	<style>
+		.center {
+			display: flex;
+			justify-content: center;
+		}
+	</style>
 </head>
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -98,15 +103,15 @@
 				<tr>
 					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">校系排名 </span> </td>
 					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;"> 重要程度 <select id="interest_order" name="interest_order">
-							<option style="display:none">請選擇</option>
-							<option value="7">最重要</option>
-							<option value="6">非常重要</option>
-							<option value="5">有點重要</option>
-							<option value="4">普通重要</option>
-							<option value="3">不太重要</option>
-							<option value="2">非常不重要</option>
-							<option value="1">完全不重要</option>
-						</select></span></td>
+								<option style="display:none">請選擇</option>
+								<option value="7">最重要</option>
+								<option value="6">非常重要</option>
+								<option value="5">有點重要</option>
+								<option value="4">普通重要</option>
+								<option value="3">不太重要</option>
+								<option value="2">非常不重要</option>
+								<option value="1">完全不重要</option>
+							</select></span></td>
 				</tr>
 			</table>
 		</div>
@@ -116,15 +121,15 @@
 				<tr>
 					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">錄取機率 </span>
 					<td colspan="6" align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;"> 重要程度 <select id="interest_order" name="interest_order">
-							<option style="display:none">請選擇</option>
-							<option value="7">最重要</option>
-							<option value="6">非常重要</option>
-							<option value="5">有點重要</option>
-							<option value="4">普通重要</option>
-							<option value="3">不太重要</option>
-							<option value="2">非常不重要</option>
-							<option value="1">完全不重要</option>
-						</select></span></td>
+								<option style="display:none">請選擇</option>
+								<option value="7">最重要</option>
+								<option value="6">非常重要</option>
+								<option value="5">有點重要</option>
+								<option value="4">普通重要</option>
+								<option value="3">不太重要</option>
+								<option value="2">非常不重要</option>
+								<option value="1">完全不重要</option>
+							</select></span></td>
 				</tr>
 			</table>
 		</div>
@@ -132,17 +137,17 @@
 		<div class="container">
 			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 				<tr>
-					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%" ><span style="font-size: 18px;font-weight: bold;">學群領域</span>
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">學群領域</span>
 					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">重要程度<select id="location_order" name="location_order">
-							<option style="display:none">請選擇</option>
-							<option value="7">最重要</option>
-							<option value="6">非常重要</option>
-							<option value="5">有點重要</option>
-							<option value="4">普通重要</option>
-							<option value="3">不太重要</option>
-							<option value="2">非常不重要</option>
-							<option value="1">完全不重要</option>
-						</select> </span></td>
+								<option style="display:none">請選擇</option>
+								<option value="7">最重要</option>
+								<option value="6">非常重要</option>
+								<option value="5">有點重要</option>
+								<option value="4">普通重要</option>
+								<option value="3">不太重要</option>
+								<option value="2">非常不重要</option>
+								<option value="1">完全不重要</option>
+							</select> </span></td>
 				</tr>
 				<tr>
 					<td style="color: #FF3299;border: 1px solid #E3E3E3;">教育</td>
@@ -294,17 +299,17 @@
 		<div class="container">
 			<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
 				<tr>
-					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">學校地區 
+					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3; width : 30%"><span style="font-size: 18px;font-weight: bold;">學校地區
 					<td align="center" bgcolor="#E5A8B8" style="border: 1px solid #E3E3E3;"><span style="font-size: 18px;font-weight: bold;">重要程度<select id="location_order" name="location_order">
-							<option style="display:none">請選擇</option>
-							<option value="7">最重要</option>
-							<option value="6">非常重要</option>
-							<option value="5">有點重要</option>
-							<option value="4">普通重要</option>
-							<option value="3">不太重要</option>
-							<option value="2">非常不重要</option>
-							<option value="1">完全不重要</option>
-						</select> </span></td>
+								<option style="display:none">請選擇</option>
+								<option value="7">最重要</option>
+								<option value="6">非常重要</option>
+								<option value="5">有點重要</option>
+								<option value="4">普通重要</option>
+								<option value="3">不太重要</option>
+								<option value="2">非常不重要</option>
+								<option value="1">完全不重要</option>
+							</select> </span></td>
 				</tr>
 				<tr>
 					<td style="color: #FF3299;border: 1px solid #E3E3E3;">北部地區</td>
@@ -374,24 +379,27 @@
 			</table>
 		</div>
 		<br>
-		
-		<!-- end section -->
-		<?php include "footer.php" ?>
+		<br>
+		<div class="center"> <input type="button" value="送出" name="按鈕名稱" style="margin-left: auto; margin-right: auto;width:150px;height:50px;border:0;background-color:#498efc;color:#fff;border-radius:10px;" onclick="fuzzy()"></div>
+		<br>
+	</form>
+	<!-- end section -->
+	<?php include "footer.php" ?>
 
 
-		<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+	<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
-		<!-- ALL JS FILES -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<!-- ALL PLUGINS -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/jquery.pogo-slider.min.js"></script>
-		<script src="js/slider-index.js"></script>
-		<script src="js/smoothscroll.js"></script>
-		<script src="js/form-validator.min.js"></script>
-		<script src="js/contact-form-script.js"></script>
-		<script src="js/isotope.min.js"></script>
-		<script src="js/images-loded.min.js"></script>
-		<script src="js/custom.js"></script>
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.pogo-slider.min.js"></script>
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/form-validator.min.js"></script>
+	<script src="js/contact-form-script.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/custom.js"></script>
