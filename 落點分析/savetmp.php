@@ -8,19 +8,20 @@ $sql = "select * from member";
 mysqli_query($link, 'SET CHARACTER SET utf8');
 mysqli_query($link, "SET collation_connection = 'utf8_unicode_ci'");*/
 
-$chinese = intval($_POST['chinese']);
-$english = intval($_POST['english']);
-$matha = intval($_POST['matha']);
-$mathb = intval($_POST['mathb']);
-$socialstu = intval($_POST['socialstu']);
-$sciencestu = intval($_POST['sciencestu']);
-$listening = intval($_POST['listening']);
-$r = intval($_POST['realistic']);
-$i = intval($_POST['investigative']);
-$a = intval($_POST['artistic']);
-$s = intval($_POST['social']);
-$e = intval($_POST['enterprising']);
-$c = intval($_POST['conventional']);
+$_SESSION['chinese'] = intval($_POST['chinese']);
+$_SESSION['english'] = intval($_POST['english']);
+$_SESSION['matha'] = intval($_POST['matha']);
+$_SESSION['mathb'] = intval($_POST['mathb']);
+$_SESSION['socialstu'] = intval($_POST['socialstu']);
+$_SESSION['sciencestu'] = intval($_POST['sciencestu']);
+$_SESSION['listening'] = intval($_POST['listening']);
+$_SESSION['r'] = intval($_POST['realistic']);
+$_SESSION['i'] = intval($_POST['investigative']);
+$_SESSION['a'] = intval($_POST['artistic']);
+$_SESSION['s'] = intval($_POST['social']);
+$_SESSION['e'] = intval($_POST['enterprising']);
+$_SESSION['c'] = intval($_POST['conventional']);
+
 header("Location: fuzzysearch.php");
 ?>
 
