@@ -142,7 +142,7 @@ session_start();
 				</tr>
 				<tr>
 					<td style="color: #FF3299;border: 1px solid #E3E3E3;">教育</td>
-					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="education" name="education>
+					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="education" name="education">
 							<option style="display:none" value="1">請選擇</option>
 							<option value="7">最符合</option>
 							<option value="6">非常符合</option>
