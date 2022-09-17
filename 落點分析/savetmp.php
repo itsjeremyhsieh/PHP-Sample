@@ -22,6 +22,23 @@ $_SESSION['s'] = intval($_POST['social']);
 $_SESSION['e'] = intval($_POST['enterprising']);
 $_SESSION['c'] = intval($_POST['conventional']);
 
+$chinese = $_SESSION['chinese'];
+$english = $_SESSION['english'];
+$matha = $_SESSION['matha'];
+$mathb = $_SESSION['mathb'];
+$social = $_SESSION['socialstu'];
+$science = $_SESSION['sciencestu'];
+$r = $_SESSION['r'];
+$i = $_SESSION['i'];
+$a = $_SESSION['a'];
+$s = $_SESSION['s'];
+$e = $_SESSION['e'];
+$c = $_SESSION['c'];
+//run recommendation
+$re = exec("python test.py $chinese $english $matha $mathb $social $science $r $i $a $s $e $c");
+
+//
 header("Location: fuzzysearch.php");
+
 ?>
 

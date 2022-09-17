@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Basic -->
@@ -57,7 +61,7 @@
 			cursor: pointer;
 		}
 
-		/* 隐藏radio，只显示标签文字 */
+		
 
 		input[type="radio"] {
 			display: none;
@@ -208,12 +212,12 @@
 			</tr>
 			<tr>
 				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">級分</td>
-                <td style="border: 1px solid #E3E3E3;">15</td>
-				<td style="border: 1px solid #E3E3E3;">14</td>
-				<td style="border: 1px solid #E3E3E3;">13</td>
-				<td style="border: 1px solid #E3E3E3;">14</td>
-				<td style="border: 1px solid #E3E3E3;">12</td>
-				<td style="border: 1px solid #E3E3E3;">12</td>
+				<?php
+				echo "<td style='border: 1px solid #E3E3E3;'>" . $_SESSION['chinese'] . "</td><td style='border: 1px solid #E3E3E3;'>". $_SESSION['english'] . 
+				"</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['matha'] . "</td><td style='border: 1px solid #E3E3E3;'>". $_SESSION['mathb'] . 
+				"</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['socialstu'] . "</td><td style='border: 1px solid #E3E3E3;'>". $_SESSION['sciencestu'] . 
+                "</td>"
+				?>
 			</tr>
 			
 			<tr>
