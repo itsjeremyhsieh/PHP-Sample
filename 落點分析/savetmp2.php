@@ -47,7 +47,7 @@ $result = mysqli_query($link, "SELECT * FROM searchrecord");
 $num = mysqli_num_rows($result); //查詢結果筆數
 $num = $num + 1;
 $_SESSION['num'] = $num;
-$result = array($num, $chinese, $english, $matha, $mathb, $socialstu, $sciencestu, $listening, $r, $i, $a, $s, $e, $c, $school_order, $percentage_order, $field_order, $education, $art, $social, $business, $science, $cs, $med, $constructure, $agri, $service, $other, $location_order, $north, $central, $south, $east, $island);
+$result = array($num, $chinese, $english, $matha, $mathb, $socialstu, $sciencestu, $listening, $r, $i, $a, $s, $e, $c, $school_order, $percentage_order, $field_order, $education, $art, $social, $business, $science, $cs, $constructure, $agri, $med, $service, $other, $location_order, $north, $central, $south, $east, $island);
 /*for($i = 0 ; $i < count($result) ; $i++)
 {
     echo $result[$i] . " ";
