@@ -29,6 +29,7 @@ while ($row = mysqli_fetch_assoc($result))
 {
     $department[$i][0] = $row[0];
     $department[$i][1] = $row[1];
+    $department[$i][4] = $row[5];
     $i++;
 }
 
