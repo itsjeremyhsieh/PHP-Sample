@@ -35,8 +35,11 @@ $s = $_SESSION['s'];
 $e = $_SESSION['e'];
 $c = $_SESSION['c'];
 //run recommendation
-$re = exec("python test.py $chinese $english $matha $mathb $social $science $r $i $a $s $e $c");
-
+$re = exec("python test.py");
+$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+$txt = "111,". $chinese. "," . $english. "," .  $matha. "," .  $mathb. "," .  $social. "," .  $science. "," .  $r. "," .  $i. "," .  $a. "," .  $s. "," .  $e. "," .  $c;
+fwrite($myfile, $txt);
+fclose($myfile);
 //
 header("Location: fuzzysearch.php");
 

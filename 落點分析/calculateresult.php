@@ -47,5 +47,4 @@ while ($row1 = mysqli_fetch_assoc($result1))
            
     }
 }
-
 ?>
