@@ -27,9 +27,13 @@ $result = mysqli_query($link, $code);
 $i = 0;
 while ($row = mysqli_fetch_assoc($result))
 {
+    $code = "SELECT * FROM department_code WHERE ID = $row[0]";
+    $result1 = mysqli_query($link, $code);
+    $row1 = mysqli_fetch_assoc($result1);
     $department[$i][0] = $row[0];
     $department[$i][1] = $row[1];
     $department[$i][4] = $row[5];
+    $department[$i][6] = $row1[1];
     $i++;
 }
 
