@@ -284,7 +284,7 @@ session_start();
 						</select></td>
 				</tr>
 			</table>
-			⭐表依照興趣量表推薦之學群
+			⭐表依照興趣量表與級分進行機器學習推薦之學群
 		</div>
 		<br>
 		<div class="container">
