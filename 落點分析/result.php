@@ -226,30 +226,28 @@ session_start();
 			
 			<tr>
 				<td bgcolor="#E5FCF5" style="border: 1px solid #E3E3E3;">110年度</td>
-				<td style="border: 1px solid #E3E3E3;">15</td>
-				<td style="border: 1px solid #E3E3E3;">14.2</td>
-				<td style="border: 1px solid #E3E3E3;">13.1</td>
-				<td style="border: 1px solid #E3E3E3;">14</td>
-				<td style="border: 1px solid #E3E3E3;">12.5</td>
-				<td style="border: 1px solid #E3E3E3;">12.7</td>
+				<?php
+				echo "<td style='border: 1px solid #E3E3E3;'" . $_SESSION['ch_pre'][0] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['eng_pre'][0] ."</td><td style='border: 1px solid #E3E3E3;'>"
+				. $_SESSION['matha_pre'][0] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['mathb_pre'][0] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['soc_pre'][0] ."</td><td style='border: 1px solid #E3E3E3;'>"
+				. $_SESSION['sci_pre'][0] ."</td>"
+				?>
 			</tr>
 			<tr>
 				<td bgcolor="#E5FCF5" style="border: 1px solid #E3E3E3;">109年度</td>
-				<td style="border: 1px solid #E3E3E3;">13.1</td>
-				<td style="border: 1px solid #E3E3E3;">14.3</td>
-				<td style="border: 1px solid #E3E3E3;">12.2</td>
-				<td style="border: 1px solid #E3E3E3;">15</td>
-				<td style="border: 1px solid #E3E3E3;">11.5</td>
-				<td style="border: 1px solid #E3E3E3;">12.1</td>
+				<?php
+				echo "<td style='border: 1px solid #E3E3E3;'" . $_SESSION['ch_pre'][1] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['eng_pre'][1] ."</td><td style='border: 1px solid #E3E3E3;'>"
+				. $_SESSION['matha_pre'][1] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['mathb_pre'][1] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['soc_pre'][1] ."</td><td style='border: 1px solid #E3E3E3;'>"
+				. $_SESSION['sci_pre'][1] ."</td>"
+				?>
+				
 			</tr>
 			<tr>
 				<td bgcolor="#E5FCF5" style="border: 1px solid #E3E3E3;">108年度</td>
-				<td style="border: 1px solid #E3E3E3;">13.1</td>
-				<td style="border: 1px solid #E3E3E3;">14.3</td>
-				<td style="border: 1px solid #E3E3E3;">12.2</td>
-				<td style="border: 1px solid #E3E3E3;">15</td>
-				<td style="border: 1px solid #E3E3E3;">11.5</td>
-				<td style="border: 1px solid #E3E3E3;">12.1</td>
+				<?php
+				echo "<td style='border: 1px solid #E3E3E3;'" . $_SESSION['ch_pre'][2] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['eng_pre'][2] ."</td><td style='border: 1px solid #E3E3E3;'>"
+				. $_SESSION['matha_pre'][2] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['mathb_pre'][2] ."</td><td style='border: 1px solid #E3E3E3;'>" . $_SESSION['soc_pre'][2] ."</td><td style='border: 1px solid #E3E3E3;'>"
+				. $_SESSION['sci_pre'][2] ."</td>"
+				?>
 			</tr>
 		</table>
 

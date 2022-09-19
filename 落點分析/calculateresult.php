@@ -51,4 +51,85 @@ while ($row1 = mysqli_fetch_assoc($result1))
            
     }
 }
-?>
+
+//calculate previous grades
+$_SESSION['111grades'] = $grade;
+$code = "SELECT * FROM ch WHERE score = $grade[0]";
+$result = mysqli_query($link, $code);
+while ($row = mysqli_fetch_assoc($result))
+{
+    if($row[0] == 110)
+        $ch[0] = $row[2];
+    else if($row[0] == 109)
+        $ch[1] = $row[2];
+    else if($row[0] == 108)
+        $ch[2] = $row[2];
+}
+$_SESSION['ch_pre'] = $ch;
+
+$code = "SELECT * FROM eng WHERE score = $grade[1]";
+$result = mysqli_query($link, $code);
+while ($row = mysqli_fetch_assoc($result))
+{
+    if($row[0] == 110)
+        $eng[0] = $row[2];
+    else if($row[0] == 109)
+        $eng[1] = $row[2];
+    else if($row[0] == 108)
+        $eng[2] = $row[2];
+}
+$_SESSION['eng_pre'] = $eng;
+
+$code = "SELECT * FROM mathA WHERE score = $grade[2]";
+$result = mysqli_query($link, $code);
+while ($row = mysqli_fetch_assoc($result))
+{
+    if($row[0] == 110)
+        $mathA[0] = $row[2];
+    else if($row[0] == 109)
+        $mathA[1] = $row[2];
+    else if($row[0] == 108)
+        $mathA[2] = $row[2];
+}
+$_SESSION['matha_pre'] = $mathA;
+
+$code = "SELECT * FROM mathB WHERE score = $grade[3]";
+$result = mysqli_query($link, $code);
+while ($row = mysqli_fetch_assoc($result))
+{
+    if($row[0] == 110)
+        $mathB[0] = $row[2];
+    else if($row[0] == 109)
+        $mathB[1] = $row[2];
+    else if($row[0] == 108)
+        $mathB[2] = $row[2];
+}
+$_SESSION['mathb_pre'] = $mathB;
+
+$code = "SELECT * FROM soc WHERE score = $grade[4]";
+$result = mysqli_query($link, $code);
+while ($row = mysqli_fetch_assoc($result))
+{
+    if($row[0] == 110)
+        $soc[0] = $row[2];
+    else if($row[0] == 109)
+        $soc[1] = $row[2];
+    else if($row[0] == 108)
+        $soc[2] = $row[2];
+}
+$_SESSION['soc_pre'] = $soc;
+
+$code = "SELECT * FROM sci WHERE score = $grade[5]";
+$result = mysqli_query($link, $code);
+while ($row = mysqli_fetch_assoc($result))
+{
+    if($row[0] == 110)
+        $sci[0] = $row[2];
+    else if($row[0] == 109)
+        $sci[1] = $row[2];
+    else if($row[0] == 108)
+        $sci[2] = $row[2];
+}
+$_SESSION['sci_pre'] = $sci;
+
+header("Location: result.php");
