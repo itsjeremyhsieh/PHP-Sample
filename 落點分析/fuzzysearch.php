@@ -1,5 +1,6 @@
 <?php
 session_start();
+$recommend = $_SESSION['recommend'];
 ?>
 
 
@@ -141,7 +142,7 @@ session_start();
 							</select> </span></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">教育</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 1) echo "⭐";?>教育</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="education" name="education">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -154,7 +155,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">藝術及人文</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 2) echo "⭐";?>藝術及人文</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="art" name="art">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -167,7 +168,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">社會科學、新聞學及圖書資訊</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 3) echo "⭐";?>社會科學、新聞學及圖書資訊</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="social" name="social">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -180,7 +181,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px  solid #E3E3E3;">商業、管理及法律</td>
+					<td style="color: #FF3299;border: 1px  solid #E3E3E3;"><?php if($recommend == 4) echo "⭐";?>商業、管理及法律</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="business" name="business">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -193,7 +194,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">⭐自然科學、數學及統計</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 5) echo "⭐";?>自然科學、數學及統計</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="science" name="science">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -206,7 +207,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">⭐資訊通訊科技</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 6) echo "⭐";?>資訊通訊科技</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="cs" name="cs">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -219,7 +220,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">醫藥衛生及社會福利</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 7) echo "⭐";?>醫藥衛生及社會福利</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="med" name="med">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -232,7 +233,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">工程、製造及營建</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 8) echo "⭐";?>工程、製造及營建</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="constructure" name="constructure">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -245,7 +246,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">農業、林業、漁業及獸醫</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 9) echo "⭐";?>農業、林業、漁業及獸醫</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="agri" name="agri">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>
@@ -258,7 +259,7 @@ session_start();
 						</select></td>
 				</tr>
 				<tr>
-					<td style="color: #FF3299;border: 1px solid #E3E3E3;">服務</td>
+					<td style="color: #FF3299;border: 1px solid #E3E3E3;"><?php if($recommend == 10) echo "⭐";?>服務</td>
 					<td style="border: 1px solid #E3E3E3;">符合程度 <select id="service" name="service">
 							<option style="display:none" value="0">請選擇</option>
 							<option value="1">最符合</option>

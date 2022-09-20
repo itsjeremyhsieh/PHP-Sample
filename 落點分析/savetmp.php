@@ -40,6 +40,7 @@ $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
 $txt = "111,". $chinese. "," . $english. "," .  $matha. "," .  $mathb. "," .  $social. "," .  $science. "," .  $r. "," .  $i. "," .  $a. "," .  $s. "," .  $e. "," .  $c;
 fwrite($myfile, $txt);
 fclose($myfile);
+$re = exec("python predict.py");
 //
 header("Location: fuzzysearch.php");
 

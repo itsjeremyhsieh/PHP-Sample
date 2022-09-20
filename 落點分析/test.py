@@ -12,4 +12,4 @@ def test():
     return 100
 
 returncode = test()
-print(returncode)
+print("test")

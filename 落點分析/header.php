@@ -11,7 +11,6 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="index.php">首頁</a></li>
                         <li><a class="nav-link" href="GSAT.php">學測</a></li>
-                        <li><a class="nav-link" href="AST.php">分科測驗</a></li>
                         <li><a class="nav-link" href="introduce.php">學系介紹</a></li>
 						<li><a class="nav-link" href="result.php">更新消息</a></li>
 						<li><a class="nav-link" href="contact.php">聯絡我們</a></li>
