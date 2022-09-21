@@ -162,33 +162,7 @@ session_start();
 	<br>
 
 	<!-- section-->
-	<div class="container">
-		<table align="center" style="width: 100%;text-align: center;border-collapse:collapse;">
-			<tr>
-				<td colspan="6" align="center" bgcolor="#F1E1FF" style="border: 1px solid #E3E3E3;"><span style="font-size: 16px;font-weight: bold;">優勢科目組合排名</span></td>
-			</tr>
-			<tr>
-				<td bgcolor="#D2E9FF" style="border: 1px  solid #E3E3E3;">排名</td>
-				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">1</td>
-				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">2</td>
-				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">3</td>
-				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">4</td>
-				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">5</td>
-
-				<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
-			</tr>
-			<tr>
-				<td bgcolor="#ECF5FF" style="border: 1px solid #E3E3E3;">科目組合</td>
-				<td style="border: 1px solid #E3E3E3;">英文、數學A、自然</td>
-				<td style="border: 1px solid #E3E3E3;">英文、數學B、自然</td>
-				<td style="border: 1px solid #E3E3E3;">英文、社會、自然</td>
-				<td style="border: 1px solid #E3E3E3;">英文、數學B、社會</td>
-				<td style="border: 1px solid #E3E3E3;">英文、數學A、社會</td>
-			</tr>
-		</table>
-	</div>
-
-
+	
 	<br>
 
 
@@ -273,15 +247,12 @@ session_start();
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>代碼</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校系名稱</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>招生名額</td>
-							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>檢定標準</td>
+							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid; width:10%;" align=center cellpadding="8" border=1>檢定標準</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>篩選倍率</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>110年最低標準</td>
-							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>備註說明</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>學群分類</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>興趣量表</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>通過率</td>
-							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>甄試日期</td>
-							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>簡章</td>
 
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>分析更多</td>
 							<td bgcolor=#DFFFDF style="font-weight:700; border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>校園介紹</td>
@@ -300,16 +271,18 @@ session_start();
 						$department = $_SESSION['department'];
 							for($i = 0 ; $i < 50 ; $i ++)
 							{
+							
 								$code = "SELECT * FROM code_score where id = " . $department[$i][0] . "";
 								$result = mysqli_query($link, $code);
 								$row = mysqli_fetch_assoc($result);
+
 								$code = "SELECT * FROM admission_list where depID = " . $department[$i][0] . " AND year = 110";
 								$result1 = mysqli_query($link, $code);
 								$row1 = mysqli_fetch_assoc($result1);
-								$code = "SELECT * FROM weight_gsat_show where depID = " . $department[$i][0] . " AND year = 111";
+								$code = "SELECT * FROM weight_gsat_showbr where depID = " . $department[$i][0] . " AND year = 111";
 								$result2 = mysqli_query($link, $code);
 								$row2 = mysqli_fetch_assoc($result2); //$row2['magnification_word'];
-								$code = "SELECT * FROM weight_gsat_show where depID = " . $department[$i][0] . " AND year = 110";
+								$code = "SELECT * FROM weight_gsat_showbr where depID = " . $department[$i][0] . " AND year = 110";
 								$result3 = mysqli_query($link, $code);
 								$row3 = mysqli_fetch_assoc($result3); //$row3['total'];
 								switch ($department[$i][3]) {
@@ -347,21 +320,30 @@ session_start();
 										$field = "其他";
 										break;
 								}
-								$code = "SELECT * FROM school_interest where depID = " . $department[$i][0] . "";
+								$code = "SELECT * FROM interest_word where depID = " . $department[$i][0] . "";
 								$result4 = mysqli_query($link, $code);
-								$row4 = mysqli_fetch_assoc($result4); //$row4['interestID'];
+								$row4 = mysqli_fetch_assoc($result4); //$row4['interest'];
+								$code = "SELECT * FROM requires where depID = " . $department[$i][0] . "";
+								$result5 = mysqli_query($link, $code);
+								$row5 = mysqli_fetch_assoc($result5); //$row5['requires'];
 								//pass $department[$i][2]
 								
 
-								echo "<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid ;' align=center cellpadding='8' border=1><a href='https://google.com' class='button button-1'>🐰</a></td>
+								echo "<tr><td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid ;' align=center cellpadding='8' border=1><a href='https://google.com' class='button button-1'>🐰</a></td>
 								<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $department[$i][0] . "</td><td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>"
-								. $row['university_name'].$row['department_name']. "/td><td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row1['quota']."</td>
-								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". // 
+								. $row['university_name'].$row['department_name']. "</td><td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row1['quota']."</td>
+								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row5['requires'].  "</td>
+								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row2['magnification_word']. "</td>
+								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>".  $row3['total']. "</td>
+								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $field. "</td>
+								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row4['interest'] . "</td>
+								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". ($department[$i][2] * 100) . "%<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><button onclick='clicktoshow()' style='font-size: 17.5px;'>🌱</button></td>
+								<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><button style='font-size: 17.5px;'>☁️</button></td></tr>";
 							}
-							echo "test<br>test";
+							
 						?>
-						
-						<tr>
+					
+						<!--<tr>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid ;" align=center cellpadding="8" border=1><a href="https://google.com" class="button button-1">🐰</a></td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學醫學系</td>
@@ -381,6 +363,7 @@ session_start();
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1><button style="font-size: 17.5px;">☁️</button></td>
 
 						</tr>
+						-->
 					</table>
 					
 

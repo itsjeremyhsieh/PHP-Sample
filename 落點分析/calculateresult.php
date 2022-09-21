@@ -95,13 +95,16 @@ for($i = 0 ; $i < count($department) ; $i ++)
 
 for($i = 0 ; $i < count($department) ; $i ++)
 {
-    $total = ($department[$i][1] * $prefer[0]) + ($department[$i][2] * $prefer[1]) + ($department[$i][3] * $prefer[2]) + ($department[$i][4] * $prefer[3]);
+    $total = (intval($department[$i][1])* intval($prefer[0])) + (intval($department[$i][2]) * intval($prefer[1])) + (intval($field_prefer[intval($department[$i][3])-1]) * intval($prefer[2])) + (intval($location_prefer[intval($department[$i][4])-1]) * intval($prefer[3]));
     $department[$i][5] = $total;
 }
 
 function sortByOrder($a, $b) {
-    return $a[5] - $b[5];
+    if($a[5] == $b[5])
+        return 0;
+       return ($a[5] > $b[5]) ? 1 : -1;
 }
+
 
 usort($department, 'sortByOrder');
 
