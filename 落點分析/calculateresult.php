@@ -59,7 +59,6 @@ while ($row = mysqli_fetch_assoc($result))
     $department[][1] = $row1['score_percentage'];
     $department[][3] = $row['field_code'];
     $department[][4] = $row['location_code'];
-    
 }
 $txt = "";
 for($i = 0 ; $i < count($department) ; $i++)
@@ -72,7 +71,7 @@ fwrite($myfile, $txt);
 fclose($myfile);
 //need testing
 //$fp = fopen("ProbFile.txt", "r")or exit("can't open file<br>");
-/*$textCnt  = "ProbFile.txt";
+$textCnt  = "ProbFile.txt";
 $contents = file_get_contents($textCnt);
 $arrfields = explode(',', $contents);
 $cnt = 1;
@@ -93,7 +92,18 @@ for($i = 0 ; $i < count($department) ; $i ++)
         $department[$i][2] = $tmppercentage[$j][1];
     }
 }
-*/
+
+for($i = 0 ; $i < count($department) ; $i ++)
+{
+    $total = ($department[$i][1] * $prefer[0]) + ($department[$i][2] * $prefer[1]) + ($department[$i][3] * $prefer[2]) + ($department[$i][4] * $prefer[3]);
+    $department[$i][5] = $total;
+}
+
+function sortByOrder($a, $b) {
+    return $a[5] - $b[5];
+}
+
+usort($department, 'sortByOrder');
 
 //calculate previous grades
 $_SESSION['111grades'] = $grade;
@@ -184,4 +194,3 @@ while ($row = mysqli_fetch_assoc($result))
 $_SESSION['sci_pre'] = $sci;
 
 header("Location: result.php");
-?>
