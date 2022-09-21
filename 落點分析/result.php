@@ -289,9 +289,80 @@ session_start();
 						</tr>
 						<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
+						<?php
+						
+						$link = mysqli_connect('localhost', 'admin', 'NCUEcsie!@', 'independent_study') 
+						or die("無法開啟MySQL資料庫連結!<br>");
+						// 送出編碼的MySQL指令
+						mysqli_query($link, 'SET CHARACTER SET utf8');
+						mysqli_query($link, "SET collation_connection = 'utf8_unicode_ci'");
 
+						$department = $_SESSION['department'];
+							for($i = 0 ; $i < 50 ; $i ++)
+							{
+								$code = "SELECT * FROM code_score where id = " . $department[$i][0] . "";
+								$result = mysqli_query($link, $code);
+								$row = mysqli_fetch_assoc($result);
+								$code = "SELECT * FROM admission_list where depID = " . $department[$i][0] . " AND year = 110";
+								$result1 = mysqli_query($link, $code);
+								$row1 = mysqli_fetch_assoc($result1);
+								$code = "SELECT * FROM weight_gsat_show where depID = " . $department[$i][0] . " AND year = 111";
+								$result2 = mysqli_query($link, $code);
+								$row2 = mysqli_fetch_assoc($result2); //$row2['magnification_word'];
+								$code = "SELECT * FROM weight_gsat_show where depID = " . $department[$i][0] . " AND year = 110";
+								$result3 = mysqli_query($link, $code);
+								$row3 = mysqli_fetch_assoc($result3); //$row3['total'];
+								switch ($department[$i][3]) {
+									case 1:
+										$field = "教育學群";
+										break;
+									case 2:
+										$field = "藝術及人文學群";
+										break;
+									case 3:
+										$field = "社會科學、新聞學及圖書資訊學群";
+										break;
+									case 4:
+										$field = "商業、管理及法律學群";
+										break;
+									case 5:
+										$field = "自然科學、數學及統計學群";
+										break;
+									case 6:
+										$field = "資訊通訊科技學群";
+										break;
+									case 7:
+										$field = "醫藥衛生及社會福利學群";
+										break;
+									case 8:
+										$field = "工程、製造及營建學群";
+										break;
+									case 9:
+										$field = "農業、林業、漁業及獸醫學群";
+										break;
+									case 10:
+										$field = "服務學群";
+										break;
+									default:
+										$field = "其他";
+										break;
+								}
+								$code = "SELECT * FROM school_interest where depID = " . $department[$i][0] . "";
+								$result4 = mysqli_query($link, $code);
+								$row4 = mysqli_fetch_assoc($result4); //$row4['interestID'];
+								//pass $department[$i][2]
+								
+
+								echo "<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid ;' align=center cellpadding='8' border=1><a href='https://google.com' class='button button-1'>🐰</a></td>
+								<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $department[$i][0] . "</td><td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>"
+								. $row['university_name'].$row['department_name']. "/td><td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row1['quota']."</td>
+								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". // 
+							}
+							echo "test<br>test";
+						?>
+						
 						<tr>
-							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid ;" align=center cellpadding="8" border=1><button class="button button-1" style="font-size: 20px;">🐰</button></td>
+							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid ;" align=center cellpadding="8" border=1><a href="https://google.com" class="button button-1">🐰</a></td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>001242</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>國立臺灣大學醫學系</td>
 							<td bgcolor=#F0F8FF style="border:1px #D4D4D4 solid;" align=center cellpadding="8" border=1>50</td>

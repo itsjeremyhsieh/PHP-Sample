@@ -105,6 +105,7 @@ function sortByOrder($a, $b) {
 
 usort($department, 'sortByOrder');
 
+$_SESSION['department'] = $department;
 //calculate previous grades
 $_SESSION['111grades'] = $grade;
 
