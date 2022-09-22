@@ -1,3 +1,29 @@
+<?php
+session_start();
+$link = mysqli_connect('localhost', 'admin', 'NCUEcsie!@', 'independent_study') 
+or die("無法開啟MySQL資料庫連結!<br>");
+// 送出編碼的MySQL指令
+mysqli_query($link, 'SET CHARACTER SET utf8');
+mysqli_query($link, "SET collation_connection = 'utf8_unicode_ci'");
+
+$id = $_GET['id'];
+$code = "SELECT * FROM university where ID = " . $department[$i][0] . "";
+$result = mysqli_query($link, $code);
+$row = mysqli_fetch_assoc($result); // $row['university_name'].$row['department_name']
+$uni_name =  $row['university_name'];
+$dep_name = $row['department_name'];
+$uniid = $row['university_ID'];
+$acad = $row['academy'];
+
+$code = "SELECT * FROM fee where university_ID = " . $uniid . " AND academy = '" . $acad . "'";
+$result1 = mysqli_query($link, $code);
+$row1 = mysqli_fetch_assoc($result1); 
+$fee = $row1['fee'];
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Basic -->

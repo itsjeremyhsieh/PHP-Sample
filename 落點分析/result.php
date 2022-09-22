@@ -179,8 +179,8 @@ session_start();
 				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">英文</td>
 				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">數A</td>
 				<td style="color: #ff46a3;border: 1px solid #E3E3E3;">數B</td>
-				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">自然</td>
 				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">社會</td>
+				<td style="color: #ff46a3;border: 1px  solid #E3E3E3;">自然</td>
 				
 				<!--td bgcolor="#F4FF83" style="border: 1px solid #E3E3E3;">全國累積人數百分比</td-->
 			</tr>
@@ -274,7 +274,7 @@ session_start();
 							
 								$code = "SELECT * FROM code_score where id = " . $department[$i][0] . "";
 								$result = mysqli_query($link, $code);
-								$row = mysqli_fetch_assoc($result);
+								$row = mysqli_fetch_assoc($result); // $row['university_name'].$row['department_name']
 
 								$code = "SELECT * FROM admission_list where depID = " . $department[$i][0] . " AND year = 110";
 								$result1 = mysqli_query($link, $code);
@@ -320,7 +320,7 @@ session_start();
 										$field = "其他";
 										break;
 								}
-								$code = "SELECT * FROM interest_word where depID = " . $department[$i][0] . "";
+								$code = "SELECT * FROM interest_word_correct where depID = " . $department[$i][0] . "";
 								$result4 = mysqli_query($link, $code);
 								$row4 = mysqli_fetch_assoc($result4); //$row4['interest'];
 								$code = "SELECT * FROM requires where depID = " . $department[$i][0] . "";
@@ -338,7 +338,7 @@ session_start();
 								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $field. "</td>
 								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row4['interest'] . "</td>
 								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". ($department[$i][2] * 100) . "%<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><button onclick='clicktoshow()' style='font-size: 17.5px;'>🌱</button></td>
-								<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><button style='font-size: 17.5px;'>☁️</button></td></tr>";
+								<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><a href='introduce.php?id=".$department[$i][0] ."' >☁️</a></td></tr>";
 							}
 							
 						?>
