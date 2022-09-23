@@ -338,7 +338,7 @@ session_start();
 								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $field. "</td>
 								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". $row4['interest'] . "</td>
 								<td bgcolor=#F0F8FF style='line-height:50px;border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1>". ($department[$i][2] * 100) . "%<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><button onclick='clicktoshow()' style='font-size: 17.5px;'>🌱</button></td>
-								<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><a href='introduce.php?id=".$department[$i][0] ."' >☁️</a></td></tr>";
+								<td bgcolor=#F0F8FF style='border:1px #D4D4D4 solid;' align=center cellpadding='8' border=1><a href='introduce.php?id=".$department[$i][0] ."' >🌱</a></td></tr>";
 							}
 							
 						?>
